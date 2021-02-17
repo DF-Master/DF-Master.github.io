@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>About Me</title>
+    <url>/2021/02/15/about/</url>
+    <content><![CDATA[<blockquote>
+<p>你就是你自己的神。</p>
+</blockquote>
+<p>姓名： 江意达</p>
+<p>现居： 北京</p>
+<p>Github：<a href="https://github.com/DF-Master">DF-Master</a></p>
+<p>wechat: <a href="https://img.imgdb.cn/item/602a8bea3ffa7d37b36ee8a8.png">jiang_yida</a></p>
+<p>qq: <a href="https://img.imgdb.cn/item/602a8cdc3ffa7d37b36f4256.png">476540183</a></p>
+<p>mail: <a href="mailto:jiangyida@pku.edu.cn">jiangyida@pku.edu.cn</a></p>
+<a id="more"></a>
+<!-- ![japan.jpg](https://img.imgdb.cn/item/602a90123ffa7d37b3703c03.jpg) -->
+<img src="https://img.imgdb.cn/item/602a90123ffa7d37b3703c03.jpg" alt="avatar" width="300" style="border-radius:10%"/>
+]]></content>
+      <tags>
+        <tag>about me</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2021/02/13/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="quick-start">Quick Start</h2>
+<h3 id="create-a-new-post">Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="run-server">Run server</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="generate-static-files">Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="deploy-to-remote-sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+</search>

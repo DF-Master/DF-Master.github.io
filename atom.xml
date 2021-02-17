@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>沙</title>
+  
+  <subtitle>爆ぜろリアル！弾けろシナプス！パニッシュメントディスワールド！</subtitle>
+  <link href="http://yidajiang.top/atom.xml" rel="self"/>
+  
+  <link href="http://yidajiang.top/"/>
+  <updated>2021-02-15T15:22:37.175Z</updated>
+  <id>http://yidajiang.top/</id>
+  
+  <author>
+    <name>Yida Jiang</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>About Me</title>
+    <link href="http://yidajiang.top/2021/02/15/about/"/>
+    <id>http://yidajiang.top/2021/02/15/about/</id>
+    <published>2021-02-14T16:00:00.000Z</published>
+    <updated>2021-02-15T15:22:37.175Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;你就是你自己的神。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;姓名： 江意达&lt;/p&gt;
+&lt;p&gt;现居： 北京&lt;/p&gt;
+&lt;p&gt;Github：&lt;a href=&quot;https://github.com/DF-Master&quot;&gt;DF-Master&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;wechat: &lt;a href=&quot;https://img.imgdb.cn/item/602a8bea3ffa7d37b36ee8a8.png&quot;&gt;jiang_yida&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;qq: &lt;a href=&quot;https://img.imgdb.cn/item/602a8cdc3ffa7d37b36f4256.png&quot;&gt;476540183&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;mail: &lt;a href=&quot;mailto:jiangyida@pku.edu.cn&quot;&gt;jiangyida@pku.edu.cn&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="about me" scheme="http://yidajiang.top/tags/about-me/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yidajiang.top/2021/02/13/hello-world/"/>
+    <id>http://yidajiang.top/2021/02/13/hello-world/</id>
+    <published>2021-02-13T01:54:03.641Z</published>
+    <updated>2021-02-13T01:54:03.641Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
