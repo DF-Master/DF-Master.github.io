@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>ɳ</title>
+  <title>沙</title>
   
-  <subtitle>�������ꥢ�룡���������ʥץ����ѥ˥å�����ȥǥ�����`��ɣ�</subtitle>
+  
   <link href="http://yidajiang.top/atom.xml" rel="self"/>
   
   <link href="http://yidajiang.top/"/>
-  <updated>2021-02-15T15:22:37.175Z</updated>
+  <updated>2021-02-17T16:00:00.000Z</updated>
   <id>http://yidajiang.top/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>FVTT服务器搭建记录</title>
+    <link href="http://yidajiang.top/2021/02/18/FVTT-%E8%85%BE%E8%AE%AF%E4%BA%91Linux%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2%E7%AC%94%E8%AE%B0/"/>
+    <id>http://yidajiang.top/2021/02/18/FVTT-%E8%85%BE%E8%AE%AF%E4%BA%91Linux%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2%E7%AC%94%E8%AE%B0/</id>
+    <published>2021-02-17T16:00:00.000Z</published>
+    <updated>2021-02-17T16:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="技术笔记" scheme="http://yidajiang.top/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="TRPG" scheme="http://yidajiang.top/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0/TRPG/"/>
+    
+    <category term="服务器" scheme="http://yidajiang.top/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0/TRPG/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+    
+    <category term="FVTT" scheme="http://yidajiang.top/tags/FVTT/"/>
+    
+    <category term="服务器" scheme="http://yidajiang.top/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>About Me</title>
