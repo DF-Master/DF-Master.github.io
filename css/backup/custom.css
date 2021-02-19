@@ -14,6 +14,9 @@
 .search-form-wrap {
   right: 8rem;
 }
+.article-entry > p {
+  text-indent: 4%;
+}
 @media (min-width: 768px) {
   .outer,
   .wrap {

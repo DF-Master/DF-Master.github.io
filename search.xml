@@ -76,8 +76,6 @@
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">forever start -a  &#x2F;root&#x2F;foundryvtt&#x2F;resources&#x2F;app&#x2F;main.js --dataPath&#x3D;&#x2F;root&#x2F;foundrydata</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
-        <category>技术笔记</category>
-        <category>TRPG</category>
         <category>服务器</category>
       </categories>
       <tags>
@@ -92,19 +90,43 @@
 <blockquote>
 <p>博客之搭建，前人之述备矣；春节之适暇，今人之道是举。</p>
 </blockquote>
-<p><a href="https://blog.csdn.net/sinat_37781304/article/details/82729029">主要参考了这篇文章</a>，不过和文章中有所不同的是，首先我使用了<a href="https://github.com/Shen-Yu/hexo-theme-ayer">ayer</a>这个主题。关于主题和博客的设置，可以参考<a href="https://gitee.com/shen-yu/shen-yu/tree/dev/source">官方模板博客的设置</a>，也可以参考<a href="https://github.com/DF-Master/yidablog">我的设置</a>。</p>
 <h2 id="搭建博客用到的资源：">搭建博客用到的资源：</h2>
+<p>主要参考了<a href="https://blog.csdn.net/sinat_37781304/article/details/82729029">这篇文章</a>，不过和文章中有所不同的是，首先我使用了<a href="https://github.com/Shen-Yu/hexo-theme-ayer">ayer</a>这个主题。关于主题和博客的设置，可以参考<a href="https://gitee.com/shen-yu/shen-yu/tree/dev/source">官方模板博客的设置</a>，也可以参考<a href="https://github.com/DF-Master/yidablog">我的设置</a>。</p>
+<ul>
+<li>
 <p><a href="https://linuxhint.com/configure_vim_vimrc/">vim的改良1</a>；<a href="https://blog.csdn.net/qq_37934101/article/details/80287879">vim的改良2</a></p>
+</li>
+<li>
 <p><a href="www.iconfinder.com">网页token素材库</a></p>
-<p><a href="https://www.jianshu.com/p/a1e2cf01e05f">gitee图床的搭建</a></p>
-<blockquote>
-<p>这里我也尝试了Github图床，发现速度着实不够理想。</p>
-</blockquote>
+</li>
+<li>
+<p><a href="https://www.jianshu.com/p/a1e2cf01e05f">gitee图床的搭建</a>(这里我也尝试了Github图床，发现速度着实不够理想)</p>
+</li>
+<li>
 <p><a href="https://www.geek-share.com/detail/2763305440.html">winscp访问root文件夹失败的解决办法</a></p>
+</li>
+<li>
 <p><a href="https://mh.cli.im/">二维码美化</a></p>
+</li>
+<li>
 <p><a href="https://blog.techbridge.cc/2018/01/17/learning-programming-and-coding-with-python-git-and-github-tutorial/">使用github对博客进行版本管理</a></p>
+</li>
+<li>
+<p><a href="https://blog.csdn.net/weixin_41010198/article/details/109166815">使用Gitee对博客进行版本管理</a>（国内比较快）</p>
+</li>
+<li>
+<p><a href="https://blog.csdn.net/qq_43178138/article/details/110100872">使用root权限</a>登录服务器（针对我的腾讯云服务器）</p>
+</li>
+</ul>
+<h2 id="个人笔记">个人笔记</h2>
+<h3 id="持续运行hexo">持续运行Hexo</h3>
 <p><a href="http://wiki.lonelyor.org/15655136450838.html">持续运行hexo</a>需要forever模块，我的代码如下：</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">var spawn &#x3D; require(&#39;child_process&#39;).spawn;</span><br><span class="line">free &#x3D; spawn(&#39;hexo&#39;, [&#39;server&#39;, &#39;-p 4000&#39;]);&#x2F;*其实就是等于执行hexo server -p 4000*&#x2F;</span><br><span class="line">free.stdout.on(&#39;data&#39;, function (data) &#123;</span><br><span class="line">	console.log(&#39;standard output:\n&#39; + data);</span><br><span class="line">&#125;);</span><br><span class="line">free.stderr.on(&#39;data&#39;, function (data) &#123; </span><br><span class="line">	console.log(&#39;standard error output:\n&#39; + data);</span><br><span class="line">&#125;);</span><br><span class="line">free.on(&#39;exit&#39;, function (code, signal) &#123;</span><br><span class="line">	console.log(&#39;child process eixt ,exit:&#39; + code);</span><br><span class="line">&#125;);</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h3 id="使用简写来简化命令">使用简写来简化命令</h3>
+<p>因为我使用的是zsh，所以在~/.zshrc中用alias修改简写命令。注意“=”前后不能加空格。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">alias ll&#x3D;&quot;ls -lha&quot;</span><br><span class="line"># 快速浏览文件</span><br><span class="line"></span><br><span class="line">alias hc&#x3D;&quot;hexo clean&quot;</span><br><span class="line">alias hg&#x3D;&#39;hexo g&#39;                                                                         alias hs&#x3D;&#39;hexo server&#39;</span><br><span class="line">alias hcgs&#x3D;&#39;hexo clean &amp;&amp; hexo g &amp;&amp; hexo server&#39;</span><br><span class="line"># 快速生成服务器</span><br><span class="line"></span><br><span class="line">alias hcgd&#x3D;&#39;hexo clean &amp;&amp; hexo g &amp;&amp; hexo d&#39;</span><br><span class="line"># 快速部署到github</span><br></pre></td></tr></table></figure>
+<p>设置完毕后，在root目录下来激活新命令。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">source .zshrc</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>服务器</category>
