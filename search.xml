@@ -86,6 +86,34 @@
       </tags>
   </entry>
   <entry>
+    <title>个人博客搭建笔记</title>
+    <url>/2021/02/18/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<h1>意达个人博客的搭建笔记</h1>
+<blockquote>
+<p>博客之搭建，前人之述备矣；春节之适暇，今人之道是举。</p>
+</blockquote>
+<p><a href="https://blog.csdn.net/sinat_37781304/article/details/82729029">主要参考了这篇文章</a>，不过和文章中有所不同的是，首先我使用了<a href="https://github.com/Shen-Yu/hexo-theme-ayer">ayer</a>这个主题。关于主题和博客的设置，可以参考<a href="https://gitee.com/shen-yu/shen-yu/tree/dev/source">官方模板博客的设置</a>，也可以参考<a href="https://github.com/DF-Master/yidablog">我的设置</a>。</p>
+<h2 id="搭建博客用到的资源：">搭建博客用到的资源：</h2>
+<p><a href="https://linuxhint.com/configure_vim_vimrc/">vim的改良1</a>；<a href="https://blog.csdn.net/qq_37934101/article/details/80287879">vim的改良2</a></p>
+<p><a href="www.iconfinder.com">网页token素材库</a></p>
+<p><a href="https://www.jianshu.com/p/a1e2cf01e05f">gitee图床的搭建</a></p>
+<blockquote>
+<p>这里我也尝试了Github图床，发现速度着实不够理想。</p>
+</blockquote>
+<p><a href="https://www.geek-share.com/detail/2763305440.html">winscp访问root文件夹失败的解决办法</a></p>
+<p><a href="https://mh.cli.im/">二维码美化</a></p>
+<p><a href="https://blog.techbridge.cc/2018/01/17/learning-programming-and-coding-with-python-git-and-github-tutorial/">使用github对博客进行版本管理</a></p>
+<p><a href="http://wiki.lonelyor.org/15655136450838.html">持续运行hexo</a>需要forever模块，我的代码如下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">var spawn &#x3D; require(&#39;child_process&#39;).spawn;</span><br><span class="line">free &#x3D; spawn(&#39;hexo&#39;, [&#39;server&#39;, &#39;-p 4000&#39;]);&#x2F;*其实就是等于执行hexo server -p 4000*&#x2F;</span><br><span class="line">free.stdout.on(&#39;data&#39;, function (data) &#123;</span><br><span class="line">	console.log(&#39;standard output:\n&#39; + data);</span><br><span class="line">&#125;);</span><br><span class="line">free.stderr.on(&#39;data&#39;, function (data) &#123; </span><br><span class="line">	console.log(&#39;standard error output:\n&#39; + data);</span><br><span class="line">&#125;);</span><br><span class="line">free.on(&#39;exit&#39;, function (code, signal) &#123;</span><br><span class="line">	console.log(&#39;child process eixt ,exit:&#39; + code);</span><br><span class="line">&#125;);</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>服务器</category>
+      </categories>
+      <tags>
+        <tag>服务器</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>About Me</title>
     <url>/2021/02/15/about/</url>
     <content><![CDATA[<blockquote>
