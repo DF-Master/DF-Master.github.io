@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>个人用代理搭建笔记</title>
+    <url>/2021/02/24/%E4%B8%AA%E4%BA%BA%E7%94%A8%E4%BB%A3%E7%90%86%E6%90%AD%E5%BB%BA%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<h1>个人用代理搭建笔记</h1>
+<p>参考视频：<a href="https://www.youtube.com/watch?v=roVISsm7hhE">https://www.youtube.com/watch?v=roVISsm7hhE</a></p>
+<p>其中，服务器的sign in界面的默认账号密码都是admin，进去后需要第一时间改账号密码。</p>
+<p><img src="https://gitee.com/DF-Master/yidapicbed/raw/master/markdown/20210224002340.jpg" alt="屏幕截图 2021-02-24 001309"></p>
+<p>完成后，我一开始尝试用v2ray，但choco install的下载速度着实感人，所以最终还是选用了<a href="https://github.com/shadowsocks">shadowsocks</a>。</p>
+<p>稍微等待一段时间后，代理就完成了。</p>
+<p><img src="https://gitee.com/DF-Master/yidapicbed/raw/master/markdown/20210224002355.jpg" alt="屏幕截图 2021-02-24 001716"></p>
+]]></content>
+      <categories>
+        <category>服务器</category>
+      </categories>
+      <tags>
+        <tag>服务器</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2021.3 杭州湘湖骑行游记</title>
     <url>/2021/02/23/2021.3%E6%B9%98%E6%B9%96%E9%AA%91%E8%A1%8C%E6%B8%B8%E8%AE%B0/</url>
     <content><![CDATA[<h1>2021.3 杭州湘湖骑行游记</h1>
