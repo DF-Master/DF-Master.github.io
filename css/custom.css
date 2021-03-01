@@ -8,11 +8,29 @@
 .content.on {
   margin-left: 0 !important;
 }
+.article-entry {
+  line-height: 175%;
+  margin: 2%;
+}
+.article-entry img {
+  margin-top: 3%;
+  box-shadow: 0 0 10px #333;
+  border-radius: 1%;
+}
+.tocbot {
+  opacity: 0.85;
+}
 .navbar-toggle {
   left: 9.5rem;
 }
 .search-form-wrap {
   right: 8rem;
+}
+.share-outer {
+  color: #e5554e;
+}
+.share-outer i {
+  color: #e5554e;
 }
 @media (min-width: 768px) {
   .outer,
@@ -27,4 +45,18 @@
   .content.on {
     transform: translateX(8rem);
   }
+}
+body {
+  font-family: Roboto, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", "Noto Sans CJK", sans-serif;
+}
+blockquote {
+  font-family: Roboto, Helvetica, Tahoma, Arial, STHeiti, FANGSONG, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", "Noto Sans CJK", sans-serif;
+}
+a {
+  color: #e5554e;
+  text-decoration: none;
+}
+a:hover {
+  color: #000;
+  text-decoration: underline dotted;
 }

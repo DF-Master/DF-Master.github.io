@@ -73,7 +73,7 @@
                   <span class="post-meta-item-icon">
                     <i class="ri-quill-pen-line"></i>
                     <span class="post-meta-item-text"> 字数统计:</span>
-                    <span class="post-count">1.1k</span>
+                    <span class="post-count">1k</span>
                   </span>
                 </span>
                 <span class="post-time"> &nbsp; | &nbsp; <span class="post-meta-item-icon">
@@ -118,7 +118,7 @@
               <p>添加记录，记录值改成IP。</p>
               <p>此时域名已经绑定，我们已经可以用windows terminal 或者powershell来ssh远程控制服务器了。</p>
               <p><img src="https://gitee.com/DF-Master/yidapicbed/raw/master/markdown/20210218164534.png" alt="image-20210218164534214"></p>
-              <figure class="highlight plain">
+              <figure class="highlight shell">
                 <table>
                   <tr>
                     <td class="gutter">
@@ -135,7 +135,7 @@
                 <li><code>hostname or IP address</code> 为您的 Linux 实例公网 IP 或自定义域名</li>
               </ul>
               <h2 id="2-搭建服务器">2. 搭建服务器</h2>
-              <figure class="highlight plain">
+              <figure class="highlight shell">
                 <table>
                   <tr>
                     <td class="gutter">
@@ -148,7 +148,7 @@
                 </table>
               </figure>
               <p>获得root权限</p>
-              <figure class="highlight plain">
+              <figure class="highlight shell">
                 <table>
                   <tr>
                     <td class="gutter">
@@ -161,53 +161,53 @@
                 </table>
               </figure>
               <p>安装zsh(自动补全shell)和git</p>
-              <figure class="highlight php">
+              <figure class="highlight shell">
                 <table>
                   <tr>
                     <td class="gutter">
                       <pre><span class="line">1</span><br></pre>
                     </td>
                     <td class="code">
-                      <pre><span class="line">git <span class="keyword">clone</span> git:<span class="comment">//github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh</span></span><br></pre>
+                      <pre><span class="line">git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh</span><br></pre>
                     </td>
                   </tr>
                 </table>
               </figure>
               <p>克隆 oh-my-zsh</p>
-              <figure class="highlight ruby">
+              <figure class="highlight shell">
                 <table>
                   <tr>
                     <td class="gutter">
                       <pre><span class="line">1</span><br><span class="line">2</span><br></pre>
                     </td>
                     <td class="code">
-                      <pre><span class="line">cp ~<span class="regexp">/.oh-my-zsh/templates</span><span class="regexp">/zshrc.zsh-template ~/</span>.zshrc</span><br><span class="line">ZSH_THEME=<span class="string">&quot;ys&quot;</span></span><br></pre>
+                      <pre><span class="line">cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc</span><br><span class="line">ZSH_THEME=&quot;ys&quot;</span><br></pre>
                     </td>
                   </tr>
                 </table>
               </figure>
               <p>复制 .zshrc，修改命令提示符样式</p>
-              <figure class="highlight plain">
+              <figure class="highlight shell">
                 <table>
                   <tr>
                     <td class="gutter">
                       <pre><span class="line">1</span><br></pre>
                     </td>
                     <td class="code">
-                      <pre><span class="line">chsh -s &#x2F;bin&#x2F;zsh</span><br></pre>
+                      <pre><span class="line">chsh -s /bin/zsh</span><br></pre>
                     </td>
                   </tr>
                 </table>
               </figure>
               <p>修改 shell 类型</p>
-              <figure class="highlight plain">
+              <figure class="highlight shell">
                 <table>
                   <tr>
                     <td class="gutter">
                       <pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre>
                     </td>
                     <td class="code">
-                      <pre><span class="line">git clone --depth&#x3D;1 https:&#x2F;&#x2F;gitee.com&#x2F;romkatv&#x2F;powerlevel10k.git $&#123;ZSH_CUSTOM:-$HOME&#x2F;.oh-my-zsh&#x2F;custom&#125;&#x2F;themes&#x2F;powerlevel10k</span><br><span class="line"># 找到的链接1</span><br><span class="line"></span><br><span class="line">git clone --depth&#x3D;1 https:&#x2F;&#x2F;github.com&#x2F;romkatv&#x2F;powerlevel10k.git ~&#x2F;powerlevel10k </span><br><span class="line"># 找到的链接2</span><br></pre>
+                      <pre><span class="line">git clone --depth=1 https://gitee.com/romkatv/powerlevel10k.git $&#123;ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom&#125;/themes/powerlevel10k</span><br><span class="line"><span class="meta">#</span><span class="bash"> 找到的链接1</span></span><br><span class="line"></span><br><span class="line">git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k </span><br><span class="line"><span class="meta">#</span><span class="bash"> 找到的链接2</span></span><br></pre>
                     </td>
                   </tr>
                 </table>
@@ -216,14 +216,14 @@
               <p>重启连接工具或者重启系统，检查是否安装完成<br> 在终端输入 echo $SHELL，若成功在返回 /bin/zsh<br> 打开终端，则显示与原来不同</p>
               <p>主题文件在 <code>~/.zshrc</code> ，输入命令 <code>cat ~/.zshrc</code> 查看 ，输入命令 <code>vim ~/.zshrc</code> 编辑</p>
               <p>我的设置如下：</p>
-              <figure class="highlight plain">
+              <figure class="highlight shell">
                 <table>
                   <tr>
                     <td class="gutter">
                       <pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre>
                     </td>
                     <td class="code">
-                      <pre><span class="line"># export MANPATH&#x3D;&quot;&#x2F;usr&#x2F;local&#x2F;man:$MANPATH&quot;</span><br><span class="line">#</span><br><span class="line"># # You may need to manually set your language environment</span><br><span class="line"># # export LANG&#x3D;en_US.UTF-8</span><br><span class="line">#</span><br><span class="line"># # Preferred editor for local and remote sessions</span><br><span class="line"># # if [[ -n $SSH_CONNECTION ]]; then</span><br><span class="line"># #   export EDITOR&#x3D;&#39;vim&#39;</span><br><span class="line"># # else</span><br><span class="line"># #   export EDITOR&#x3D;&#39;mvim&#39;</span><br><span class="line"># # fi</span><br><span class="line">#</span><br><span class="line"># # Compilation flags</span><br><span class="line"># # export ARCHFLAGS&#x3D;&quot;-arch x86_64&quot;</span><br><span class="line">#</span><br><span class="line"># # Set personal aliases, overriding those provided by oh-my-zsh libs,</span><br><span class="line"># # plugins, and themes. Aliases can be placed here, though oh-my-zsh</span><br><span class="line"># # users are encouraged to define aliases within the ZSH_CUSTOM folder.</span><br><span class="line"># # For a full list of active aliases, run &#96;alias&#96;.</span><br><span class="line"># #</span><br><span class="line"># # Example aliases</span><br><span class="line"># # alias zshconfig&#x3D;&quot;mate ~&#x2F;.zshrc&quot;</span><br><span class="line"># # alias ohmyzsh&#x3D;&quot;mate ~&#x2F;.oh-my-zsh&quot;</span><br><span class="line">#</span><br><span class="line"># # To customize prompt, run &#96;p10k configure&#96; or edit ~&#x2F;.p10k.zsh.</span><br><span class="line">[[ ! -f ~&#x2F;.p10k.zsh ]] || source ~&#x2F;.p10k.zsh</span><br><span class="line">alias ll&#x3D;&quot;ls -lha&quot;</span><br></pre>
+                      <pre><span class="line"><span class="meta">#</span><span class="bash"> <span class="built_in">export</span> MANPATH=<span class="string">&quot;/usr/local/man:<span class="variable">$MANPATH</span>&quot;</span></span></span><br><span class="line"><span class="meta">#</span></span><br><span class="line"><span class="bash"><span class="comment"># # You may need to manually set your language environment</span></span></span><br><span class="line"><span class="meta">#</span><span class="bash"> <span class="comment"># export LANG=en_US.UTF-8</span></span></span><br><span class="line"><span class="meta">#</span></span><br><span class="line"><span class="bash"><span class="comment"># # Preferred editor for local and remote sessions</span></span></span><br><span class="line"><span class="meta">#</span><span class="bash"> <span class="comment"># if [[ -n $SSH_CONNECTION ]]; then</span></span></span><br><span class="line"><span class="meta">#</span><span class="bash"> <span class="comment">#   export EDITOR=&#x27;vim&#x27;</span></span></span><br><span class="line"><span class="meta">#</span><span class="bash"> <span class="comment"># else</span></span></span><br><span class="line"><span class="meta">#</span><span class="bash"> <span class="comment">#   export EDITOR=&#x27;mvim&#x27;</span></span></span><br><span class="line"><span class="meta">#</span><span class="bash"> <span class="comment"># fi</span></span></span><br><span class="line"><span class="meta">#</span></span><br><span class="line"><span class="bash"><span class="comment"># # Compilation flags</span></span></span><br><span class="line"><span class="meta">#</span><span class="bash"> <span class="comment"># export ARCHFLAGS=&quot;-arch x86_64&quot;</span></span></span><br><span class="line"><span class="meta">#</span></span><br><span class="line"><span class="bash"><span class="comment"># # Set personal aliases, overriding those provided by oh-my-zsh libs,</span></span></span><br><span class="line"><span class="meta">#</span><span class="bash"> <span class="comment"># plugins, and themes. Aliases can be placed here, though oh-my-zsh</span></span></span><br><span class="line"><span class="meta">#</span><span class="bash"> <span class="comment"># users are encouraged to define aliases within the ZSH_CUSTOM folder.</span></span></span><br><span class="line"><span class="meta">#</span><span class="bash"> <span class="comment"># For a full list of active aliases, run `alias`.</span></span></span><br><span class="line"><span class="meta">#</span><span class="bash"> <span class="comment">#</span></span></span><br><span class="line"><span class="meta">#</span><span class="bash"> <span class="comment"># Example aliases</span></span></span><br><span class="line"><span class="meta">#</span><span class="bash"> <span class="comment"># alias zshconfig=&quot;mate ~/.zshrc&quot;</span></span></span><br><span class="line"><span class="meta">#</span><span class="bash"> <span class="comment"># alias ohmyzsh=&quot;mate ~/.oh-my-zsh&quot;</span></span></span><br><span class="line"><span class="meta">#</span></span><br><span class="line"><span class="bash"><span class="comment"># # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.</span></span></span><br><span class="line">[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh</span><br><span class="line">alias ll=&quot;ls -lha&quot;</span><br></pre>
                     </td>
                   </tr>
                 </table>
@@ -236,7 +236,7 @@
               <p><a target="_blank" rel="noopener" href="https://blog.csdn.net/LoveDou0816/article/details/79886433">https://blog.csdn.net/LoveDou0816/article/details/79886433</a></p>
               <p>把本地的foundryvtt(Linux版本)和data(如果有的话)用winscp上传到服务器的root文件夹根目录下。</p>
               <p>安装npm,用npm安装fvtt运行所需的forever:</p>
-              <figure class="highlight plain">
+              <figure class="highlight shell">
                 <table>
                   <tr>
                     <td class="gutter">
@@ -249,40 +249,40 @@
                 </table>
               </figure>
               <p>安装解压缩软件，解压缩FVTT：</p>
-              <figure class="highlight plain">
+              <figure class="highlight shell">
                 <table>
                   <tr>
                     <td class="gutter">
                       <pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre>
                     </td>
                     <td class="code">
-                      <pre><span class="line">apt-get install unzip</span><br><span class="line">apt-get install install p7zip-full</span><br><span class="line">unzip foundryvtt.zip -d $HOME&#x2F;foundryvtt</span><br></pre>
+                      <pre><span class="line">apt-get install unzip</span><br><span class="line">apt-get install install p7zip-full</span><br><span class="line">unzip foundryvtt.zip -d $HOME/foundryvtt</span><br></pre>
                     </td>
                   </tr>
                 </table>
               </figure>
               <p>然后根据fvtt官网操作：</p>
-              <figure class="highlight plain">
+              <figure class="highlight shell">
                 <table>
                   <tr>
                     <td class="gutter">
                       <pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre>
                     </td>
                     <td class="code">
-                      <pre><span class="line">sudo apt install -y libssl-dev</span><br><span class="line">curl -sL https:&#x2F;&#x2F;deb.nodesource.com&#x2F;setup_14.x | sudo bash -</span><br><span class="line">sudo apt install -y nodejs</span><br><span class="line">#ubuntu安装Nodejs</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">cd $HOME</span><br><span class="line">mkdir foundryvtt</span><br><span class="line">mkdir foundrydata</span><br><span class="line"></span><br><span class="line"># Install the software</span><br><span class="line">cd foundryvtt</span><br><span class="line">wget -O foundryvtt.zip &quot;&lt;foundry-website-download-url&gt;&quot;</span><br><span class="line">unzip foundryvtt.zip</span><br><span class="line">#这一步不需要进行，已经安装完毕</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># Start running the server</span><br><span class="line">node resources&#x2F;app&#x2F;main.js --dataPath&#x3D;$HOME&#x2F;foundrydata</span><br><span class="line"></span><br></pre>
+                      <pre><span class="line">sudo apt install -y libssl-dev</span><br><span class="line">curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -</span><br><span class="line">sudo apt install -y nodejs</span><br><span class="line"><span class="meta">#</span><span class="bash">ubuntu安装Nodejs</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">cd $HOME</span><br><span class="line">mkdir foundryvtt</span><br><span class="line">mkdir foundrydata</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> Install the software</span></span><br><span class="line">cd foundryvtt</span><br><span class="line">wget -O foundryvtt.zip &quot;&lt;foundry-website-download-url&gt;&quot;</span><br><span class="line">unzip foundryvtt.zip</span><br><span class="line"><span class="meta">#</span><span class="bash">这一步不需要进行，已经安装完毕</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> Start running the server</span></span><br><span class="line">node resources/app/main.js --dataPath=$HOME/foundrydata</span><br><span class="line"></span><br></pre>
                     </td>
                   </tr>
                 </table>
               </figure>
               <p>最后一步Nodejs报错不管她，进入foundrydata，看到已经出现了config等文件夹，说明已经安装完成。如果本地有data压缩包的话可以copy过去解压缩。最后启动fvtt。</p>
-              <figure class="highlight plain">
+              <figure class="highlight shell">
                 <table>
                   <tr>
                     <td class="gutter">
                       <pre><span class="line">1</span><br></pre>
                     </td>
                     <td class="code">
-                      <pre><span class="line">forever start -a  &#x2F;root&#x2F;foundryvtt&#x2F;resources&#x2F;app&#x2F;main.js --dataPath&#x3D;&#x2F;root&#x2F;foundrydata</span><br></pre>
+                      <pre><span class="line">forever start -a  /root/foundryvtt/resources/app/main.js --dataPath=/root/foundrydata</span><br></pre>
                     </td>
                   </tr>
                 </table>

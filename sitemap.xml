@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yidajiang.top/2021/02/28/2021-02-28-20210226%E5%8D%97%E6%B5%94%E6%B8%B8%E8%AE%B0/</loc>
+    
+    <lastmod>2021-03-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yidajiang.top/2021/02/18/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%AC%94%E8%AE%B0/</loc>
+    
+    <lastmod>2021-03-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yidajiang.top/tags/index.html</loc>
+    
+    <lastmod>2021-03-01</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yidajiang.top/2021/02/25/%E6%B5%B7%E6%B6%8C%E9%93%B6%E4%B8%BA%E9%83%AD%EF%BC%8C%E6%B1%9F%E6%A8%AA%E7%8E%89%E7%B3%BB%E8%85%B0%E2%80%94%E2%80%94%E9%AA%91%E8%A1%8C%E9%92%B1%E6%B1%9F%E6%A1%A5/</loc>
     
     <lastmod>2021-02-25</lastmod>
@@ -30,13 +51,6 @@
   </url>
   
   <url>
-    <loc>http://yidajiang.top/2021/02/18/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%AC%94%E8%AE%B0/</loc>
-    
-    <lastmod>2021-02-21</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yidajiang.top/categories/index.html</loc>
     
     <lastmod>2021-02-19</lastmod>
@@ -57,17 +71,10 @@
     
   </url>
   
-  <url>
-    <loc>http://yidajiang.top/tags/index.html</loc>
-    
-    <lastmod>2021-02-17</lastmod>
-    
-  </url>
-  
 
   <url>
     <loc>http://yidajiang.top/</loc>
-    <lastmod>2021-02-25</lastmod>
+    <lastmod>2021-03-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -75,35 +82,35 @@
   
   <url>
     <loc>http://yidajiang.top/tags/%E6%97%85%E8%A1%8C/</loc>
-    <lastmod>2021-02-25</lastmod>
+    <lastmod>2021-03-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yidajiang.top/tags/FVTT/</loc>
-    <lastmod>2021-02-25</lastmod>
+    <lastmod>2021-03-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yidajiang.top/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
-    <lastmod>2021-02-25</lastmod>
+    <lastmod>2021-03-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yidajiang.top/tags/about-me/</loc>
-    <lastmod>2021-02-25</lastmod>
+    <lastmod>2021-03-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yidajiang.top/tags/%E5%85%9A/</loc>
-    <lastmod>2021-02-25</lastmod>
+    <lastmod>2021-03-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -112,21 +119,21 @@
   
   <url>
     <loc>http://yidajiang.top/categories/%E6%97%85%E8%A1%8C/</loc>
-    <lastmod>2021-02-25</lastmod>
+    <lastmod>2021-03-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yidajiang.top/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
-    <lastmod>2021-02-25</lastmod>
+    <lastmod>2021-03-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yidajiang.top/categories/%E5%85%9A/</loc>
-    <lastmod>2021-02-25</lastmod>
+    <lastmod>2021-03-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

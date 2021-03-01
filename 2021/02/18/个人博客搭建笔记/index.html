@@ -73,7 +73,7 @@
                   <span class="post-meta-item-icon">
                     <i class="ri-quill-pen-line"></i>
                     <span class="post-meta-item-text"> 字数统计:</span>
-                    <span class="post-count">467</span>
+                    <span class="post-count">584</span>
                   </span>
                 </span>
                 <span class="post-time"> &nbsp; | &nbsp; <span class="post-meta-item-icon">
@@ -121,34 +121,34 @@
               <h2 id="个人笔记">个人笔记</h2>
               <h3 id="持续运行hexo">持续运行Hexo</h3>
               <p><a target="_blank" rel="noopener" href="http://wiki.lonelyor.org/15655136450838.html">持续运行hexo</a>需要forever模块，我的代码如下：</p>
-              <figure class="highlight plain">
+              <figure class="highlight js">
                 <table>
                   <tr>
                     <td class="gutter">
                       <pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre>
                     </td>
                     <td class="code">
-                      <pre><span class="line">var spawn &#x3D; require(&#39;child_process&#39;).spawn;</span><br><span class="line">free &#x3D; spawn(&#39;hexo&#39;, [&#39;server&#39;, &#39;-p 4000&#39;]);&#x2F;*其实就是等于执行hexo server -p 4000*&#x2F;</span><br><span class="line">free.stdout.on(&#39;data&#39;, function (data) &#123;</span><br><span class="line">	console.log(&#39;standard output:\n&#39; + data);</span><br><span class="line">&#125;);</span><br><span class="line">free.stderr.on(&#39;data&#39;, function (data) &#123; </span><br><span class="line">	console.log(&#39;standard error output:\n&#39; + data);</span><br><span class="line">&#125;);</span><br><span class="line">free.on(&#39;exit&#39;, function (code, signal) &#123;</span><br><span class="line">	console.log(&#39;child process eixt ,exit:&#39; + code);</span><br><span class="line">&#125;);</span><br><span class="line"></span><br></pre>
+                      <pre><span class="line"><span class="keyword">var</span> spawn = <span class="built_in">require</span>(<span class="string">&#x27;child_process&#x27;</span>).spawn;</span><br><span class="line">free = spawn(<span class="string">&#x27;hexo&#x27;</span>, [<span class="string">&#x27;server&#x27;</span>, <span class="string">&#x27;-p 4000&#x27;</span>]);<span class="comment">/*其实就是等于执行hexo server -p 4000*/</span></span><br><span class="line">free.stdout.on(<span class="string">&#x27;data&#x27;</span>, <span class="function"><span class="keyword">function</span> (<span class="params">data</span>) </span>&#123;</span><br><span class="line">	<span class="built_in">console</span>.log(<span class="string">&#x27;standard output:\n&#x27;</span> + data);</span><br><span class="line">&#125;);</span><br><span class="line">free.stderr.on(<span class="string">&#x27;data&#x27;</span>, <span class="function"><span class="keyword">function</span> (<span class="params">data</span>) </span>&#123; </span><br><span class="line">	<span class="built_in">console</span>.log(<span class="string">&#x27;standard error output:\n&#x27;</span> + data);</span><br><span class="line">&#125;);</span><br><span class="line">free.on(<span class="string">&#x27;exit&#x27;</span>, <span class="function"><span class="keyword">function</span> (<span class="params">code, signal</span>) </span>&#123;</span><br><span class="line">	<span class="built_in">console</span>.log(<span class="string">&#x27;child process eixt ,exit:&#x27;</span> + code);</span><br><span class="line">&#125;);</span><br><span class="line"></span><br></pre>
                     </td>
                   </tr>
                 </table>
               </figure>
               <h3 id="使用简写来简化命令">使用简写来简化命令</h3>
               <p>因为我使用的是zsh，所以在~/.zshrc中用alias修改简写命令。注意“=”前后不能加空格。</p>
-              <figure class="highlight plain">
+              <figure class="highlight sh">
                 <table>
                   <tr>
                     <td class="gutter">
-                      <pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre>
+                      <pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre>
                     </td>
                     <td class="code">
-                      <pre><span class="line">alias ll&#x3D;&quot;ls -lha&quot;</span><br><span class="line"># 快速浏览文件</span><br><span class="line"></span><br><span class="line">alias hc&#x3D;&quot;hexo clean&quot;</span><br><span class="line">alias hg&#x3D;&#39;hexo g&#39;                                                                         alias hs&#x3D;&#39;hexo server&#39;</span><br><span class="line">alias hcgs&#x3D;&#39;hexo clean &amp;&amp; hexo g &amp;&amp; hexo server&#39;</span><br><span class="line"># 快速生成服务器</span><br><span class="line"></span><br><span class="line">alias hcgd&#x3D;&#39;hexo clean &amp;&amp; hexo g &amp;&amp; hexo d&#39;</span><br><span class="line"># 快速部署到github</span><br></pre>
+                      <pre><span class="line"><span class="built_in">alias</span> ll=<span class="string">&quot;ls -lha&quot;</span></span><br><span class="line"><span class="comment"># 快速浏览文件</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">alias</span> hc=<span class="string">&quot;hexo clean&quot;</span></span><br><span class="line"><span class="built_in">alias</span> hg=<span class="string">&#x27;hexo g&#x27;</span>                          </span><br><span class="line"><span class="built_in">alias</span> hs=<span class="string">&#x27;hexo server&#x27;</span></span><br><span class="line"><span class="built_in">alias</span> hcgs=<span class="string">&#x27;hexo clean &amp;&amp; hexo g &amp;&amp; hexo server&#x27;</span></span><br><span class="line"><span class="comment"># 快速生成服务器</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">alias</span> hcgd=<span class="string">&#x27;hexo clean &amp;&amp; hexo g &amp;&amp; hexo d&#x27;</span></span><br><span class="line"><span class="comment"># 快速部署到github</span></span><br></pre>
                     </td>
                   </tr>
                 </table>
               </figure>
               <p>设置完毕后，在root目录下来激活新命令。</p>
-              <figure class="highlight plain">
+              <figure class="highlight shell">
                 <table>
                   <tr>
                     <td class="gutter">
@@ -156,6 +156,50 @@
                     </td>
                     <td class="code">
                       <pre><span class="line">source .zshrc</span><br></pre>
+                    </td>
+                  </tr>
+                </table>
+              </figure>
+              <h1>附录</h1>
+              <h2 id="使用markdown绘制思维导图">使用markdown绘制思维导图</h2>
+              <p>如果无法预览，请copy到typora中，语言为mermaid。</p>
+              <figure class="highlight plain">
+                <table>
+                  <tr>
+                    <td class="gutter">
+                      <pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre>
+                    </td>
+                    <td class="code">
+                      <pre><span class="line">graph TD</span><br><span class="line">A(Apache) --&gt;|route| B[&quot;&#x2F;var&#x2F;www&#x2F;polr: Polr&quot;]</span><br><span class="line">A --&gt;|route| C[other servers]</span><br><span class="line">B --&gt;|call| D(PHP Engine) --&gt;|call| E(MySQL Database)</span><br></pre>
+                    </td>
+                  </tr>
+                </table>
+              </figure>
+              <h2 id="定时进行git-pull">定时进行Git pull</h2>
+              <p>在此之前，请先设置与github的通信已改为ssh免密码通信。</p>
+              <p>使用<a target="_blank" rel="noopener" href="https://blog.gtwang.org/linux/linux-crontab-cron-job-tutorial-and-examples/">crontab</a>来定时进行命令。</p>
+              <p>首先打开crontab</p>
+              <figure class="highlight shell">
+                <table>
+                  <tr>
+                    <td class="gutter">
+                      <pre><span class="line">1</span><br></pre>
+                    </td>
+                    <td class="code">
+                      <pre><span class="line">sudo crontab -e</span><br></pre>
+                    </td>
+                  </tr>
+                </table>
+              </figure>
+              <p>然后增加以下内容，保存</p>
+              <figure class="highlight shell">
+                <table>
+                  <tr>
+                    <td class="gutter">
+                      <pre><span class="line">1</span><br><span class="line">2</span><br></pre>
+                    </td>
+                    <td class="code">
+                      <pre><span class="line">*/10 * * * * cd yourposition &amp;&amp; git pull</span><br><span class="line"><span class="meta">#</span><span class="bash"> 10 min进行一次git pull</span></span><br></pre>
                     </td>
                   </tr>
                 </table>
