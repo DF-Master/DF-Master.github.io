@@ -178,7 +178,7 @@
 <p>综上所述，我独立设计、制造了可在FTIR光谱仪中使用的绝缘隔热模具与可以实现手机一码管理的自动化温控装置，最终实现了最高 $\pm$0.5 °C的可优化精度的、可视化的温控系统。</p>
 <h2 id="ftir光谱实验">FTIR光谱实验</h2>
 <p>是在完成了上述装置后，我将装置应用于Li金属有机配合物的信号增强上。</p>
-<p>首先，为预测2<strong>A1 –</strong> Li金属有机配合物可能的结构，用Gaussian16以M062x对其进行计算分析。<strong>A1</strong>及其配合物可能的结构如图<strong>13</strong>所示，其红外光谱特征峰计算结果如图<strong>14</strong>所示**。<strong>二者均已乘校正系数。计算表明，若</strong>A1<strong>与Li形成了2</strong>A1 –** Li金属有机配合物，应在1650 cm<sup>-1</sup>与1311 cm<sup>-1</sup>处表现出特征峰，并在1700 cm<sup>-1</sup>表现出显著的信号衰减。</p>
+<p>首先，为预测2<strong>A1 –</strong> Li金属有机配合物可能的结构，用Gaussian16以M062x对其进行计算分析。<strong>A1</strong>及其配合物可能的结构如图<strong>13</strong>所示，其红外光谱特征峰计算结果如图<strong>14</strong>所示。二者均已乘校正系数。计算表明，若<strong>A1</strong>与Li形成了2<strong>A1 –</strong> Li金属有机配合物，应在1650 cm<sup>-1</sup>与1311 cm<sup>-1</sup>处表现出特征峰，并在1700 cm<sup>-1</sup>表现出显著的信号衰减。</p>
 <p><img src="https://gitee.com/DF-Master/yidapicbed/raw/master/20210310225136.png" alt="image-20210310225136003"><img src="https://gitee.com/DF-Master/yidapicbed/raw/master/20210310225203.png" alt="image-20210310225203781"></p>
 <center><font color="gray">图13 A1及A1-Li配合物可能的结构</font></center>
 <p><img src="https://gitee.com/DF-Master/yidapicbed/raw/master/20210310230042.png" alt="image-20210310230042401"></p>
