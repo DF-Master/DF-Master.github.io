@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+
+
+<html lang="zh-CN">
+  
+
+    <head>
+      <meta charset="utf-8" />
+       
+      <meta name="keywords" content="TRPG, pathfinder, Peking University" />
+       
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1"
+      />
+      <title>Introduction：从零开始的轻松运维实践 |  沙</title>
+  <meta name="generator" content="hexo-theme-ayer">
+      
+      <link rel="shortcut icon" href="/img/bridge.png" />
+       
+<link rel="stylesheet" href="/dist/main.css">
+
+      <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/Shen-Yu/cdn/css/remixicon.min.css"
+      />
+      
+<link rel="stylesheet" href="/css/custom.css">
+ 
+      <script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script>
+       
+ 
+
+      <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-bulma@5.0.1/bulma.min.css"
+      />
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.min.js"></script>
+
+      <!-- mermaid -->
+      
+      <script src="https://cdn.jsdelivr.net/npm/mermaid@8.9.2/dist/mermaid.min.js"></script>
+      
+      <style>
+        .swal2-styled.swal2-confirm {
+          font-size: 1.6rem;
+        }
+      </style>
+    </head>
+  </html>
+</html>
+
+
+<body>
+  <div id="app">
+    
+      
+      <canvas width="1777" height="841"
+        style="position: fixed; left: 0px; top: 0px; z-index: 99999; pointer-events: none;"></canvas>
+      
+    <main class="content on">
+      <section class="outer">
+  <article
+  id="post-20221121-ServerTutorial1"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h1 class="article-title sea-center" style="border-left:0" itemprop="name">
+  Introduction：从零开始的轻松运维实践
+</h1>
+ 
+
+      
+    </header>
+     
+    <div class="article-meta">
+      <a href="/2022/11/21/20221121-ServerTutorial1/" class="article-date">
+  <time datetime="2022-11-20T16:00:00.000Z" itemprop="datePublished">2022-11-21</time>
+</a> 
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/rd/">rd</a>
+  </div>
+  
+<div class="word_count">
+    <span class="post-time">
+        <span class="post-meta-item-icon">
+            <i class="ri-quill-pen-line"></i>
+            <span class="post-meta-item-text"> 字数统计:</span>
+            <span class="post-count">3.5k</span>
+        </span>
+    </span>
+
+    <span class="post-time">
+        &nbsp; | &nbsp;
+        <span class="post-meta-item-icon">
+            <i class="ri-book-open-line"></i>
+            <span class="post-meta-item-text"> 阅读时长≈</span>
+            <span class="post-count">13 分钟</span>
+        </span>
+    </span>
+</div>
+ 
+    </div>
+      
+    <div class="tocbot"></div>
+
+
+
+
+  
+    <div class="article-entry" itemprop="articleBody">
+       
+  <hr>
+<blockquote>
+<p>筌者所以在鱼，得鱼而忘筌；言者所以在意，得意而忘言</p>
+</blockquote>
+<hr>
+<span id="more"></span>
+
+<h1 id="序"><a href="#序" class="headerlink" title="序"></a>序</h1><p>从2020因为疫情居家开始，笔者第一次因为“学生免费试用服务器”接触到了云服务器，再之后学习linux，接触Rasberry Pi，到成为Tanglab的主力运维，也算是将近3年。不得不说运维的过程便是不断学习的过程，时代太快了，熟悉的工具、流程和技术转眼就跟不上需求，但体会到自己的“雕虫小技”被人夸赞的时候，还是能获得些许的满足感。</p>
+<p>对笔者这种业余人士来说，不需要学习底层原理，运维只是学习工具的过程。掌握数倍于人的工具，就能获得无法取代的价值。</p>
+<p>正所谓“得鱼而忘荃，得意而忘言”，摸索新事物本身就是运维的乐趣所在。因此，继承上一篇<a target="_blank" rel="noopener" href="http://tanglab.cn/2022/11/04/R&D/2022/Tanglab%20Tutorial%20%E9%9D%A2%E5%90%91%E7%A7%91%E7%A0%94%E4%BA%BA%E5%91%98%E7%9A%84Markdown%E5%BA%94%E7%94%A8%E6%95%99%E7%A8%8B/">Tutorial 面向科研人员的Markdown应用教程</a> ，本篇笔者将就如何以最低的门槛、最有趣的程度入门运维进行一个介绍。</p>
+<h1 id="寻找一个动机"><a href="#寻找一个动机" class="headerlink" title="寻找一个动机"></a>寻找一个动机</h1><p>笔者身边的很多朋友，无论背景，多少都有过一些运维的经历。事实上这也是大多数人的情况，看到别人的操作，不禁提出“我也想试试”。所以大多数人都不缺少相关的技术，只是缺少一个动机罢了。</p>
+<p>这边，笔者给出了一些了解到的、常见的动机：</p>
+<ul>
+<li><strong>想建立一个自己的网站</strong>。建立BLOG比维护公众号容易100倍且强大100倍。</li>
+<li><strong>搭一个游戏服务器</strong>。笔者朋友们建立过Minecraft、饥荒、泰拉瑞亚、FVTT的服务器，因为是私服，所以可以做很多insane的改动。</li>
+<li><strong>流量代理</strong>。但是这个往往都是自建自用，很少会拿来分享。</li>
+<li>建立<strong>一些WEB工具</strong>。尤其是对于计算机专业同学来说，这无疑是很好的实践机会。</li>
+<li><strong>搭建云盘</strong>。最有名的就是群晖NAS，对小体量的云端存储的话树莓派也能胜任，很多时候会直接做成“云主机”。</li>
+<li><strong>搭建云计算工具</strong>。对非专业人士来说用的不多，最多的应该是NovelAI炼丹炉了。</li>
+<li><strong>路由器</strong>。属于笔者的知识盲区，但定制化路由器完全是可以做的。</li>
+</ul>
+<p>根据动机的不同，方案也随之改变。本文主要是面向有意愿学习相关技术、从事实验性学科的读者的，所以笔者根据“轻松”的原则，以腾讯云为例，以下顺序进行实践简介，相信通过1-2天的实践，读者就能迅速入门，体会到维护一个私有服务器的乐趣。</p>
+<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><h2 id="Connect-My-Server-连上我的服务器"><a href="#Connect-My-Server-连上我的服务器" class="headerlink" title="Connect My Server: 连上我的服务器"></a><strong>Connect My Server</strong>: 连上我的服务器</h2><p>首先，笔者先假设读者已经拥有了一个<a target="_blank" rel="noopener" href="https://cloud.tencent.com/act/pro/2022double11?fromSource=gwzcw.6984642.6984642.6984642&utm_medium=cpc&utm_id=gwzcw.6984642.6984642.6984642&gclid=EAIaIQobChMIi7Oy0fub-wIV0lBgCh0AegadEAAYASAAEgIKWvD_BwE">腾讯云的服务器</a> ，当然读者把它替换成局域网下的Server、阿里云、华为云、亚马逊云都是一样的。腾讯云服务器学生免费试用，而且新人第一年2核轻量应用服务器只要50元（2022.11.07），笔者认为对新人很友好，下面以此为例说明使用方法。作为服务器，ubuntu22.04 Server 64bit 是目前比较新且主流的环境。</p>
+<ul>
+<li>如非必要，笔者不建议购买大陆的服务器，大陆服务器的网站服务需要管局审核、公安备案，过程复杂冗长，对于初学者，购买境外服务器在下载速度和内容管理上都更便利。</li>
+</ul>
+<p>初学者最好的学习途径就是阅读图文并茂的<a target="_blank" rel="noopener" href="https://cloud.tencent.com/document/product/1207/44642">官方文档</a> ，其详细程度让人感概这也许不是面向高中生、而是以小学生都能读懂并学会的标准进行的写作。学习用WEBUI操作的同时，也可以一并把防火墙的端口打开、默认的登陆密码改掉，方便后续的操作。</p>
+<p>不过，考虑到微信很难用，用微信登陆腾讯云用WEBUI的体验并不好，所以本地化的登陆方案也应该被考虑。你需要的，就是记住账号、密码、服务器IP，然后打开他们：</p>
+<ul>
+<li>使用系统原生的远程登陆软件，比如windows的Powershell,win11用户甚至用默认的windows terminal体验更佳</li>
+<li>一些专用的远程软件，比如mobaXterm，因为自带X11服务，所以在需要UI的远程工作上很实用</li>
+<li>常用的ssh工具，比如winscp, xshell, 这个完全看个人喜好</li>
+</ul>
+<h2 id="Order-My-Server-如身使手-如手使指"><a href="#Order-My-Server-如身使手-如手使指" class="headerlink" title="Order My Server: 如身使手,如手使指"></a><strong>Order My Server</strong>: 如身使手,如手使指</h2><p>如果你对Linux有足够多的使用经验，完全可以跳过这一节。不过，为了便利初心者，这边有一份最基础的<a target="_blank" rel="noopener" href="https://nuaa-pa.gitee.io/gitbook/others/linux-manual.html">linux入门教程</a>，笔者第一次读时也学到了不少新内容。</p>
+<p>但是，掌握这些命令只是学习了使用的基础，却不足以让服务器变得“好用”。就像Everything之于windows一样，我们需要一些微小的工作来让工作环境更整洁、易用：</p>
+<ul>
+<li>使用一个更美观、方便的shell: <a target="_blank" rel="noopener" href="https://wiki.archlinux.org/title/Zsh_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)">zsh</a> 或者 <a target="_blank" rel="noopener" href="https://www.ruanyifeng.com/blog/2017/05/fish_shell.html">fish</a></li>
+<li>安装一些更易用的Linux工具：<a target="_blank" rel="noopener" href="https://github.com/ibraheemdev/modern-unix">Modern-Unix</a></li>
+<li>换源：国内网站下载国外资源往往较慢，需要使用镜像，不过腾讯云一般默认已换源，就不需要这一步了</li>
+</ul>
+<p>最后，一般还需要更新环境：关于这些内容，可以阅读笔者的其他文章<a target="_blank" rel="noopener" href="https://www.notion.so/Tutorial-Linux-1-105c4409942b413bb1e0ad769b81e62a">Tutorial:从零开始的Linux使用【1】</a> <a target="_blank" rel="noopener" href="https://www.notion.so/Tutorial-Linux-2-f2f48a18a4b043d4898185f114616adb">Tutorial:从零开始的Linux使用【2】</a> 。相信在阅读之后，你对linux的使用已经有了初步的理解。</p>
+<h2 id="域名：一个好名字能让朋友更容易记住你"><a href="#域名：一个好名字能让朋友更容易记住你" class="headerlink" title="域名：一个好名字能让朋友更容易记住你"></a><strong>域名</strong>：一个好名字能让朋友更容易记住你</h2><p>服务器最重要的一点就是需要一个固定IP，而云服务器一般都绑定了一个固定的公网IPV4地址，这无疑是极其方便的。如果对IPV4、DNS这些互联网的基本概念还不理解，可以参考少数派上的<a target="_blank" rel="noopener" href="https://sspai.com/post/65470">小白也能看懂的网络基础系列</a> 。</p>
+<p>一个好域名不但可以让你的朋友更容易记住你，也可以用作一个服务器不同功能的区分：比如我的.tech域名就指向我的互联网工具，而.space则指向我的游戏服务器。此外，当服务器迁移时，只需要更改域名解析的地址，就可以维持web服务的稳定。因此，一个好域名是必不可少的。</p>
+<p>当然，在国内的大厂商<a target="_blank" rel="noopener" href="https://console.cloud.tencent.com/domain/all-domain">购买域名</a>肯定是需要审核和备案的，不过海外域名笔者不熟，不作介绍。</p>
+<h2 id="Github：同步率100"><a href="#Github：同步率100" class="headerlink" title="Github：同步率100%"></a>Github：同步率100%</h2><p>关于github，网上的教程实在太多，这边就不狗尾续貂了。学习Github最直接的方法当然是阅读<a target="_blank" rel="noopener" href="https://docs.github.com/cn/get-started">官方文档</a> 。如果想进一步学习git的命令行使用（虽然使用网页版的UI界面或者<a target="_blank" rel="noopener" href="https://desktop.github.com/">Github-Destop</a>也能实现），那也有对应的<a target="_blank" rel="noopener" href="https://www.runoob.com/w3cnote/git-guide.html">中文教程</a> 。不过在实际生产中命令行的使用也不频繁，所以笔者更推荐将<a target="_blank" rel="noopener" href="https://desktop.github.com/">Github-Destop</a> 作为生产力工具。</p>
+<p>笔者主要想讲的，是将Github应用于科研生产之中。在<a target="_blank" rel="noopener" href="https://www.githubs.cn/top">Github开源项目排行榜</a> 上可以看到许多广受好评的项目，比如：</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-zh.md">免费编程电子书籍</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/microsoft/vscode">代码编辑器Vscode</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/torvalds/linux">Linux内核源码</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/git/git">Git源码</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/fatedier/frp">内网穿透代理应用FRP</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/nvbn/thefuck">命令行纠错的小工具thefuck</a></li>
+</ul>
+<p>当然，除了上述有名的大项目和各类实用的工具，github上也不乏一些有意思的仓库:</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://github.com/996icu/996.ICU">996.ICU收集996工作讨论的仓库</a></li>
+<li><del>赛博炼丹</del>AI绘图 <a target="_blank" rel="noopener" href="https://github.com/AUTOMATIC1111/stable-diffusion-webui">SDWebUI</a></li>
+<li>一款好看的中文字体<a target="_blank" rel="noopener" href="https://github.com/lxgw/LxgwWenKai-Lite">霞鹜文楷</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/listen1/listen1_desktop">免费多平台音乐播放器Listen1</a></li>
+</ul>
+<p>总之Github上好玩的东西固然很多，在下载以外，github上还提供了GithubPages,可用于搭建网站,<a target="_blank" rel="noopener" href="https://sspai.com/post/54608">用法</a>也非常简单。</p>
+<p>此外，笔者推荐也创建一个和名字一样的库，在其中写一份README.md。这种同名库不但可以作为个人主页&#x2F;Github封面使用，还可以创造一些有意思的特效。<a target="_blank" rel="noopener" href="https://juejin.cn/post/6854573219660660743">参考</a></p>
+<h2 id="Homepage-写点东西"><a href="#Homepage-写点东西" class="headerlink" title="Homepage: 写点东西"></a>Homepage: 写点东西</h2><p>在所有网页服务中，最基本的就是个人主页。一个好的个人主页可以作为简历、资料站、发布页……今天搭建个人主页的方式日趋多样，既可以部署到Github、Netflify等网站；也可以在个人主机或者Server上发布，利用内网穿透、DDNS或者公网IP进行访问。此外，互联网平台也为个人主页的搭建提供了十分详尽的教程。</p>
+<p>目前主流的个人主页都是基于<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/index.html">HEXO</a>或者<a target="_blank" rel="noopener" href="https://www.gohugo.org/">HUGO</a>进行搭建，笔者只对前者有所了解。HEXO作为国内比较主流的博客框架有较好的教程支持，比如<a target="_blank" rel="noopener" href="https://easyhexo.com/">EASY-HEXO</a> 就做到了小鲑鱼也能看懂。此外，腾讯云官方文档也对部署HEXO有着详细的<a target="_blank" rel="noopener" href="https://cloud.tencent.com/document/product/1210/43365">教程</a>。</p>
+<p>需要强调的是，<strong>部署hexo不需要任何代码基础</strong>，而且完成部署后就会对git，markdown, 云服务，网页框架有一个基础的认识，可谓是性价比极高的学习体验，强烈推荐大家试一试！下面是Tanglab成员的一些个人主页：</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="http://jiangyida.top/">http://jiangyida.top/</a></li>
+<li><a target="_blank" rel="noopener" href="https://chemlzh.github.io/">https://chemlzh.github.io/</a></li>
+</ul>
+<p>sudo npm config set registry <a target="_blank" rel="noopener" href="https://registry.npmmirror.com/">https://registry.npmmirror.com</a></p>
+<h1 id="应用示例"><a href="#应用示例" class="headerlink" title="应用示例"></a>应用示例</h1><h2 id="例1：在腾讯云20-04ubuntu服务器上建立基本的运行环境"><a href="#例1：在腾讯云20-04ubuntu服务器上建立基本的运行环境" class="headerlink" title="例1：在腾讯云20.04ubuntu服务器上建立基本的运行环境"></a>例1：在腾讯云20.04ubuntu服务器上建立基本的运行环境</h2><p>换源</p>
+<p><a target="_blank" rel="noopener" href="https://github.com/SuperManito/LinuxMirrors">https://github.com/SuperManito/LinuxMirrors</a></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo su root</span><br><span class="line">bash &lt;(curl -sSL https://gitee.com/SuperManito/LinuxMirrors/raw/main/ChangeMirrors.sh)</span><br></pre></td></tr></table></figure>
+
+<h3 id="更新包管理器"><a href="#更新包管理器" class="headerlink" title="更新包管理器"></a>更新包管理器</h3><p>apt,python</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">sudo apt update</span><br><span class="line">sudo apt-get update</span><br><span class="line">sudo apt install python3-pip -y</span><br><span class="line">sudo apt-get install python3-setuptools -y</span><br><span class="line">sudo pip install --upgrade setuptools</span><br><span class="line">sudo python3 -m pip install --upgrade pip</span><br><span class="line"><span class="comment"># python 软链接到 python3 </span></span><br><span class="line">sudo <span class="built_in">ln</span> -s /usr/bin/python3 /usr/bin/python</span><br><span class="line">python -V</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>nodejs</p>
+<p><a target="_blank" rel="noopener" href="https://github.com/nodesource/distributions">https://github.com/nodesource/distributions</a></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">sudo apt -y update</span><br><span class="line"><span class="comment"># 下面请自行修改版本 </span></span><br><span class="line">curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash - &amp;&amp;\</span><br><span class="line">sudo apt-get install -y nodejs</span><br><span class="line">npm -V</span><br><span class="line">node -v</span><br><span class="line"><span class="comment"># npm换源 https://github.com/0fengzi0/Blog/issues/27</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 可以安装n作为nodejs版本管理器。n更简单，但是nvm对全局多版本兼容性支持更好。</span></span><br><span class="line">npm install -g n</span><br><span class="line">n latest</span><br></pre></td></tr></table></figure>
+
+<h3 id="常用linux工具"><a href="#常用linux工具" class="headerlink" title="常用linux工具"></a>常用linux工具</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install fish -y</span><br><span class="line"><span class="comment">#更改默认shell: sudo chsh -s /usr/bin/fish</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h3 id="modern-unix"><a href="#modern-unix" class="headerlink" title="modern-unix"></a>modern-unix</h3><p><a target="_blank" rel="noopener" href="https://github.com/ibraheemdev/modern-unix">https://github.com/ibraheemdev/modern-unix</a></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">sudo npm install -g tldr</span><br><span class="line"><span class="comment"># snap 也是一个linux包管理器</span></span><br><span class="line"><span class="comment"># snap有一点不好，会装在用户目录下/home/jiangyd,但是snap不限制发行版而且不安装依赖，只是稍微大一些</span></span><br><span class="line">sudo apt install snapd</span><br><span class="line">sudo snap install bottom</span><br><span class="line">sudo  npm install gtop -g</span><br><span class="line">sudo apt install fzf</span><br><span class="line">sudo snap install procs</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="例2：搭建hexo博客-ayer主题"><a href="#例2：搭建hexo博客-ayer主题" class="headerlink" title="例2：搭建hexo博客(ayer主题)"></a>例2：搭建hexo博客(ayer主题)</h2><h3 id="hexo-install（theme-ayer）"><a href="#hexo-install（theme-ayer）" class="headerlink" title="hexo install（theme ayer）"></a>hexo install（theme ayer）</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># sudo npm config set registry http://registry.npmmirror.com</span></span><br><span class="line">sudo npm install -g hexo-cli</span><br><span class="line">hexo -V</span><br><span class="line"><span class="built_in">mkdir</span> &lt;your_blog_name&gt;</span><br><span class="line">hexo init &lt;your_blog_name&gt;</span><br><span class="line"><span class="built_in">cd</span> blogtest/</span><br><span class="line"><span class="built_in">ls</span> -al</span><br><span class="line">hexo s</span><br><span class="line"><span class="comment"># 打开IP:4000 已经可以看到网页</span></span><br></pre></td></tr></table></figure>
+
+<p>ayer</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">npm i hexo-theme-ayer -S</span><br><span class="line"><span class="comment"># Modify theme setting in _config.yml to ayer</span></span><br><span class="line"><span class="comment"># theme: ayer</span></span><br><span class="line">hexo s</span><br><span class="line"><span class="comment"># 打开IP:4000 已经可以看到网页的主题更改</span></span><br><span class="line"><span class="comment"># 根据下列网址自行修改需要的配置</span></span><br><span class="line"><span class="comment"># https://easyhexo.com/1-Hexo-install-and-config/1-3-config-hexo.html#%E9%85%8D%E7%BD%AE-hexo-2</span></span><br><span class="line"><span class="comment"># https://github.com/shen-yu/hexo-theme-ayer</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 将网页部署到github及其他平台（git使用有困难的，可以跳过或者去学习下git）</span></span><br><span class="line"><span class="comment"># https://easyhexo.com/1-Hexo-install-and-config/1-4-deploy-hexo.html#%E9%83%A8%E7%BD%B2%E5%88%B0-github</span></span><br><span class="line"><span class="comment"># 进一步地，可以把整个文件包都打包成Github仓库并上传，这样每次下载后只需要npm install就可以完成异地部署了</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="例3：使用frp进行内网穿透"><a href="#例3：使用frp进行内网穿透" class="headerlink" title="例3：使用frp进行内网穿透"></a>例3：使用frp进行内网穿透</h2><p>这部分主要对frp进行介绍。</p>
+<p>frp 是一个专注于内网穿透的高性能的反向代理应用，支持 TCP、UDP、HTTP、HTTPS 等多种协议。可以将内网服务以安全、便捷的方式通过具有公网 IP 节点的中转暴露到公网。frp具有配套<a target="_blank" rel="noopener" href="https://frps.cn/11.html">中文文档</a>。下面是代码示例，比起参考示例，更推荐阅读文档。</p>
+<p><a target="_blank" rel="noopener" href="https://github.com/fatedier/frp">https://github.com/fatedier/frp</a></p>
+<h3 id="FRPS"><a href="#FRPS" class="headerlink" title="FRPS"></a>FRPS</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">#登陆服务器(root账号)</span></span><br><span class="line">wget https://github.com/fatedier/frp/releases/download/v0<span class="number">.44</span><span class="number">.0</span>/frp_0<span class="number">.44</span><span class="number">.0</span>_linux_386.tar.gz</span><br><span class="line">tar -zxvf frp_0<span class="number">.44</span><span class="number">.0</span>_linux_386.tar.gz</span><br><span class="line">vim frp_0<span class="number">.44</span><span class="number">.0</span>_linux_386/frps.ini</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">[common]</span><br><span class="line">bind_port = <span class="number">7000</span></span><br><span class="line">vhost_http_port = <span class="number">7860</span></span><br><span class="line">dashboard_addr = <span class="number">0.0</span><span class="number">.0</span><span class="number">.0</span></span><br><span class="line">dashboard_port = <span class="number">7001</span></span><br><span class="line"><span class="comment"># 7860是为了适应StableDiffusionWebui</span></span><br><span class="line"></span><br><span class="line">[ssh6001]</span><br><span class="line"><span class="built_in">type</span> = tcp</span><br><span class="line">listen_port = <span class="number">6001</span></span><br><span class="line"></span><br><span class="line">[ssh6002]</span><br><span class="line"><span class="built_in">type</span> = tcp</span><br><span class="line">listen_port = <span class="number">6002</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">sudo vim /lib/systemd/system/frps.service</span><br><span class="line"><span class="comment"># 改版本号</span></span><br><span class="line">sudo systemctl daemon-reload</span><br><span class="line">sudo systemctl restart frps.service</span><br><span class="line">sudo systemctl status frps.service</span><br><span class="line"></span><br><span class="line"><span class="comment"># http://tanglab.cn:7001/ 可以看运行状况</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">[Unit]</span><br><span class="line">Description=frps Server</span><br><span class="line">Documentation=https://github.com/fatedier/frp</span><br><span class="line">After=network-online.target</span><br><span class="line"></span><br><span class="line">[Service]</span><br><span class="line">ExecStart=/home/ubuntu/frp_0.44.0_linux_386/frps -c /home/ubuntu/frp_0.44.0_linux_386/frps.ini</span><br><span class="line">Type=simple</span><br><span class="line">User=root</span><br><span class="line">Group=nogroup</span><br><span class="line">WorkingDirectory=/tmp</span><br><span class="line">Restart=on-failure</span><br><span class="line">RestartSec=60s</span><br><span class="line"></span><br><span class="line">[Install]</span><br><span class="line">WantedBy=multi-user.target</span><br><span class="line">elias=rc-local.service</span><br></pre></td></tr></table></figure>
+
+<h3 id="frpc"><a href="#frpc" class="headerlink" title="frpc"></a>frpc</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">cd /smb/<span class="built_in">open</span>-apps/</span><br><span class="line">wget https://github.com/fatedier/frp/releases/download/v0<span class="number">.44</span><span class="number">.0</span>/frp_0<span class="number">.44</span><span class="number">.0</span>_linux_386.tar.gz</span><br><span class="line">tar -zxvf frp_0<span class="number">.44</span><span class="number">.0</span>_linux_386.tar.gz</span><br><span class="line">chmod <span class="number">777</span> -R  /smb/<span class="built_in">open</span>-apps/frp_0<span class="number">.44</span><span class="number">.0</span>_linux_386/</span><br><span class="line">vim /smb/<span class="built_in">open</span>-apps/frp_0<span class="number">.44</span><span class="number">.0</span>_linux_386/frpc.ini</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">[common]</span><br><span class="line">server_addr = &lt;frps domain&gt;</span><br><span class="line">server_port = <span class="number">7000</span></span><br><span class="line">log_file = /var/log/frpc.log</span><br><span class="line">log_level = info</span><br><span class="line">log_max_days = <span class="number">3</span></span><br><span class="line">login_fail_exit = true</span><br><span class="line"></span><br><span class="line">[sshb205]</span><br><span class="line"><span class="built_in">type</span> = tcp</span><br><span class="line">local_ip = <span class="number">127.0</span><span class="number">.0</span><span class="number">.1</span></span><br><span class="line">local_port = <span class="number">22</span></span><br><span class="line">remote_port = <span class="number">6001</span></span><br><span class="line"></span><br><span class="line">[web7860]</span><br><span class="line"><span class="built_in">type</span> = http</span><br><span class="line">local_port = <span class="number">7860</span>     // 本地运行端口</span><br><span class="line">custom_domains = &lt;frps domain&gt;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo vim /lib/systemd/system/frpc.service</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">[Unit]</span><br><span class="line">Description=frpc cilent</span><br><span class="line">Documentation=https://github.com/fatedier/frp</span><br><span class="line">After=network-online.target</span><br><span class="line"></span><br><span class="line">[Service]</span><br><span class="line">ExecStart=/smb/<span class="built_in">open</span>-apps/frp_0<span class="number">.44</span><span class="number">.0</span>_linux_386/frpc -c /smb/<span class="built_in">open</span>-apps/frp_0<span class="number">.44</span><span class="number">.0</span>_linux_386/frpc.ini</span><br><span class="line"><span class="type">Type</span>=simple</span><br><span class="line">User=root</span><br><span class="line">Group=nogroup</span><br><span class="line">WorkingDirectory=/tmp</span><br><span class="line">Restart=on-failure</span><br><span class="line">RestartSec=60s</span><br><span class="line"></span><br><span class="line">[Install]</span><br><span class="line">WantedBy=multi-user.target</span><br><span class="line">elias=rc-local.service</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl daemon-reload</span><br><span class="line">sudo systemctl restart frpc.service</span><br><span class="line">sudo systemctl enable frpc.service</span><br><span class="line">sudo systemctl status frpc.service</span><br><span class="line"><span class="comment"># https://github.com/xiaoming2028/FreePAC/wiki/2022%E5%B9%B4%E6%9C%80%E6%96%B0VPS%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC%E6%90%AD%E5%BB%BAV2ray%E8%AF%A6%E7%BB%86%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h1><p>总结笔者不长的运维经历，经验如下：</p>
+<ul>
+<li>认真阅读文档，就和阅读仪器说明书一样必要仔细</li>
+<li>不吝提出问题，github上可以是issue，甚至很多工程师会耐心地一对一联系，可以从他们身上学很多东西</li>
+<li>尝试不同的方案，并做好记录，尤其是从过去的“单打独斗”到实验室中的“走向合作”，一份记录无论是成功或失败，都具有相当的价值。</li>
+</ul>
+ 
+      <!-- reward -->
+      
+      <div id="reword-out">
+        <div id="reward-btn">
+          打赏
+        </div>
+      </div>
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+<div class="share-btn">
+      <span class="share-sns share-outer">
+        <i class="ri-share-forward-line"></i>
+        分享
+      </span>
+      <div class="share-wrap">
+        <i class="arrow"></i>
+        <div class="share-icons">
+          
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="ri-weibo-fill"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="ri-wechat-fill"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="ri-qq-fill"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="ri-douban-line"></i>
+          </a>
+          <!-- <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a> -->
+          
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="ri-facebook-circle-fill"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="ri-twitter-fill"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="ri-google-fill"></i>
+          </a>
+        </div>
+      </div>
+</div>
+
+<div class="wx-share-modal">
+    <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://yidajiang.top/2022/11/21/20221121-ServerTutorial1/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div id="share-mask"></div>  
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/rd/" rel="tag">rd</a></li></ul>
+
+    </footer>
+  </div>
+
+   
+  <nav class="article-nav">
+    
+      <a href="/2022/12/23/2022summary/" class="article-nav-link">
+        <strong class="article-nav-caption">上一篇</strong>
+        <div class="article-nav-title">
+          
+            2022年终总结
+          
+        </div>
+      </a>
+    
+    
+      <a href="/2022/11/16/20221117-LinuxTutorial2/" class="article-nav-link">
+        <strong class="article-nav-caption">下一篇</strong>
+        <div class="article-nav-title">Tutorial:从零开始的Linux使用【2】</div>
+      </a>
+    
+  </nav>
+
+   
+<!-- valine评论 -->
+<div id="vcomments-box">
+  <div id="vcomments"></div>
+</div>
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js"></script>
+<script>
+  new Valine({
+    el: "#vcomments",
+    app_id: "HH054clEBSp3zPIVLhYS16ro-gzGzoHsz",
+    app_key: "Mwn90eOTeY4CYb4hhTD0hj2t",
+    path: window.location.pathname,
+    avatar: "monsterid",
+    placeholder: "给我的文章加点评论吧~",
+    recordIP: true,
+  });
+  const infoEle = document.querySelector("#vcomments .info");
+  if (infoEle && infoEle.childNodes && infoEle.childNodes.length > 0) {
+    infoEle.childNodes.forEach(function (item) {
+      item.parentNode.removeChild(item);
+    });
+  }
+</script>
+<style>
+  #vcomments-box {
+    padding: 5px 30px;
+  }
+
+  @media screen and (max-width: 800px) {
+    #vcomments-box {
+      padding: 5px 0px;
+    }
+  }
+
+  #vcomments-box #vcomments {
+    background-color: #fff;
+  }
+
+  .v .vlist .vcard .vh {
+    padding-right: 20px;
+  }
+
+  .v .vlist .vcard {
+    padding-left: 10px;
+  }
+</style>
+
+ 
+   
+     
+</article>
+
+</section>
+      <footer class="footer">
+  <div class="outer">
+    <ul>
+      <li>
+        Copyrights &copy;
+        2021-2023
+        <i class="ri-heart-fill heart_icon"></i> Yida Jiang
+      </li>
+    </ul>
+    <ul>
+      <li>
+        
+      </li>
+    </ul>
+    <ul>
+      <li>
+        
+        
+        <span>
+  <span><i class="ri-user-3-fill"></i>访问人数:<span id="busuanzi_value_site_uv"></span></span>
+  <span class="division">|</span>
+  <span><i class="ri-eye-fill"></i>浏览次数:<span id="busuanzi_value_page_pv"></span></span>
+</span>
+        
+      </li>
+    </ul>
+    <ul>
+      
+    </ul>
+    <ul>
+      
+    </ul>
+    <ul>
+      <li>
+        <!-- cnzz统计 -->
+        
+      </li>
+    </ul>
+  </div>
+</footer>    
+    </main>
+    <div class="float_btns">
+      <div class="totop" id="totop">
+  <i class="ri-arrow-up-line"></i>
+</div>
+
+    </div>
+    <aside class="sidebar on">
+      <button class="navbar-toggle"></button>
+<nav class="navbar">
+  
+  <div class="logo">
+    <a href="/"><img src="/img/bridge.png" alt="沙"></a>
+  </div>
+  
+  <ul class="nav nav-main">
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/">主页</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/archives">归档</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/categories">分类</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/tags">标签</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/tags/%E6%97%85%E8%A1%8C/">旅行</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/tags/%E5%A8%B1%E4%B9%90/">娱乐</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/2021/02/15/about/">关于我</a>
+    </li>
+    
+  </ul>
+</nav>
+<nav class="navbar navbar-bottom">
+  <ul class="nav">
+    <li class="nav-item">
+      
+      <a class="nav-item-link nav-item-search"  title="搜索">
+        <i class="ri-search-line"></i>
+      </a>
+      
+      
+      <a class="nav-item-link" target="_blank" href="/atom.xml" title="RSS Feed">
+        <i class="ri-rss-line"></i>
+      </a>
+      
+    </li>
+  </ul>
+</nav>
+<div class="search-form-wrap">
+  <div class="local-search local-search-plugin">
+  <input type="search" id="local-search-input" class="local-search-input" placeholder="Search...">
+  <div id="local-search-result" class="local-search-result"></div>
+</div>
+</div>
+    </aside>
+    <div id="mask"></div>
+
+<!-- #reward -->
+<div id="reward">
+  <span class="close"><i class="ri-close-line"></i></span>
+  <p class="reward-p"><i class="ri-cup-line"></i>请我喝杯奶茶吧~</p>
+  <div class="reward-box">
+    
+    <div class="reward-item">
+      <img class="reward-img" src="/img/alipay.png">
+      <span class="reward-type">支付宝</span>
+    </div>
+    
+    
+    <div class="reward-item">
+      <img class="reward-img" src="/img/wepay.png">
+      <span class="reward-type">微信</span>
+    </div>
+    
+  </div>
+</div>
+    
+<script src="/js/jquery-3.6.0.min.js"></script>
+ 
+<script src="/js/lazyload.min.js"></script>
+
+<!-- Tocbot -->
+ 
+<script src="/js/tocbot.min.js"></script>
+
+<script>
+  tocbot.init({
+    tocSelector: ".tocbot",
+    contentSelector: ".article-entry",
+    headingSelector: "h1, h2, h3, h4, h5, h6",
+    hasInnerContainers: true,
+    scrollSmooth: true,
+    scrollContainer: "main",
+    positionFixedSelector: ".tocbot",
+    positionFixedClass: "is-position-fixed",
+    fixedSidebarOffset: "auto",
+  });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.2/jquery.modal.min.js"></script>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.2/jquery.modal.min.css"
+/>
+<script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js"></script>
+
+<script src="/dist/main.js"></script>
+
+<!-- ImageViewer -->
+ <!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" style="display:none" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css">
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"></script>
+
+<script>
+    function viewer_init() {
+        let pswpElement = document.querySelectorAll('.pswp')[0];
+        let $imgArr = document.querySelectorAll(('.article-entry img:not(.reward-img)'))
+
+        $imgArr.forEach(($em, i) => {
+            $em.onclick = () => {
+                // slider展开状态
+                // todo: 这样不好，后面改成状态
+                if (document.querySelector('.left-col.show')) return
+                let items = []
+                $imgArr.forEach(($em2, i2) => {
+                    let img = $em2.getAttribute('data-idx', i2)
+                    let src = $em2.getAttribute('data-target') || $em2.getAttribute('src')
+                    let title = $em2.getAttribute('alt')
+                    // 获得原图尺寸
+                    const image = new Image()
+                    image.src = src
+                    items.push({
+                        src: src,
+                        w: image.width || $em2.width,
+                        h: image.height || $em2.height,
+                        title: title
+                    })
+                })
+                var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, {
+                    index: parseInt(i)
+                });
+                gallery.init()
+            }
+        })
+    }
+    viewer_init()
+</script> 
+<!-- MathJax -->
+ <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+      tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+  });
+
+  MathJax.Hub.Queue(function() {
+      var all = MathJax.Hub.getAllJax(), i;
+      for(i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+      }
+  });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.6/unpacked/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+  var ayerConfig = {
+    mathjax: true,
+  };
+</script>
+
+<!-- Katex -->
+
+<!-- busuanzi  -->
+ 
+<script src="/js/busuanzi-2.3.pure.min.js"></script>
+ 
+<!-- ClickLove -->
+
+<!-- ClickBoom1 -->
+
+<!-- ClickBoom2 -->
+ 
+<script src="/js/clickBoom2.js"></script>
+ 
+<!-- CodeCopy -->
+ 
+<link rel="stylesheet" href="/css/clipboard.css">
+ <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+<script>
+  function wait(callback, seconds) {
+    var timelag = null;
+    timelag = window.setTimeout(callback, seconds);
+  }
+  !function (e, t, a) {
+    var initCopyCode = function(){
+      var copyHtml = '';
+      copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
+      copyHtml += '<i class="ri-file-copy-2-line"></i><span>COPY</span>';
+      copyHtml += '</button>';
+      $(".highlight .code pre").before(copyHtml);
+      $(".article pre code").before(copyHtml);
+      var clipboard = new ClipboardJS('.btn-copy', {
+        target: function(trigger) {
+          return trigger.nextElementSibling;
+        }
+      });
+      clipboard.on('success', function(e) {
+        let $btn = $(e.trigger);
+        $btn.addClass('copied');
+        let $icon = $($btn.find('i'));
+        $icon.removeClass('ri-file-copy-2-line');
+        $icon.addClass('ri-checkbox-circle-line');
+        let $span = $($btn.find('span'));
+        $span[0].innerText = 'COPIED';
+        
+        wait(function () { // 等待两秒钟后恢复
+          $icon.removeClass('ri-checkbox-circle-line');
+          $icon.addClass('ri-file-copy-2-line');
+          $span[0].innerText = 'COPY';
+        }, 2000);
+      });
+      clipboard.on('error', function(e) {
+        e.clearSelection();
+        let $btn = $(e.trigger);
+        $btn.addClass('copy-failed');
+        let $icon = $($btn.find('i'));
+        $icon.removeClass('ri-file-copy-2-line');
+        $icon.addClass('ri-time-line');
+        let $span = $($btn.find('span'));
+        $span[0].innerText = 'COPY FAILED';
+        
+        wait(function () { // 等待两秒钟后恢复
+          $icon.removeClass('ri-time-line');
+          $icon.addClass('ri-file-copy-2-line');
+          $span[0].innerText = 'COPY';
+        }, 2000);
+      });
+    }
+    initCopyCode();
+  }(window, document);
+</script>
+ 
+<!-- CanvasBackground -->
+
+<script>
+  if (window.mermaid) {
+    mermaid.initialize({ theme: "forest" });
+  }
+</script>
+
+
+    
+    
+
+  </div>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"PluginRootPath":"live2dw/","PluginJsPath":"lib/","PluginModePath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/assets/wanko.model.json"},"display":{"hOffset":10,"vOffset":-20,"superSample":2,"position":"right","width":150,"height":300},"mobile":{"show":true,"scale":1,"hHeadPos":0.5,"vHeadPos":0.618},"react":{"opacity":0.7,"opacityOnHover":0.2},"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/"});</script></body>
+
+</html>
