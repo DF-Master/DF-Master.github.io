@@ -13,7 +13,7 @@
         name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1"
       />
-      <title>分类 |  沙</title>
+      <title>Tutorial：轻松上手Tanglab数据库 |  沙</title>
   <meta name="generator" content="hexo-theme-ayer">
       
       <link rel="shortcut icon" href="/img/bridge.png" />
@@ -60,12 +60,266 @@
       
     <main class="content on">
       <section class="outer">
+  <article
+  id="post-202311DJANGO"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h1 class="article-title sea-center" style="border-left:0" itemprop="name">
+  Tutorial：轻松上手Tanglab数据库
+</h1>
+ 
+
+      
+    </header>
+     
+    <div class="article-meta">
+      <a href="/2023/11/17/202311DJANGO/" class="article-date">
+  <time datetime="2023-11-16T16:00:00.000Z" itemprop="datePublished">2023-11-17</time>
+</a> 
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/">服务器</a>
+  </div>
   
-    <h1 class="page-type-title">分类</h1>
-    <div class="categories-box">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/rd/">rd</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%85%9A/">党</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%A8%B1%E4%B9%90/">娱乐</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%AD%A6%E6%9C%AF/">学术</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%97%85%E8%A1%8C/">旅行</a><span class="category-list-count">22</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/">服务器</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%9D%82%E8%AE%B0/">杂记</a><span class="category-list-count">6</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%94%9F%E6%B4%BB/">生活</a><span class="category-list-count">4</span></li></ul>
+<div class="word_count">
+    <span class="post-time">
+        <span class="post-meta-item-icon">
+            <i class="ri-quill-pen-line"></i>
+            <span class="post-meta-item-text"> 字数统计:</span>
+            <span class="post-count">969</span>
+        </span>
+    </span>
+
+    <span class="post-time">
+        &nbsp; | &nbsp;
+        <span class="post-meta-item-icon">
+            <i class="ri-book-open-line"></i>
+            <span class="post-meta-item-text"> 阅读时长≈</span>
+            <span class="post-count">3 分钟</span>
+        </span>
+    </span>
+</div>
+ 
     </div>
+      
+    <div class="tocbot"></div>
+
+
+
+
   
+    <div class="article-entry" itemprop="articleBody">
+       
+  <blockquote>
+<p>本文面向Tanglab及其它小型团队的工作人员</p>
+</blockquote>
+<blockquote>
+<p>本文在一定程度上参考了<a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Learn/Server-side/Django/Admin_site">MDN Web Docs</a>，本系列教程旨在简化教学流程，并提供小型团队数据库搭建的思路。若希望更为全面地掌握Django及其它数据库知识，应阅读官方文档。</p>
+</blockquote>
+<blockquote>
+<p>本系列教程所需的预备知识（prerequisite）仅包括浏览器使用和基本数据逻辑</p>
+</blockquote>
+<hr>
+<span id="more"></span>
+
+
+<h2 id="1-背景介绍"><a href="#1-背景介绍" class="headerlink" title="1 背景介绍"></a>1 背景介绍</h2><ul>
+<li>以PKU-CCME为例，大部分课题组都具有数十人的团队规模，随着时间的积累和人员的流动，信息整理、查询成为团队管理的一大痛点。</li>
+<li>传统的excel虽然门槛低，但维护性差、结构简单；x-mol等平台虽然提供了相关的功能，但功能固定、跳转步骤多，且难以保证长期的安全性和稳定性。</li>
+<li><strong>Django 是一个高级的 Python 网络框架，可以快速网站——功能完备、内容泛用、安全可靠、扩展性强、维护性好、灵活通用，适合小型团队的信息管理。</strong></li>
+<li>在Tanglab中，我们利用django搭建试剂耗材数据库，通过在线查询、录入、登出功能记录试剂位置及其使用状况，并结合条码打印机、扫码器实现线上线下互通（O2O, Online To Offline）<ul>
+<li>此外，也可以通过django实现人员信息管理、课题组网站搭建等功能，此处便不详述</li>
+</ul>
+</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/main/2023/202311/202311DJANGO//202311DJANGO00.png" alt="默认的Django网页界面"></p>
+<hr>
+<h2 id="2-Tanglab数据库使用方法"><a href="#2-Tanglab数据库使用方法" class="headerlink" title="2 Tanglab数据库使用方法"></a>2 Tanglab数据库使用方法</h2><p>对一般用户，常用的使用场景包括：</p>
+<ul>
+<li>登陆（需要账号和密码）</li>
+<li>录入（需要相关信息，打印凭条）</li>
+<li>查询（只需关键字）</li>
+<li>登出（凭条扫码登出，或者搜索后手动登出）</li>
+</ul>
+<p>下面一一介绍上述使用场景</p>
+<h3 id="2-1-登陆管理页面"><a href="#2-1-登陆管理页面" class="headerlink" title="2.1 登陆管理页面"></a>2.1 登陆管理页面</h3><p>初次登录前，需要联系管理员开设账号，并设置staff status &#x3D; True</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/main/2023/202311/202311DJANGO//202311DJANGO01.png" alt="登陆界面"></p>
+<p>登陆后，会看到首页展示了主要的数据库内容，其结构如下：</p>
+<ul>
+<li>Reagent (试剂，表示一类试剂)<ul>
+<li>Chinese Name (中文名，只有一个)</li>
+<li>English Name (英文名，只有一个)</li>
+<li>Tags (标签，可有多个)</li>
+<li>Source (货源，也就是厂家，只有一个)</li>
+<li>Reagent Instance (试剂实例，可有多个，与每瓶试剂一一对应)<ul>
+<li>Location (摆放位置，只有一个)</li>
+<li>Principals (负责人，只有一个)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/main/2023/202311/202311DJANGO//202311DJANGO02.png" alt="主页中的CATALOG包含了所有数据库"></p>
+<h3 id="2-2-录入信息"><a href="#2-2-录入信息" class="headerlink" title="2.2 录入信息"></a>2.2 录入信息</h3><p>通常情况下，点击Reagent Instances边上的绿色加号“+”，就可以录入信息。</p>
+<ul>
+<li>对于关联的数据库，可以用搜索功能搜索现有数据库是否有匹配的条目，避免重复添加</li>
+<li>如果关联数据库中无相关条目，可以按绿色加号“+”，在弹窗中录入信息</li>
+<li>对于Tags数据库，可以左右拖动，增加多个Tag</li>
+<li>录入信息应尽量做到准确可靠</li>
+<li>完成后记录Reagent Instance ID, 在标签打印界面打印并粘贴</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/main/2023/202311/202311DJANGO//202311DJANGO03.png" alt="录入信息界面、弹窗界面和搜索功能"></p>
+<h3 id="2-3-检索信息"><a href="#2-3-检索信息" class="headerlink" title="2.3 检索信息"></a>2.3 检索信息</h3><ul>
+<li>通常情况下，可以在左上角搜索框内搜索相关信息，模式为”__icontain”，即只要包含相关字符即可</li>
+<li>右侧的筛选栏提供了信息的筛选功能，可以进一步细化条件</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/main/2023/202311/202311DJANGO//202311DJANGO04.png" alt="搜索信息界面"></p>
+<h3 id="2-4-登出信息"><a href="#2-4-登出信息" class="headerlink" title="2.4 登出信息"></a>2.4 登出信息</h3><ul>
+<li>样品用完后，应修改对应的reagents instance状态为“Run out”</li>
+<li>也可以使用扫码枪扫码或者在登出界面输入ID，自动登出（请注意确认页面上显示的ID与登出对象一致）</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/main/2023/202311/202311DJANGO//202311DJANGO05.png" alt="修改对象状态"></p>
+<hr>
+<h2 id="3-建立数据库"><a href="#3-建立数据库" class="headerlink" title="3 建立数据库"></a>3 建立数据库</h2><p>本项目完全参考<a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Learn/Server-side/Django/Admin_site">MDN Web Docs</a>和<a target="_blank" rel="noopener" href="https://www.djangoproject.com/">Django官方文档</a>，项目部署于内网服务器。从零开始建立服务器到实现应用约需1-3天，基本不需要python基础，欢迎感兴趣的同学自行尝试。</p>
+<p>如需数据多种格式的导入和导出，也可以依赖django-import-export插件简单实现。</p>
+ 
+      <!-- reward -->
+      
+      <div id="reword-out">
+        <div id="reward-btn">
+          打赏
+        </div>
+      </div>
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+<div class="share-btn">
+      <span class="share-sns share-outer">
+        <i class="ri-share-forward-line"></i>
+        分享
+      </span>
+      <div class="share-wrap">
+        <i class="arrow"></i>
+        <div class="share-icons">
+          
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="ri-weibo-fill"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="ri-wechat-fill"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="ri-qq-fill"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="ri-douban-line"></i>
+          </a>
+          <!-- <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a> -->
+          
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="ri-facebook-circle-fill"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="ri-twitter-fill"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="ri-google-fill"></i>
+          </a>
+        </div>
+      </div>
+</div>
+
+<div class="wx-share-modal">
+    <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://yidajiang.top/2023/11/17/202311DJANGO/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div id="share-mask"></div>  
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/" rel="tag">服务器</a></li></ul>
+
+    </footer>
+  </div>
+
+   
+  <nav class="article-nav">
+    
+    
+      <a href="/2023/11/12/2023BJLOG/" class="article-nav-link">
+        <strong class="article-nav-caption">下一篇</strong>
+        <div class="article-nav-title">醉京华：孤身寥落帝都梦</div>
+      </a>
+    
+  </nav>
+
+   
+<!-- valine评论 -->
+<div id="vcomments-box">
+  <div id="vcomments"></div>
+</div>
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js"></script>
+<script>
+  new Valine({
+    el: "#vcomments",
+    app_id: "HH054clEBSp3zPIVLhYS16ro-gzGzoHsz",
+    app_key: "Mwn90eOTeY4CYb4hhTD0hj2t",
+    path: window.location.pathname,
+    avatar: "monsterid",
+    placeholder: "给我的文章加点评论吧~",
+    recordIP: true,
+  });
+  const infoEle = document.querySelector("#vcomments .info");
+  if (infoEle && infoEle.childNodes && infoEle.childNodes.length > 0) {
+    infoEle.childNodes.forEach(function (item) {
+      item.parentNode.removeChild(item);
+    });
+  }
+</script>
+<style>
+  #vcomments-box {
+    padding: 5px 30px;
+  }
+
+  @media screen and (max-width: 800px) {
+    #vcomments-box {
+      padding: 5px 0px;
+    }
+  }
+
+  #vcomments-box #vcomments {
+    background-color: #fff;
+  }
+
+  .v .vlist .vcard .vh {
+    padding-right: 20px;
+  }
+
+  .v .vlist .vcard {
+    padding-left: 10px;
+  }
+</style>
+
+ 
+   
+     
+</article>
+
 </section>
       <footer class="footer">
   <div class="outer">
@@ -204,6 +458,22 @@
 <script src="/js/lazyload.min.js"></script>
 
 <!-- Tocbot -->
+ 
+<script src="/js/tocbot.min.js"></script>
+
+<script>
+  tocbot.init({
+    tocSelector: ".tocbot",
+    contentSelector: ".article-entry",
+    headingSelector: "h1, h2, h3, h4, h5, h6",
+    hasInnerContainers: true,
+    scrollSmooth: true,
+    scrollContainer: "main",
+    positionFixedSelector: ".tocbot",
+    positionFixedClass: "is-position-fixed",
+    fixedSidebarOffset: "auto",
+  });
+</script>
 
 <script src="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.2/jquery.modal.min.js"></script>
 <link
