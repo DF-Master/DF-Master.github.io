@@ -3,7 +3,7 @@
   <entry>
     <title>About Me</title>
     <url>/2024/09/10/about/</url>
-    <content><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script src="/assets/js/DPlayer.min.js"> </script><blockquote>
 <p>你就是你自己的神！</p>
 </blockquote>
 <span id="more"></span>
@@ -14,16 +14,19 @@
 <p>Wechat: <a href="https://img.imgdb.cn/item/602a8bea3ffa7d37b36ee8a8.png">Wechat QR Code</a></p>
 <p>QQ: <a href="https://img.imgdb.cn/item/602a8cdc3ffa7d37b36f4256.png">QQ QR code</a></p>
 <p>Twitter: <a href="https://twitter.com/DFMaster16">https://twitter.com/DFMaster16</a></p>
-<p>E-mail: <a href="mailto:&#106;&#x69;&#97;&#x6e;&#103;&#x79;&#x69;&#x64;&#x61;&#x40;&#x70;&#107;&#117;&#x2e;&#101;&#x64;&#x75;&#46;&#x63;&#110;">&#106;&#x69;&#97;&#x6e;&#103;&#x79;&#x69;&#x64;&#x61;&#x40;&#x70;&#107;&#117;&#x2e;&#101;&#x64;&#x75;&#46;&#x63;&#110;</a></p>
+<p>E-mail: <a href="mailto:&#x6a;&#105;&#x61;&#110;&#x67;&#x79;&#105;&#x64;&#x61;&#64;&#112;&#107;&#x75;&#46;&#101;&#100;&#x75;&#46;&#99;&#x6e;">&#x6a;&#105;&#x61;&#110;&#x67;&#x79;&#105;&#x64;&#x61;&#64;&#112;&#107;&#x75;&#46;&#101;&#100;&#x75;&#46;&#99;&#x6e;</a></p>
 <p>ORCID: <a href="https://orcid.org/0009-0000-0873-6272">0009-0000-0873-6272</a></p>
 <img src="https://img.imgdb.cn/item/602a90123ffa7d37b3703c03.jpg" alt="Yida Jiang" width="300" style="border-radius:10%"/>
 
-
 <hr>
-<h2 id="Publication"><a href="#Publication" class="headerlink" title="Publication"></a>Publication</h2><p>3   <strong>Yida Jiang</strong>, Xinghe Zhang, Honggang Nie, Jianxiong Fan, Shuangshuang Di, Hui Fu, Xiu Zhang, Lijuan Wang &amp; Chun Tang. (2024). Dissecting diazirine photo-reaction mechanism for protein residue-specific cross-linking and distance mapping. Nat Commun. 15, 6060. <a href="https://doi.org/10.1038/s41467-024-50315-y">https://doi.org/10.1038/s41467-024-50315-y</a></p>
-<p>2	Mateusz Leśniewski, Maciej Pyrka, Cezary Czaplewski, Nguyen Truong Co, <strong>Yida Jiang</strong>, Zhou Gong, Chun Tang, Adam Liwo. (2024). Assessment of Two Restraint Potentials for Coarse-Grained Chemical-Cross-Link-Assisted Modeling of Protein Structures. J. Chem. Inf. Model. 64, 4, 1377–1393. <a href="https://pubs.acs.org/doi/10.1021/acs.jcim.3c01890">https://pubs.acs.org/doi/10.1021/acs.jcim.3c01890</a>.</p>
-<p>1	<strong>Yida Jiang</strong>, Zhiwei Jiang, Bowen Qi, Bingchen Zhong, Jiang Bian. (2018). Application of Arrow-Pushing Method in the Redox Mechanism of High-Valence Metallic (Cr, Mn, Fe) Oxysalts. University Chemistry. 33. 105-110. 10.3866&#x2F;PKU.DXHX201801029.</p>
+<h2 id="Publication"><a href="#Publication" class="headerlink" title="Publication"></a>Publication</h2><p>3 <strong>Yida Jiang</strong>, Xinghe Zhang, Honggang Nie, Jianxiong Fan, Shuangshuang Di, Hui Fu, Xiu Zhang, Lijuan Wang &amp; Chun Tang. (2024). Dissecting diazirine photo-reaction mechanism for protein residue-specific cross-linking and distance mapping. Nat Commun. 15, 6060. <a href="https://doi.org/10.1038/s41467-024-50315-y">https://doi.org/10.1038/s41467-024-50315-y</a></p>
+<p>2 Mateusz Leśniewski, Maciej Pyrka, Cezary Czaplewski, Nguyen Truong Co, <strong>Yida Jiang</strong>, Zhou Gong, Chun Tang, Adam Liwo. (2024). Assessment of Two Restraint Potentials for Coarse-Grained Chemical-Cross-Link-Assisted Modeling of Protein Structures. J. Chem. Inf. Model. 64, 4, 1377–1393. <a href="https://pubs.acs.org/doi/10.1021/acs.jcim.3c01890">https://pubs.acs.org/doi/10.1021/acs.jcim.3c01890</a>.</p>
+<p>1 <strong>Yida Jiang</strong>, Zhiwei Jiang, Bowen Qi, Bingchen Zhong, Jiang Bian. (2018). Application of Arrow-Pushing Method in the Redox Mechanism of High-Valence Metallic (Cr, Mn, Fe) Oxysalts. University Chemistry. 33. 105-110. 10.3866&#x2F;PKU.DXHX201801029.</p>
+<h2 id="Patents"><a href="#Patents" class="headerlink" title="Patents"></a>Patents</h2><p>1 多维在线光反应监测系统，实用新型专利，唐淳，<strong>江意达</strong>，聂洪港，CN 222482167 U</p>
 ]]></content>
+      <tags>
+        <tag>about</tag>
+      </tags>
   </entry>
   <entry>
     <title>主要活动与兴趣爱好</title>
@@ -91,14 +94,13 @@
   <entry>
     <title>个人简介</title>
     <url>/2022/01/01/cv/</url>
-    <content><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="主要学习经历"><a href="#主要学习经历" class="headerlink" title="主要学习经历"></a>主要学习经历</h2><ul>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script src="/assets/js/DPlayer.min.js"> </script><h2 id="主要学习经历"><a href="#主要学习经历" class="headerlink" title="主要学习经历"></a>主要学习经历</h2><ul>
 <li>201109-201407 杭州育才中学</li>
 <li>201409-201707 杭州学军中学（保送）</li>
 <li>201709-202107 北京大学 化学与分子工程学院（降分预录取）</li>
 <li>202109- 北京大学 化学与分子工程学院 直博 - 唐淳老师课题组</li>
 </ul>
 <span id="more"></span>
-
 
 <h2 id="主要奖励、荣誉"><a href="#主要奖励、荣誉" class="headerlink" title="主要奖励、荣誉"></a>主要奖励、荣誉</h2><ul>
 <li>2015 全国中学生化学竞赛 一等奖</li>
@@ -109,7 +111,7 @@
 <li>2019 社会工作奖</li>
 <li>2019 <strong>国家奖学金</strong></li>
 <li>2019 北京大学优秀学生干部奖</li>
-<li>2020 第一届全国大学生化学实验创新设计竞赛1等奖</li>
+<li>2020 第一届全国大学生化学实验创新设计竞赛 1 等奖</li>
 <li>2020 北大奖学金</li>
 <li>2020 万华奖学金</li>
 <li>2020 学生工作奖</li>
@@ -121,7 +123,8 @@
 <li>2021 北京大学化学与分子工程学院 感谢状提名</li>
 <li>2021 北京大学化学与分子工程学院“HONOR STUDENT”荣誉学位获得者</li>
 <li>2024 <strong>国家奖学金</strong></li>
-<li>2024 <strong>国家自然科学基金青年学生基础研究项目（博士研究生）</strong>   获批</li>
+<li>2024 <strong>国家自然科学基金青年学生基础研究项目（博士研究生）</strong> 获得者</li>
+<li>2025 北京大学校长奖学金</li>
 </ul>
 <h2 id="主要学生工作"><a href="#主要学生工作" class="headerlink" title="主要学生工作"></a>主要学生工作</h2><ul>
 <li>2014-2015 学军中学古典诗词与哲学社 社长</li>
@@ -129,7 +132,7 @@
 <li>2017-2018 北京大学化学与分子工程学院 生活部干事</li>
 <li>2017 “四十华章，华梦起航” 北大代表</li>
 <li>2018 北京大学化学与分子工程学院分析小班 助教</li>
-<li>2018-2021 北京大学化学与分子工程学院 2017级本科四班班长</li>
+<li>2018-2021 北京大学化学与分子工程学院 2017 级本科四班班长</li>
 <li>2018 北京大学化学与分子工程学院 生活部部长</li>
 <li>2018-2019 䇹政基金志愿者、北京大学 新生训练营辅导员</li>
 <li>2019-2020 北京大学化学与分子工程学院 常代会副会长</li>
@@ -138,17 +141,764 @@
 </ul>
 <h2 id="党支部经历"><a href="#党支部经历" class="headerlink" title="党支部经历"></a>党支部经历</h2><ul>
 <li>20181206 申请入党</li>
-<li>2020.9 - 2021.7 北京大学与化学分子工程学院2017级本科生党支部 支部书记</li>
-<li>2021.9 - 2022.7 北京大学与化学分子工程学院2021级研究生党支部 支部书记</li>
-<li>2022.9 - 2023.7 北京大学与化学分子工程学院2021级研究生党支部第一支部 支部书记</li>
-<li>2023.9 - 2024.7 北京大学与化学分子工程学院2021级研究生党支部第一支部 支部书记</li>
+<li>2020.9 - 2021.7 北京大学与化学分子工程学院 2017 级本科生党支部 支部书记</li>
+<li>2021.9 - 2022.7 北京大学与化学分子工程学院 2021 级研究生党支部 支部书记</li>
+<li>2022.9 - 2023.7 北京大学与化学分子工程学院 2021 级研究生党支部第一支部 支部书记</li>
+<li>2023.9 - 2024.7 北京大学与化学分子工程学院 2021 级研究生党支部第一支部 支部书记</li>
+<li>2024.9 - 2025.7 北京大学与化学分子工程学院理论-物理化学学生党支部 支部书记</li>
 </ul>
 <h2 id="学术报告"><a href="#学术报告" class="headerlink" title="学术报告"></a>学术报告</h2><ul>
-<li>2024.11 中国化学会第八届全国生物物理化学大会  青年报告：最佳报告奖</li>
-<li>清华-北大“研途化语”联合学术活动    北京大学报告代表</li>
-<li>北京大学化学与分子工程学院午间论坛    受邀分享</li>
+<li>2024.11 中国化学会第八届全国生物物理化学大会 青年报告：最佳报告奖</li>
+<li>清华-北大“研途化语”联合学术活动 北京大学报告代表</li>
+<li>北京大学化学与分子工程学院午间论坛 受邀分享</li>
 </ul>
 ]]></content>
+  </entry>
+  <entry>
+    <title>夯爆了：此生必环千岛湖</title>
+    <url>/2026/04/08/2026QIANDAO/</url>
+    <content><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
+<p>乱花渐欲迷人眼，浅草才能没马蹄。最爱湖东行不足，绿杨阴里白沙堤。</p>
+</blockquote>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026QIANDAO/2026QIANDAO00.jpg" alt="清明节，是江南最美的时节"></p>
+<hr>
+<span id="more"></span>
+
+<h2 id="序·相见欢"><a href="#序·相见欢" class="headerlink" title="序·相见欢"></a>序·相见欢</h2><p>走出千岛湖高铁站的一刹，我便知道这难买的假日车票、特种兵的行程、一路背车的辛苦，全都值得。</p>
+<p>盈盈的香风扑面拥来。空气中无纤毫的杂质，只有湿润的“农夫山泉”的气息，预告百米外便是百万亩清澄湖水。脱离北京圆柏花粉的酷刑，挣脱出车包的桎梏，公路车像是无缰的宝马，一瞬跃上坦荡开阔的环湖路——放眼望去，是无尽的江南。</p>
+<p>远山如黛，浩水如烟。夕阳在天然的淡色水墨画上染上一片残红。想要驻足观览，却停不下掠过发际和肩胛的春风。风中满溢着油菜花海的香甜味。柏油路上樱花如雨般散落，紫藤萝沉甸甸地低垂。间杂着归巢的鸟啾，是伴飞的白鹭。</p>
+<p>远村如月，流车如星。精装铺设的塑胶和柏油路面，比国道更开阔，比赛段更平整。停不下来，根本停不下来。</p>
+<p>如果不再兴奋于长途，那定是还没有来过千岛湖；如果习惯了北京的风沙，那定是忘却了江南的繁花。只有千岛湖，尤其是清明之春的千岛湖，我才愿称之为骑行体验的巅峰，“此生必骑”的终点。所幸，我得到了补完。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026QIANDAO/2026QIANDAO01.jpg" alt="千岛湖，唯有千岛湖；唯有清明的千岛湖，才是究极的骑行终途"></p>
+<hr>
+<h2 id="壹·清明时节"><a href="#壹·清明时节" class="headerlink" title="壹·清明时节"></a>壹·清明时节</h2><p>“好雨知时节，当春乃发生。” 江南的春天可称绝美，虽说“天街小雨润如酥”的温柔细雨也是不错的体验，但毕竟是骑行的苦恼。好在今年的天气当真不错——前后数日都是绝佳的天气，温度合适，不冷也不热，穿一件单衣就正好。烦人的蚊子尚未出没，恼人的杨絮也还没有发力，黄梅季更是遥远。四月上旬的晚春，正是完美的骑行黄金时间。</p>
+<p>令人垂涎的，是春天的味道。在北京呆的太久，以至于都有些麻木了；直到看到油菜花海时，真是有种想哭出来的感动。蜜蜂在花丛中辛勤的采蜜；远方行车人在花海中时隐时现，像是波浪中漂浮的小舟；花田后的民居隐隐透出够人馋虫的烹饪香味。是香椿，是春笋，还是菜籽油炒起的野菜与米粉？总之，都是在北京无从寻觅的、时令的味道。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026QIANDAO/2026QIANDAO02.jpg" alt="沿途遍布的油菜花海，装满了风，带来春天的气息"></p>
+<p>如果要比基建，那千岛湖才是城市，北京更像是大农村；如果要比物价，北京又成了大城市病的患者，千岛湖依旧过着农村生活：环湖路上，随便找一家管子，140 元足够四个青年骑者吃到撑，而且还是实打实的硬菜：大锅腌笃鲜、一斤多毛豆腐、一盆咸肉炖豆节、还有大盘韭芽炒鸡蛋。所有的菜都是冰箱里面食材现场选、现场做，毫无预制。大可乐五元一大桶，大农夫山泉 3 元 1 升，米饭随便吃。老板说别介意我们这里是农村，我们说别别别您这才是城里，我们才是真正没见过世面的“乡下人”。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026QIANDAO/2026QIANDAO03.jpg" alt="一整盆咸肉炖豆节，鲜到舌头都要掉了"></p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026QIANDAO/2026QIANDAO04.jpg" alt="一大盘毛豆腐，点的时候我以为只有一半不到的量"></p>
+<p>四月上旬的千岛湖，是无限的花海。城里的行道树是樱花和海棠；紫藤萝野性地在乡间生长；在无人问津的小角落，雪白的绣球早已如粉如堆；湖畔的浅滩上，是一眼望不尽的野草和野花。更别说那满山遍野的油菜、花枝乱颤的迎春，招蜂引蝶，好不热闹！花海边上配有不同的站点：既有公交车站、自驾车的停车点，也有自行车、摩托车的驿站，房车的营地，甚至有直升机的停机坪。山坡上来回运输的无人机，和田里劳作的婆婆们相映成趣。即便在节假日，也不显拥挤：千岛湖实在是太大了，处处是风景，张张皆出片，根本不需要人挤人。而这一切，完全是免费的。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026QIANDAO/2026QIANDAO05.jpg" alt="挖掘机，连你也要来徜徉花海吗？"></p>
+<h2 id=""><a href="#" class="headerlink" title=""></a><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026QIANDAO/2026QIANDAO06.jpg" alt="谁家油菜花田有直升机停机坪啊？"></h2><h2 id="贰·饮马湖畔"><a href="#贰·饮马湖畔" class="headerlink" title="贰·饮马湖畔"></a>贰·饮马湖畔</h2><p>千岛湖骑行道是我见过最厉害的骑行道：全长 140 公里，路况极佳，道路宽敞，路面平整，不存在施工中断；大部分路段俯仰便是湖水，视野开阔；指引充分，补给密集，连续不断的城市和乡村，夹着几公里一个的驿站、党群服务中心和乡间集市。更何况，在杭州，车让人是人尽皆知的规矩。最大的危险反而来自于自身：路况太好容易麻痹神经，以至于神游天外，而忘记了骑车本身。骑车不观景，观景不骑车！</p>
+<p>这次带来环湖的爱车斯特拉 93，也是我入门公路骑行的老将了。两年多时间，它已经带着我穿越了超过 8000 公里，也是功德圆满，承载了太多它所不应承载的风、霜、雨、雪。今年换车之后，给它大保养了一番，焕然一新，瞬间又变回了“新车”。在把它放回家之前，我也准备给他一个特别的“退役典礼”，便是这千岛湖之行。同行的车友不少也用的也是斯特拉 93，作为如今的绝版品，纵然装备朴素，纵然廉颇老矣，它依然人车一体、驰骋于野，全程基本只有它超越人的时间，又怎会轻易被他人所超越？</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026QIANDAO/2026QIANDAO07.jpg" alt="爱车斯特拉93，既是我的公路入门单车，也是我两年以来无数日夜的伴侣"></p>
+<p>“一个人走得更快，但一群人走得更远。”在湖畔，像我们这样多人的车队相对少见；能够轮流破风，也让我们得以刷新全新的记录。对我而言，不但作为破风车完成了小时级的三十码巡航，还在五个半小时内用均速 26 码的速度完成了 140 公里的环湖之旅，并额外完成了 850 余米的爬升。虽然比起严肃骑者，这样的成绩并不亮眼，但于我而言，这已是重大突破：要知道去天津，我们可是 160km 平路连休息花了九个多小时呢！此外，和伙伴共同见证新的风景、探索新的道路、创造新的记录的经历，才是我最开心、最无可取代的宝藏。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026QIANDAO/2026QIANDAO08.jpg" alt="团队骑行还有一点好，就是整个团队可以分享装备，例如备胎"></p>
+<p>千岛湖足够宽广，容得下形形色色的快乐：既有带娃出行的家庭团，也有小红书精美打卡的全妆骑手；既有租车体验的“休闲玩家”，也有带车自驾的“熟练行者”；既有组团带妹的“夫妻档”，也有严肃硬核竞速的“独行侠”。在一步一景的完满美境，骑行，让感受美好更简单。</p>
+<p>杭州作为骑行友好城市，在骑行服务上做的还是相当到位的：无论是沿途的公共设施，还是工作人员的服务态度，都能感受到友善、专业和热情。即便如此，上高铁还是要给车打包的：而且鉴于车友实在太多，“抢车位”也颇为棘手。另外，高铁站到淳安城区还有 20 公里，也就是环湖的实际里程是 180 公里。如此风景，多走一段又何妨？</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026QIANDAO/2026QIANDAO09.jpg" alt="向星晨许愿，千岛湖再见"></p>
+<hr>
+<h2 id="尾声·别离难"><a href="#尾声·别离难" class="headerlink" title="尾声·别离难"></a>尾声·别离难</h2><p>回到北京，再次感受到熟悉的干燥、熟悉的花粉、熟悉的灰尘，环湖宛如一场梦，而我已醒来。</p>
+<p>在北京最难的日子早已过去，花粉即将结束。习惯了的生活也没有那么苦涩。只是油菜的香、湿润的风、飘落的花，还会带来一丝熟悉的悸动。</p>
+<p>颤动的是不甘老去的疯狂，也是对无垠落尘的反抗。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026QIANDAO/2026QIANDAO10.jpg" alt="还如一梦中"></p>
+]]></content>
+      <categories>
+        <category>旅行</category>
+      </categories>
+      <tags>
+        <tag>旅行</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>年余随感：站在三十岁的门槛上</title>
+    <url>/2026/03/09/2026CHINESENEWYEAR/</url>
+    <content><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
+<p>似此星辰非昨夜，为谁风露立中宵。</p>
+</blockquote>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026CHINESENEWYEAR/2026CHINESENEWYEAR00.jpg" alt="而立之年，方感人生苦短"></p>
+<hr>
+<span id="more"></span>
+
+<h2 id="序"><a href="#序" class="headerlink" title="序"></a>序</h2><p>距离高考已有十年了，我依然时不时地会梦见高中的场景。有时候是压力爆表的高考准备，有时候风舞咏归的青葱萌芽，春花秋月何时了，往事知多少。只有枕衾湿润时，才惊醒这些都是十年前的事了。</p>
+<p>盥洗的时候看到沾灰的镜子、陌生的皮肤和憔悴的眼色，我的生活终不似少年游。不知道有多久，我只思考“我应该做什么”，而不再去思考“我想去做什么”了。甚至听到弟弟天马行空的幻想，我还本能地厌烦，然后一遍又一遍告诉他这些事“无法实现”。可是我还是给他买了我最喜欢的《哆啦 A 梦》，那是我一切幻想的启蒙、想象力的源泉。青春太远，童年已无从追忆，可我终究还是眷慕着五光十色、天马行空的岁月。</p>
+<p>原来，我就要三十岁了。</p>
+<p>人生的黄金年代是很短的。就像高考把人的青春压缩到了那短短三年内的课间间隙，我真正属于自己的科研之路，也不过是“三十多岁”的这几年。可我还完全没有准备好：我能做一个好的博士后吗？我准备好做一个科学家了吗？我能组建一个可靠的新家庭吗？没有答案。</p>
+<p>时间会给出答案。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026CHINESENEWYEAR/2026CHINESENEWYEAR01.jpg" alt="此情可待成追忆，只是当时已惘然"></p>
+<hr>
+<h2 id="壹·行万里路"><a href="#壹·行万里路" class="headerlink" title="壹·行万里路"></a>壹·行万里路</h2><p>自从北京入冬以后就没有了先前的每日一练，身体也不由得发福了许多，各种衰老的信号也不由得不体验了。于是趁着南方过年稍微还有些温度，赶紧抽空去锻炼锻炼。</p>
+<p>“读万卷书，行万里路。”如果放在几年前，我肯定还是认为读万卷书更重要；但到如今，我只觉得行万里路才是人的底色。毕竟人类再怎么努力读书也不再能够超越 AI，但在具身智能赋予 AI 深度体验世界的权利前，行万里路算得上是人类历经千万年进化和文明发展后的超级特权。在 2026 年，我开始喜欢那些源于基因的快乐：登高望远、驱驰沐风。这些快乐是老祖宗“灌顶”给我们的，只要我们身为人类，我们就可以追求它们，并利用他们进化和改造我们自身。</p>
+<p>年前，又和我哥去爬了一次杭州西湖标毅线。二次登临，路线已经摹进了潜意识，但也失去了初见的兴奋感。计算时间，甚至没比去年快上多少，完全看不出过去一年的锻炼成效。也许也是基因的原因，比起北京沙土和石子组成的山道，南方树根和软泥构成的崎路反而更得我心。沿途过龙井、瞰西湖、望钱塘、穿吴山，也比北京“纯走”的体验丰富得多。只是我已然失去了“冒险”的心态，一味地功利地检查心率、计算时间，最后也鲜有收效。这倒也和工作差不多，只要开卷，那就很难再乐在其中了。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026CHINESENEWYEAR/2026CHINESENEWYEAR02.jpg" alt="标毅线随摄"></p>
+<p>虽然和去年比进步甚微，不过和家里的亲戚比，身体素质也还是好上了不少。年后去了上了央视的“陈家铺”，全程徒步下来，竟然不甚费力。不过我们开始如日中天，也说明长辈开始日薄西山了。也不知十年之后，又当如何。 20 元，而且栏杆低得像是在野生动物园，不乏“潜逃”的鸟禽和“打野”的松鼠，直接大摇大摆地在人行道上漫步。相比收我 100 多元、只可远观大批量人类幼崽的北京动物园，真可谓天上地下。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026CHINESENEWYEAR/2026CHINESENEWYEAR03.jpg" alt="“陈家铺”随摄，全程爬山涉水，挺好玩的"></p>
+<p>除了爬山，我还是忘不掉最爱的骑行。今年挑战了一下年初一往返绍兴，全程大约是 100 多公里，用老爷车也算是 7 小时不到完成了。浙江的路况还是太好，全程都是平坦的铺装道路，既不缺少沿途补给，乡间景色也别有风趣。美中不足的是城市内的红绿灯实在太多，加上大年初一夸张的人流量，在绍兴城内算是被堵了一个水泄不通。考虑到绍兴如今也是通上地铁了，以后如果带上折叠车，确实可以常去。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026CHINESENEWYEAR/2026CHINESENEWYEAR04.jpg" alt="绍兴十碗头，量可真是不小，需要全家出动"></p>
+<p>除了绍兴，也骑行探索了一下湘湖。小时候，我觉得西湖很远；高中的时候，我觉得湘湖很远。如今看来，即便是绍兴的瓜渚湖，也算不上太远了。湘湖作为 5A 级景区，在基础建设起来之后，是好看且耐逛了不少。骑车有绿道环湖线路，爬山有环湘湖标毅线，徒步也能穿过各处的风景名胜，甚至还有热心红娘在景区现场配对，比起西湖更有人烟味。风景固然没法和西湖相比，但比起北京，也算得上是天堂人间了。小时候不懂“上有天堂，下有苏杭”，也听不懂杭州的市歌“我们的家，住在天堂，碧绿的湖水荡漾着美丽的梦想”；长大了才知道，这种风景真不是遍地都是，更不是免费就能看到的。</p>
+<p>那在北京的这几年过后，我还能回来吗？我给不出答案。曾经的同学有人毕业后去援疆、援藏，作为剪不断故乡脐带的巨婴，我是相当钦佩的。时代的浪潮滚滚向前，浪花中的小石子最后落在哪里，没有人知道。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026CHINESENEWYEAR/2026CHINESENEWYEAR05.jpg" alt="湘湖美术馆人少且安静，比起西湖显得闲逸不少"></p>
+<hr>
+<h2 id="贰·书中岁月"><a href="#贰·书中岁月" class="headerlink" title="贰·书中岁月"></a>贰·书中岁月</h2><p>过年的日子例行是要见朋友见同学的。粗粗算算，每次回家，我想见或应该见的人至少也有好几十人，自然不可能次次都碰面。于是乎多年后见面时，十多年没见的发小突然成了富二代还生了两个娃，或者是一起玩大富翁长大的好友突然就成了炒币膏手，抑或是曾经憧憬的对象变成了顾左右而言他的拘束模样，凡此种种，不一而足，给了我极大的震撼。</p>
+<p>更大的震撼还是回家和父母聊起时，听到从来没听说过的故友往事。比如某某的家庭曾经是文革年间被打倒的“臭老九”，家学渊源深厚，所以如今东山再起并非怪事；再比如某某的家庭其实是改革开放年间的高知出身，只是下海不顺，才成了现下模样；再比如某某的父亲其实是上市公司的老总。作为从小玩到大、成年后才分开的朋友，这种见闻也让我颇感恍惚：所以我们一起玩了这么多年，我竟对这些一无所知！但思来想去，小时候一切“奇怪”之处好像又都有了解释：这些“不同”之处，不少是我长大很久之后才察觉到的。</p>
+<p>唉，我父母怎么就不能在我成年的时候告诉我，其实我也是个富二代呢？XD</p>
+<p>好在高中同学会是最给人以安全感的。经过层层筛选，高中同学都已经是各方面颇为接近的群体，因此时过境迁，每个人的轨迹都还是稳定得令人安心：至少没有人突然变成了富二代，大家都是用自己的方式好好地努力着。本来我以为今年只是一个普通的同学会，没想到我们的整活能力还是太过非同凡响：茶馆闲叙毕，我们临时起意，决定去攀登高达 70,000 毫米的宝石山，竟然还有人能在此期间体力透支、心率飙到 178，也算是令我大开眼界。不过时隔十多年重登宝石山，熟悉的路线竟显得颇为陌生；领队是曾经的“钾肥”、如今的“准马拉松运动员”“钾瘦”，在气质上说是刮目相待也不为过。看来户外运动真的有用，得多练。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026CHINESENEWYEAR/2026CHINESENEWYEAR06.jpg" alt="登顶宝石山，太美丽啦保俶塔"></p>
+<p>鲁迅先生说：“中国人向来是喜欢折衷的。”如果从一开始说要从西湖东南角走到学军中学，肯定是没人答应的；可如果说从西湖走到湖滨，再从湖滨走到宝石山，从宝石山翻到浙江图书馆，从浙江图书馆去重温杭州大学，再从杭州大学去学军中学，每一段都合情合理，即便是体力最差的同学也没法拒绝了。到晚上的时候连我也不禁怀疑这次同学会的活是否太多太密了——不过活多点也是好事，这样年年大家都想来。既然坚持了十年，我相信今后也应该能继续坚持下去。 月正是海鸥启程回家的时间，能看到不同皮肤，也算是赶上了好时候。也怪不得他们如此急着吃饱。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026CHINESENEWYEAR/2026CHINESENEWYEAR07.jpg" alt="作为学军中学毕业生，胖子烧饼的老板才是真正的学校带盐人"></p>
+<hr>
+<h2 id="尾声"><a href="#尾声" class="headerlink" title="尾声"></a>尾声</h2><p>岁岁年年花相似，年年岁岁人不同。</p>
+<p>如今我才知，山是山，水是水，但山无尽，水无穷，世界太大，我看不完它。</p>
+<p>人生很有限，需要去做的事很多，但过年让我停了下来，问问自己究竟想做什么事。我想多去看看这个世界，从一个狭隘的、普通人的视角，去看这花花世界变化。</p>
+<p>时代巨浪中的一粒沙，也足以见证巍巍石崖所无法想象的精彩。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026CHINESENEWYEAR/2026CHINESENEWYEAR08.jpg" alt="一花一世界，一草一春秋"></p>
+]]></content>
+      <categories>
+        <category>杂记</category>
+      </categories>
+      <tags>
+        <tag>杂记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>妖精之森：初见昆明</title>
+    <url>/2026/03/05/2026KUNMING/</url>
+    <content><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
+<p>行到水穷处，坐看云起时。偶然值林叟，谈笑无还期。</p>
+</blockquote>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026KUNMING/2026KUNMING00.jpg" alt="花都春城，偏安幸福的生灵们"></p>
+<hr>
+<span id="more"></span>
+
+<h2 id="序"><a href="#序" class="headerlink" title="序"></a>序</h2><p>2026 年初互联网流行着“长生种与短生种”的讨论，于是便有了“中国人简直像是精灵”的评语。在龙与地下城的世界观下，这还真有几分相近：精灵历史悠久、长生茹素，拥有外人难以理解的古老魔法和语言，还有很多背叛族群的“黑暗精灵”。不过，用固有印象刻画 14 亿人口，终究是管中窥豹；但若是想给这一洞见以深刻的注解，我想没什么比昆明之行再好不过了。</p>
+<p>坐落云南的昆明，坐拥低纬度的气候和高海拔的阳光，造就的四季如春的温暖气候；适宜的雨水滋生森林中的红伞伞、白杆杆，昼夜悬殊的温差养育亚洲最大的花卉市场；远离中原的纷争保存千余年的古迹，古老的文明传承在近代孕育革命的火种……在户户种花、家家营翠的村落中，若是有精灵飞出，我也不会觉得奇怪的——只要不是我菌子吃多了，那“妖精之森”的入口便在这里，也只能在这里。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026KUNMING/2026KUNMING01.jpg" alt="水漾樱雨白，山漫海棠红"></p>
+<hr>
+<h2 id="壹·悠悠往事"><a href="#壹·悠悠往事" class="headerlink" title="壹·悠悠往事"></a>壹·悠悠往事</h2><blockquote>
+<p>昆明不需要教会别人历史，昆明本身就是历史。</p>
+</blockquote>
+<p>当我惊讶于昆明的草莓十元钱一斤时，更震惊的是它竟然是公斤：抗日战争的滇缅运输和早期外贸让它早早地接轨国际，斤(500 g)变成了公斤(1000 g)，两(50 g)也就变成了市两(100 g)。路上的老人和孩子会穿着过去只在电视上见过的民族服装，因为今天的云南有三分之一都是少数民族，更有 15 个独有民族。而如今，山高路也不再远，33 万平方千米的山地已成通途。圆通寺内截然不同的建筑风格轮番出现，原来是大乘佛教、上座部佛教和藏传佛教三派的共演；而党旗于其上高高飘扬，聆听从元代至后现代的禅声回响。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026KUNMING/2026KUNMING02.jpg" alt="圆通寺一景，白莲映经幡"></p>
+<p>在人类主宰这里前，这里就已经是动物们的乐土了。西伯利亚的海鸥来此过冬，待春阳渐暖再返回北方交配；本地的绿孔雀像走地鸡一样漫步和啼鸣；亚洲象用长鼻掀起一地的沙尘沐浴身体；犀牛在池塘里打完滚，在泥地上懒懒地晒太阳。昆明动物园中的所见让我对历史书中的西南物产才有了真切的体会，那些进贡的犀角孔雀并非空穴来风。动物们从容自如、憨态可掬，仿佛说着这里才是他们从古至今的家园。震撼的是，昆明动物园的门票不但只需 20 元，而且栏杆低得像是在野生动物园，不乏“潜逃”的鸟禽和“打野”的松鼠，直接大摇大摆地在人行道上漫步。相比收我 100 多元、只可远观大批量人类幼崽的北京动物园，真可谓天上地下。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026KUNMING/2026KUNMING03.jpg" alt="昆明动物园承包了一整座圆通山，既是动物园又是植物园，还是游乐园和老年人聚集的公园，超级耐逛"></p>
+<p>作为汉地十八省，昆明的历史也足够厚重。幻梦往昔，它是段誉的快乐老家，“六脉神剑”的发源地；行至近代，它送走了“冲冠一怒为红颜”的吴三桂，崛起了“张大麻子”的精神导师蔡锷；黎明时分，它诞生了“黄埔军校的母校”云南陆军讲武堂，又庇护了“仙之人兮列如麻”的西南联大。如今，滇缅铁路的旧址依然人头攒动，只是如今的云南已不再是海外援助的汇集地，而成了中国边陲的重要商业节点。螺蛳湾国际商贸城人山人海，斗南花市摩肩接踵，一片新时代新气象。</p>
+<p>四天时间，我去了两次斗南花卉市场，这个年逾四十的市场，算得上观察昆明这座“老而不僵”的城市的一个绝佳切口。编织传统花环的老人的头顶，是密密麻麻的电子商户二维码和收款条码；在人海中艰难推车的市场工人，路过十多米就有一个鲜花快递网点；古色古香的盆栽花瓶边上，是充满视觉刺激的新型鲜花工业制品——各种长生花、不死花，还有包装精致的壁画和水晶球；市场外是摆摊叫卖的零售广场和杂乱无章的电动车停放点，市场后则是制服着装的政企人员和二维码涂装的鲜花速运卡车。当我用六元就买到一大捧多头玫瑰的时候，我确实感受到了沉甸甸的幸福。在这种随便插地都能种活的土地上，老天的确给云南人民赏饭吃；但也亏得是勤劳的云南人民能接住这口饭，让我们这些“偏远”的海边人也能感受得到他们日常的绚烂而瑰奇的想象。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026KUNMING/2026KUNMING04.jpg" alt="斗南市场的鲜花，统统“不要钱”"></p>
+<hr>
+<h2 id="贰·浩浩滇水"><a href="#贰·浩浩滇水" class="headerlink" title="贰·浩浩滇水"></a>贰·浩浩滇水</h2><blockquote>
+<p>在昆明，甚至还可以看海。</p>
+</blockquote>
+<p>看海可不是什么玩笑。作为中国第六大淡水湖，滇池得有大半个千岛湖大，环一圈也得接近 150 公里。它的名字也带“海”，泥沙淤积的海埂大坝，将滇池分为北部的“草海”和南部的“外海”。它甚至还长“海草”，这些“淡水海草”，诸如海菜、水蕨菜，真就是我们这些“咸水海”居民想象不到的风味。它最著名的风景之一看海鸥，即便是西伯利亚海鸥，但都有海鸥了，还能不叫看海吗？</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026KUNMING/2026KUNMING05.jpg" alt="走，去码头整点薯条！"></p>
+<p>作为一个骑行爱好者，看到“绿道”“环湖”，我便走不动道了。于是一个电话打到电动车租赁行——你说能不能带人？啊，我们昆明全都能带人的，你要是敢，带上全家也行；你说要不要戴头盔？啊没事，我们这边没人管的——不愧是西南之地，云南还是太自由了。老板娘唯一的叮嘱是：环湖前记得带点盼盼面包！原来昆明的海鸥是中国胃，不吃薯条了啊 🤔。</p>
+<p>昆明的海鸥非常有边界感，会和人类保持一定距离，就算是投喂也会一击脱离，或者盘旋在饲主周围催促出餐，而不是张口就抢。不得不说，鸟类作为直肠子，海鸥空中抛屎还是很常见的；但昆明的海鸥似乎比较有素质，没见过淋在人头顶的，倒是女朋友非常不幸，被海鸥淋在了鞋子上。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026KUNMING/2026KUNMING06.jpg" alt="咕咕？嘎嘎！"></p>
+<p>一开始我还很奇怪：为什么海鸥有的是白头，有的是斑点，有的是黑头？后来才知道，这个黑头是他们回家“成亲”的“黑头纱”，也就是换了黑头之后，海鸥就该回西伯利亚去了。虽然昆明的鸟类着实很丰富，但这些不同花纹的海鸥，其实还是一个物种。3 月正是海鸥启程回家的时间，能看到不同皮肤，也算是赶上了好时候。也怪不得他们如此急着吃饱。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026KUNMING/2026KUNMING07.jpg" alt="我还是更喜欢黑头一些，呆呆的很可爱"></p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026KUNMING/2026KUNMING08.jpg" alt="一抬手便有数十只鸟盘旋在身侧——这种举手间皆是千羽百翼的景象，真不似在人间。"></p>
+<p>当然，就像西湖可以逛上七天七夜一般，滇池的好玩也不可能局限在海鸥上——虽然光是观鸟，恐怕消磨个一天也是不足够的。滇池边上有环滇池的绿道，而绿道又穿越一个又一个的湿地保护公园。公园外车水马龙，公园内湖光山色，更有海鸥以外的诸多“限时出没”鸟禽啼啾，正是应了那句“绿水青山就是金山银山”。也难怪我身边的云南人都更愿意留在家乡——有这样取之不尽、用之不竭、一毫不取的水上清风、山间明月，还有山珍湖味相伴，谁不愿留在家乡呢？</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026KUNMING/2026KUNMING09.jpg" alt="湿地公园的景色是在北京可以卖高价门票的程度，不仅全免费，里面还是平价消费"></p>
+<p>可惜，因为种种原因，我最终还是未能还完一整圈的滇池。美好的旅行总是留有遗憾，我想下次我还会再来的，也许届时，我可以用自行车一日环完滇池，览尽这绝世风光。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026KUNMING/2026KUNMING10.jpg" alt="段誉啊段誉，你过得真爽啊"></p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026KUNMING/2026KUNMING11.jpg" alt="环滇池时候吃的猫猫草莓"></p>
+<hr>
+<h2 id="叁·遥遥西山"><a href="#叁·遥遥西山" class="headerlink" title="叁·遥遥西山"></a>叁·遥遥西山</h2><blockquote>
+<p>云南，真是户外圣地。</p>
+</blockquote>
+<p>昆明的西山算是我很早就想去的一个地方。久仰滇池和龙门的大名，春节又吃了太多，总觉得得爬一爬，才对得起在昆明这几日的胡吃海喝。或许是在杭州被 PUA 惯了，西山全山卖的物资竟然都是正常价格：原价的蜜雪冰城，十元一杯的牦牛奶云南咖啡，五元一个的烧饼，五元一个的粗长青竹棍，五元两个淀粉肠或者一个肉肠，山上也不加价。我不禁怀疑：难道是我的消费观有问题？山上的烤肠不应该至少十元一个吗？</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026KUNMING/2026KUNMING12.jpg" alt="山脚下的平价美食：青稞牦牛奶和土豆粑粑，都很不错！"></p>
+<p>在上山途中，我们还遇到了一个“狗尔巴”向导。狗向导活力满满，全程跑上又跑下，算是把狗主人拉了一圈有余。狗主人说“狗尔巴”已经上山好几回了，我们指不定还没他熟练。一路走下来，带狗的人确实不少。难道这西山，还是一条免费遛狗道路？</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026KUNMING/2026KUNMING13.jpg" alt="妈妈是柴犬，爸爸是中华田园犬，中日混血的“狗尔巴”向导"></p>
+<p>西山不但能遛狗，还是平价游乐园。上山的途中一路都有小火车、激流勇进、滑滑梯等等，卖的还都算得上平价。考虑到是沿山路铺设，也就是说激流勇进还能顺路下个山，感觉完全不亏！不过眼见玩的都是些小朋友，身为快三十岁的大盆友，我实在没法厚着脸皮开口说要玩，只能权且搁置——下次一定！</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026KUNMING/2026KUNMING14.jpg" alt="激流勇进的滑梯，好长好长，而且真好看呀"></p>
+<p>除了有狗、有吃、有玩，西山上的花也是绝色芬芳：时值三月，梨花压海棠，山樱缀玉兰，野芳没足径，竹深隐幽香。令人惊喜的是终点猫猫箐下来的沿途村庄，不但家家植树，户户迎香；还有不少墙上，直接挂满了整墙整墙的多肉。不同于野蛮生长，每一盆多肉都是养育良好、用心做了造型的，甚至有几盆还开出了花，更有蜜蜂逡巡其间。虽然我们只是路过，但我相信这些村民一定都是幸福而圆满的，才能有如此多的幸福满溢出来，分享给沿途的我们。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026KUNMING/2026KUNMING15.jpg" alt="开花的多肉，罕见景观"></p>
+<p>下山时，少见的，女朋友既没有生气，也没有抱怨。事后还有些乐在其中，说多少也想再去一次。我问她具体的缘由：是山上的景色？是沿途的美食？是探索的乐趣？还是下山时最后的那段野路的冒险感？她想了想，说都有，但也不都是——在爬山的过程中，虽然很累，腿很酸痛，但本身就是快乐的。我也不禁想起我去年越来越沉迷于骑车的经历：或许这就是户外的魅力，它不能用文字、图片乃至视频完整的表述，但当人置于天地之间，浸润在旷野之中时，就已经得到答案了。这个答案不在语言中，而在我们的 DNA 里，在我们行走山水的渴望中。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026KUNMING/2026KUNMING16.jpg" alt="让我们下次再见"></p>
+<hr>
+<h2 id="尾声"><a href="#尾声" class="headerlink" title="尾声"></a>尾声</h2><p>写到最后，发现昆明的美食还没来得及写，但又无法割舍：昆明的物价相较北京足够低廉，以至于做得不好我都没法生气；更何况它的食材其实更好、料理更加独具匠心呢？我想写大华饼屋的鲜花饼，又想写小吉坡 9 号的山珍饵块；我想写水性杨花的初见惊艳，又想写寻正宗黑三剁而不得的百转千回；此外还有破酥包、云腿稣、豆花米线、菌菇打卤……凡此种种，不一而足。既然没法写尽，那就姑且留个念想了。毕竟就算我写得再生动，也只是馋坏了在写的我自己和在读的你罢了。相比我们熟悉的菜肴，昆明的每一天都算得上是“熟悉而惊奇”的日常。这份喜悦，就请在云南自行体会吧！</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026KUNMING/2026KUNMING17.jpg" alt="肥肠包青葱、包浆豆腐和烤佛手瓜，好想念……"></p>
+]]></content>
+      <categories>
+        <category>旅行</category>
+      </categories>
+      <tags>
+        <tag>旅行</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2025年终总结</title>
+    <url>/2025/12/31/2025Summary/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script src="/assets/js/DPlayer.min.js"> </script><blockquote>
+<p>狂歌曾竞夜。</p>
+</blockquote>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/2025Summary/2025Summary00.jpg" alt="蓦然回首，一切都已在雪中"></p>
+<hr>
+<span id="more"></span>
+
+<h2 id="序·向山呼号"><a href="#序·向山呼号" class="headerlink" title="序·向山呼号"></a>序·向山呼号</h2><p>在 2025，这个 AI 元年也许已经到来的时间点：我用 AI 工作，听 AI 音乐，画 AI 图，看 AI 视频，玩 AI 创作的游戏，甚至已经有人和 AI 谈起了恋爱——但我依然坚持手写 BLOG，仿佛向大山里呼号一般，只为捕捉到自己的回声，和零星的唱和。写作，无疑是一种自我满足。</p>
+<p>2025 年过得充实，但并不理想。恋爱进行，旅游继续，论文等待发表，家庭完满，生活丰富，我仿佛已不应该要求太多。这一切都是在既定的轨道上继续进行，无惊亦无喜。今年甚至 BLOG 都做不到月更——我清楚实际上限制我的并不是素材，而是我的创作欲望。被代码接管的大脑怠惰了思考，而自律运动的躯干疲倦地重复。就像冬雪里被包覆的心跳一般，充满理想主义和世俗热情的时代，闭上了眼。</p>
+<p>我改变不了西伯利亚吹来的北风。我能做的只有迎风呼号。</p>
+<p>不需要喊口号，也不需要唱什么感动的歌。</p>
+<p>“啊——啊——”</p>
+<p>只是自我满足。</p>
+<p>（注意不要感冒）</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/2025Summary/2025Summary01.jpg" alt="我们曾经向往的，都已变了模样"></p>
+<hr>
+<h2 id="壹·开始的结束"><a href="#壹·开始的结束" class="headerlink" title="壹·开始的结束"></a>壹·开始的结束</h2><blockquote>
+<p>这不是结束，甚至不是结束的开始，而可能只是开始的结束。</p>
+</blockquote>
+<p>今年做的最重大的决定，就是最后决定还是留在北京继续做博后。毫无疑问，北京成了我的第二故乡。这一个我即将生活超过 10 年的地方，无论我多么想恨他，都恨不起来了。</p>
+<p>做博后，意味着一条更窄的路（而且也未必能够成功）。但在诸多选项中，这无疑是我最有信心，也最能负起责任的选择。我的学术成果不多也不少，不好也不坏，在这条路上，也许还能走很久。今年完成了几项大小课题，成果也会陆续在明年得到一个收尾，然后衍生出更多的项目。某种意义上，科研工作的确是能者多多多多劳的。只不过，我的工作已经变成项目计划表的模样，而不是我脑海里的想象了。我在为责任与目标清晰地努力着，嬉戏打闹的日子，不会再有了。</p>
+<p>渐渐地，大家都变成了我陌生的模样。回过神来，短短一年的时光，有时候我都认不出自己的面庞。</p>
+<p>曾经，我只要做我自己就好。现在，我得做一个学术负责人，一个博士，一个优秀的学长，一个靠谱的活动组织者，一个家里的新生代，一个男朋友，一个好哥哥。也许我付出的努力让我获得了这些标签，但某一天开始，这些标签也就成为了我。</p>
+<p>但我清楚我还远远不够。衔接不好过去，也就创造不了未来。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/2025Summary/2025Summary02.jpg" alt="雪与冰之下，大家都变了"></p>
+<p>今年想啃的几本书，最后终究是没有动；对于新技术，我只是谨慎地探索；骑车去了不少地方，体重也跟着越来越重；情绪的低波动，也显得有些冷漠。最大的问题还是精力过于分散，而缺乏疫情期间技术不足、也要硬啃到底的决心。生活的节奏越来越快，我创造的内容却越来越少，最终，我还是镜见了自己所不齿的、庸俗的模样。</p>
+<p>理性告诉我，现实一些是好事：这个年纪还在天马行空的朋友，相处久了会有些受不了。但正是那些天马行空、荒诞不羁的向往，让我感到活着、感到力量，能够在夜里翻来覆去地睡不着。比起身体的老去，我更害怕的是心态不再年轻——我已经开始，对陌生的事物，感到焦虑与害怕了。折磨我的不是无尽的内耗，而是对未来的抉择。</p>
+<p>但与其说是老去，倒不如说，属于我的赛程才刚刚开始。人生毕竟是一场马拉松，不骄不躁不气馁的勇气，才是最珍贵的。无论如何，我都在前进。</p>
+<p>至少我可以安慰自己一句，我始终在路上。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/2025Summary/2025Summary03.jpg" alt="大学一年级的时候我敢直接在冰上走，自从掉进水里一次后，我就再不敢了"></p>
+<hr>
+<h2 id="贰·今宵酒醒"><a href="#贰·今宵酒醒" class="headerlink" title="贰·今宵酒醒"></a>贰·今宵酒醒</h2><blockquote>
+<p>便纵有千种风情、更与何人说</p>
+</blockquote>
+<p>有人的地方就有江湖，但换句话说，有人才是江湖。</p>
+<p>今年我带了一个关于太吾绘卷的武侠风格的跑团，内容算是半原创了，私以为是我五年跑团生涯以来个人评价最高的团。太吾绘卷是 7 年以来我关注不辍的，而武侠算是我青春期的执念，是我用最热爱的东西去做的创作。但直到每次团结束的时候，我都能意识到：让玩家们玩得开心，才是我创作的终点。</p>
+<p>天涯海角，如今能分享乐趣的玩伴，一同成长的挚友，都渐渐成为了奢侈品。最贵的配置，成为了人。毕竟这个时代不缺少信息和娱乐，缺少的是一个真诚的、愿意相伴的人。</p>
+<p>今年我骑行的里程突破了新纪录，我想明年会更多；一起骑行的伙伴，也越来越壮大。而 Martin 成为了我的偶像：虽然他理应 24 年就该来中国的，但无论如何，多亏见到了他，现在我拥有了终极的目标。我愿意跟着我哥健身、户外；跟从小玩到大的朋友一起，继续桌游的旅程；与颜神一起探索北京……如今我觉得培养习惯最好的方式，就是找一个愿意与你长期坚持、共同热爱的人。如果没有，那就培养一个！</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/2025Summary/2025Summary04.jpg" alt="虽然一路都是踉踉跄跄，但回想起来，第一次骑车去天津的时候，连修车都是开心的"></p>
+<p>有时候，甚至能够长期竞争都是一件好事。如果某个游戏真的凉了，那群里连对它的争吵都不会再有了。</p>
+<p>以前我觉得杭州、上海很远，但如今看来，其实也很近。周末来回，已不再是一件难事。只要有共同的话题，天涯海角也能常联系。“不喝酒”只是一个借口，只是不再有能够尽兴畅饮的人罢了。</p>
+<p>今年还办了阔别十五年的小学同学会聚会。惊人的是，虽然光阴荏苒，但第一眼见到的时候，就是能够准确地叫出彼此的名字；不过即便是叫出了名字，人走茶凉后，也不会再收到联系了。</p>
+<p>如今这个时代，地缘和血缘早已不再是亲疏的单一依赖。如果要说有什么保持关系的秘诀，我能想到的不过是真诚罢了。所幸我过去一直都是真诚到憨痴的，所以没有什么问题；但回想北京所睹所经的种种，约莫是不复再有真诚于其中了。“大城市病”只是一个笼统的托辞，于我切身的，是时刻紧张的气氛，是对陌生事物下意识的回避。迈不开信任的第一步，自然也不会有后续的第二步、第三步……如何敞开心扉、让他人信任，我想这才是我今后的必修课。</p>
+<p>也许今日，我最大的问题是，我不再敢于犯错了。但是，只有不做事的人才不会犯错。坦诚地承认错误、取得原谅，或许能够比成功的经历更能取信于人。</p>
+<p>无论如何，接下来的课题，都是如何关于做人的课题。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/2025Summary/2025Summary05.jpg" alt="人在江湖，身不由己。"></p>
+<hr>
+<h2 id="尾声·连续发生的奇迹"><a href="#尾声·连续发生的奇迹" class="headerlink" title="尾声·连续发生的奇迹"></a>尾声·连续发生的奇迹</h2><p>在我们的世界，地轴以 23.44° 倾斜，每 23 小时 56 分 4 秒转动一圈。地球环绕太阳旋转，每 365.25 天转动一圈，产生了现实的四季。这些数字是如此的精密与巧妙，以至于即便世界变成我不再熟悉的模样，我都相信，或许目前的一切，已经是一场连续发生的奇迹。</p>
+<p>站在人类知识的边缘，继续往前探索，本来就是一场浪漫而充满理想主义色彩的事。但这样的事业该如何进行，能持续多久，在现实的引力前是否会像北极的冰川一样坍圮，在踏上这条路之前，我也无法回答。</p>
+<p>骰子已经掷出。不必去看上面的数字，2026，还是要继续前进——带着 2025 和过去，所有的标签，所有的联系。</p>
+<p>我希望我能再战胜一次标毅线，正式参加一场骑行的比赛，在科研上步入下一个阶段，开始着手准备婚姻需要的一切。相比往年的计划，这样的目标多少有些乏味；但按照目前的节奏，能保持下去就很难得了。如果可以的话，再多尝试一些新技术、多学习一些新知识、多看几眼花花世界，就再好不过了。</p>
+<p>平安喜乐，只有四个字，便得来不易。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/2025Summary/2025Summary06.jpg" alt="整理完羽毛，就该继续出发了"></p>
+]]></content>
+      <categories>
+        <category>杂记</category>
+      </categories>
+      <tags>
+        <tag>杂记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>生养之校：成为精神浙大人</title>
+    <url>/2025/11/11/202511ZJU/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script src="/assets/js/DPlayer.min.js"> </script><blockquote>
+<p>正其谊，不谋其利；明其道，不计其功。</p>
+</blockquote>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202511ZJU/202511ZJU00.jpg" alt="每次到浙大，总有一种回家的亲切感"></p>
+<hr>
+<span id="more"></span>
+
+<h2 id="序"><a href="#序" class="headerlink" title="序"></a>序</h2><p>虽然没有浙大的学历，但我确实可以算是“半个浙大人”。</p>
+<p>因为竞赛的原因，加上高中校园的局促，整整三年，在高中的安排下，我都是在浙大生长的。住博士生的寝室（甚至还是市文物保护单位），吃大学的食堂，用巨型的操场，泡空荡的图书馆，吃超市的夜宵——直到上了大学，我才真正意识到，我的高中三年，可能比一般的大学生，过得更像“大学生”。</p>
+<p>对我而言，浙大不仅是我生长、度过青葱岁月的母校，更是我中学的导师：在残酷的竞赛中，我在浙大碎片化地合计度过了超过一年的时间：化学楼的自习室、门口被偷偷倾倒危险试剂的水池、操场边加班加点的研究生师兄，都已经成为了习惯的风景。</p>
+<p>在高考已经成为十年前的今天，我才意识到，相比北大同学们的天各一方，中学的同学们大都在浙大读书、在浙大边工作。思来想去，成长在浙大、学习在浙大、人脉在浙大，好像我没什么理由不说自己是“浙大人”——虽然我连它的学历也没有，也未曾“梦中情校”过。</p>
+<p>只是回到浙大时，熟悉的、温暖的感觉，还是骗不了人的。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202511ZJU/202511ZJU01.jpg" alt="走在浙大的街上，总觉得记忆里一切就该如此——明明已经很久很久没有来过了"></p>
+<hr>
+<h2 id="壹·回首"><a href="#壹·回首" class="headerlink" title="壹·回首"></a>壹·回首</h2><p>这次回浙大，是因为要去师母所在的合作实验室补实验。于我而言，浙大已然是很陌生了。疫情以来，门口加上了人脸识别，再也没有了自由出入的开放校园。能够找到的去浙大的理由，也是屈指可数。西区在我的印象中还是整片整片的田野和施工地带，如今早就是焕然一新。</p>
+<p>我理应是很陌生的。但似乎也不尽然。</p>
+<p>走在东区，恍惚间又到了十年前。东南门进来是药学院，然后是医学院，再过去是化学院。往北走的教学楼，是我心惊肉跳地参加一年一度的竞赛考试的地点。桥边的奇怪的将圆锥和足球烯拼合在一起的雕塑，至今很多浙大人都不知其涵义，我微微一笑。河畔的自行车、电动车和人流穿行，阳光下大人小孩们成群或者孤零零地躺在草地上，似乎什么都不想要，但又渴望着什么。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202511ZJU/202511ZJU02.jpg" alt="水边的吊床"></p>
+<p>刚到浙大的感觉，是新鲜而陌生的。对十六岁的世界，校园是如此的大。晚间下课时车水马龙般穿行的人流，让人眼花缭乱的琳琅满目的图书馆，不断地刺激着人的消费欲的精品书店，足够装下当时高中所有人的巨型体育场——甚至边上还有游泳池。对我而言，光是为了为了这些校园生活多熬两小时夜，已经是程序生活里极端的放纵了。</p>
+<p>高中满足不了我的探索欲，但浙大可以。实验室里的瓶瓶罐罐，光是每个都折腾明白就得好久。上课只是蜻蜓点水般的讲解，要在课后反复地咀嚼、复习、进行课外学习，才能够参透领悟。每个老师都有几段传奇般的经历，在课余找老师们请教，就能像小说般听上一段。图书馆里能搜罗到泛着黄的老书。实验室顶层的烟囱里会冒出灰蒙蒙的烟雾。从教学楼到食堂要走好久，要是走得晚了，吃饭就得排队。</p>
+<p>除了大学生是去教学楼上课，而我平时是去高中班级里上课，我们的生活似乎并没有分别——我甚至可能生活得更健康、更充实一些。</p>
+<p>可是人总是渴望远方的，也容易美化自己得不到的幻景。在气血上涌的夜晚，我总是憧憬学长学姐们描述的“北京大学”——那是金字塔顶端的、众人所瞩目、梦寐以求的远方。如果否定远方，便再无意义。我一切的努力、一切的坚持、一切的咬牙切齿，都是为了去远方。</p>
+<p>于是，我被送到了远方。</p>
+<p>远方的确是学术的黄金殿堂。但走出象牙塔，便没有了畅谈梦想的荷花塘，没有了举目星尘的大草坪，没有了温情脉脉的垂柳路。直到本科毕业的时候，我和高中的舍友们一起躺在北大的积雪上，望着灰蒙蒙的天空，我开始想念曾经一起在浙大憧憬远方的时光。</p>
+<p>如今，我已沾染了沧桑，唯她只是寻常。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202511ZJU/202511ZJU03.jpg" alt="在北大，我在生活中寻找诗意；在浙大，我在诗意里生活"></p>
+<hr>
+<h2 id="贰·踟蹰"><a href="#贰·踟蹰" class="headerlink" title="贰·踟蹰"></a>贰·踟蹰</h2><p>虽然我的人脉曾经大多在浙大，但现在他们已大多毕业了，甚至有些人我还得喊一声“老师”。偌大的校园，如今显得空荡荡的。</p>
+<p>做实验等待的窗口，拿起 35mm 的新镜头，我去熟悉的园区走了一圈。回忆里的青春岁月总是蓝天明媚的，可现实中，即便是最好的光线，她的素颜也经不起思量。医学院门口，路上的老鼠来回窜梭；路边的树叶已经快淹没了路标；道路算不上平整，历经十余年，显得有些老旧；父亲心心念念的毛主席像，其实也算不上有多宏伟。相比北京同一时间五色纷呈、木叶纷飞的金秋胜景，南方满眼的绿甚至显得有些单调。</p>
+<p>这两年，在我专业的小方向上，西湖大学甚至还走在了浙大的前头，大有和北方诸多院校分庭抗礼之势，背后也是更多的金钱与研究生的血汗。相比之下，浙江大学还是太安逸了——就像我总抱怨的北方生活上的不便，所谓生于忧患，反而是潜心学术的动力。不过就像是庞大的列车，就算一时间飙不过跑车，但庞大的惯性也不是一般人所能撼动的。她继续随着时代奔涌向前，已经走得足够远，未来也还有很长。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202511ZJU/202511ZJU04.jpg" alt="野蛮生长的竹林和旧标牌"></p>
+<p>念旧的人没法一直留在过去，就像落在浙大的初恋一样，终究变成了十年后碎片般的回忆。或许是逃避过去，抑或是面对未来，往日种种已不再连续，最终是无话可说。</p>
+<p>精神的图腾作为青葱岁月的太阳，影响是不可磨灭的。但最后落了灰，也就不可能再戴了。就算偶尔撺出来洗一洗，谈一谈过去，也成为了对年少轻狂的回想，而不再能够对现实进行反抗。离开校园，走上自己所向往的路途；下定了决心，就没有回头这一说了。如今我只会说自己是“北大人”，要把北京当作第二故乡来对待。就算没有感情，也是十余年相处的恩情；人生百年，又有多少十年呢？</p>
+<p>只有回到熟悉的地点的时候，面对全然陌生的新面孔，才会忍不住摆出一副“老资历”的调调：</p>
+<p>“你们吃过的食堂，还没我走过的、启真湖上的桥来得多呢！”</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202511ZJU/202511ZJU05.jpg" alt="浙大的石头“蘑菇”"></p>
+<hr>
+<h2 id="尾声·桂雨"><a href="#尾声·桂雨" class="headerlink" title="尾声·桂雨"></a>尾声·桂雨</h2><p>如果要我用两个字来形容我对中学期间在浙大生活的记忆，我会用“桂雨”。</p>
+<p>只有去过远方，我才对桂花的芬芳如此敏感。不过，这次 10 月底回杭州，宛如香薰瓶碎了一般——满城都被浸泡在浓郁的桂香之中，每天只有“清甜”“很甜”“腻甜”三种空气可供享用，恐怕还难以主动选择。好在似乎很少人对此过敏，而大多数人更是乐在其中。仿佛先前一切灾难般的恶劣天气都不成问题，只是这几天，便足够念想一年了——至少对于我，还真是如此。</p>
+<p>身处满陇桂雨的浙大，我必须大口呼吸浓郁的芬芳，才能宽慰我长期背井离乡的乡愁。虽然不像武汉大学的樱花那样吸引人眼球，但这漫天花雨的芬芳，于我，是沁人心脾的灵魂绝唱。在北京，我时不时就要整一瓶桂花香薰，然后把衣服浸在里面。以至于爬长城的时候，还有人惊呼：“这长城上哪里有桂花？”</p>
+<p>有时候，身处北大，我感到自己与身边的人不尽相同：既好奇又散漫，既取巧又犯懒。或许就是高中在浙大的三年，培养了我对于科研的最基本的认识和习惯。也不必否认，虽然没有浙大的学历，但我就是“半个浙大人”。</p>
+<p>北京没有桂花，但像我这样还要把曾经的习惯带下去的，可能只能算——“精神浙大人”了。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202511ZJU/202511ZJU06.jpg" alt="金桂飘香，在浙大，似乎深色的是稀有“闪光”品种"></p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202511ZJU/202511ZJU07.jpg" alt="路边随处可见的桂树"></p>
+]]></content>
+      <categories>
+        <category>旅行</category>
+      </categories>
+      <tags>
+        <tag>旅行</tag>
+        <tag>杂记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>任驱驰：疾风踏破又一年</title>
+    <url>/2025/10/23/202510CYCLE/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script src="/assets/js/DPlayer.min.js"> </script><blockquote>
+<p>刹那即芳华。</p>
+</blockquote>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202510CYCLE/202510CYCLE00.jpg" alt="我用自己的力量走了很远，可这个世界依然还是太大"></p>
+<hr>
+<span id="more"></span>
+
+<h2 id="序"><a href="#序" class="headerlink" title="序"></a>序</h2><p>这是最好的年纪。</p>
+<p>我的身体健康，亲人健在，朋友安好，学业有成，感情幸福，没有贷款，环境稳定，生活幸福。</p>
+<p>这是糟糕的年纪。</p>
+<p>我的年岁渐大，父母老去，故友远别，毕业将近，婚姻压力，无房无车，脱离社会，学生作风。</p>
+<p>每个阶段都有每个阶段自己的故事。当每天载着如此多东西前进的时候，这样的我，是过去无法想象的。</p>
+<p>过去的我有很多幻想，总觉得自己不应当只拘囿在这现实之中，但如今光是感觉到我在努力、认真地活着，就足以唏嘘不已。</p>
+<p>从子宫中开始跳动的心脏，今天我在骑行时，还能感受到它有力的跃动——它从未休息——便是连续发生的奇迹。</p>
+<p>我确确实实地活着。我能感受到，在迈开腿前进的每一刹。</p>
+<p>我活着，所以我快乐。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202510CYCLE/202510CYCLE01.jpg" alt="我同样喜欢下雨。雨啊，总能感受到生命的伟大。"></p>
+<hr>
+<h2 id="壹·一切的起点"><a href="#壹·一切的起点" class="headerlink" title="壹·一切的起点"></a>壹·一切的起点</h2><p>压力大的时候，就去运动——这是中学以来的习惯。在高三的时候，班主任不允许晚自习有任何的偷懒，但允许去操场上跑圈。有氧运动才是减少睡眠时间的良方，按照当时同学的说法，对于每天只睡六个多小时的我们，需要至少做 1-2 小时的有氧运动。</p>
+<p>不过步入高中，我第一次从同学手里收到了相对好一些的二手山地，让我萌生了骑行的念头——我一直很想去环西湖，不过之前只有共享单车。于是每周五的晚上，都成了在杨公堤上飞驰的夜晚。虽然是千禧年初的单车老兵载着毫无经验的青涩少年，快乐是跨越财富和时间的。流离的灯火、翻转的桥洞、远泊的木船和穿越的湖风，都足够我在躁动的夜晚，一次又一次地啧抿与回味。</p>
+<p>上了本科，便可以稍微走得远一些——虽然依旧骑的是二手单车，但逐渐可以尝试一些穿越城市的路线：那时候从北大骑到朝阳，或者是从西湖骑到湘湖，便是了不得的尝试了。我还记得在骑行到精疲力尽时、听到分手消息的绝望感，和屁股酸疼、终点亟至、一点点看到城市天际线的救赎感。以至于早先骑车穿越钱塘江大桥，都值得专门写一篇 BLOG 来记录——对于象牙塔里的生活，吹一吹城市边缘的风，就已经是步入新世界了。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202510CYCLE/202510CYCLE02.jpg" alt="至今还在服役的山地老兵，如今要给他维修的钱，已经比车的价值还贵了；但时隔接近20年，它还是那么好骑"></p>
+<p>似乎因为家族性的影响，我对需求爆发、需要对抗的运动都提不起兴致——无论是大球还是小球，我都太快地浅尝辄止。只有“牛马”的运动：跑大路、骑大车、爬大山，当大家都气喘吁吁直呼难受时，我反倒能够一边喘着大气，一边还乐在其中。我似乎就是钟爱突破极限后那种澎湃的生命感，只是心脏平稳地强力跳动，就足以为之落泪。只是跑步的范围终究是过于局限，太容易腻；而大山大川又不能作为每天的锻炼。</p>
+<p>随着研究生生活的开始，我渐渐开始寻找一种能够长期坚持、而且我足够喜爱的活动。于是在一次香山骑行之后，我发现，我戒不掉了。隔三岔五地，我就想再去一次——可能是疫情的拘束，可能是基因的呼唤，总之当我望向窗外，我就想奔去远方。去看西山粉红色的天空，去看长河落日的壮丽，去看疾风宿鸟的归途。</p>
+<p>远方，只有远方。无法和人传达的，风呼唤我去的远方。</p>
+<p>在我意识到我爱上了骑行时，我早已出发。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202510CYCLE/202510CYCLE03.jpg" alt="北京粉红色的天空，是我为数不多的挚爱，也是我无法耽在办公室的缘由"></p>
+<hr>
+<h2 id="贰·只是乐趣"><a href="#贰·只是乐趣" class="headerlink" title="贰·只是乐趣"></a>贰·只是乐趣</h2><p>随着骑行距离的增长，和相同的人一起出行时，我才能清楚的意识到我的变化：过去那个对路线了如指掌、道具一应俱全、能边骑行边活跃气氛的朋友，最终变成了我自己。不知不觉间，我已经骑得更多，看得更远。但我还是喜欢原本的节奏：不加入社团，不讨论，也不竞争；不买太多装备，啥都不带，骑车就走；不追求速度，想骑就骑，想停就停。毕竟我骑车只是单纯地喜欢一路的风和景，过程即是乐趣，目标也不是目的。太多的人来人往，只有喜欢上路的人，才会一直在路上。</p>
+<p>直到去年，我才下定决心，买一辆自己的公路——如今看来，这简直是入门款中的入门款，但毫无疑问，随着超越它数倍价格的骑行距离，我也能用它和专业装备的使用者骑个有来有回了。毕竟用的是最基础的装备，骑慢了也不丢人，有时超车还能看一些人前倨后恭的姿态，属实是令人忍俊不禁。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202510CYCLE/202510CYCLE04.jpg" alt="今年用公路车去了好几趟天津，逐渐发现北京也没有印象中的那么大，天津也没有传说中的那么远；心之所向，自然可达"></p>
+<p>我向来不是个装备党。装备固然有实质性的提升，但终究是拘泥于物。乐趣，永远都不只是在车上——它在所见的风景、所陪伴的人、甚至只是所乘的风——都可以是骑行的意义。骑到终点时静听禅院里飘动的风铃，山路上素未平生的骑友的激励，长吁短叹唏嘘诗吟的气流，都足以让我一次又一次启程。况且，每次都要穿脱装备、前后还要热身、拉伸，实在不符合我随性而往的调调。所以我最后面对车友一次又一次“装备升级”的诱惑，面对骑行圈不得不感受的鄙视链，我干脆选了另一个方向: 搞辆大行折叠车。</p>
+<p>说起来，大行折叠车真是一个很神奇的东西。对于完全不了解的人来说，会觉得“超酷”“很科幻”“很方便”，但仔细观察下，就会发现满大街都是。甚至北京的不少有名的竞赛路段，都不乏骑大行来挑战的选手。大行在我眼中差不多是个“六边形战士”，在各方面的性能都算不上最好，但综合看下来，最大的缺点就是没有优点，最大的优点也就是没有缺点了。大行本身的性能的确过硬，加上能上地铁、高铁、飞机，能塞进后备箱，可谓是家庭出游、摄影登山、短途通勤的通解。因为也学了一段时间日语，想自己去日本乡下玩玩，所以说走就走，我带着大行就去了日本——这真算得上是折叠车使用的最佳场景示范了。</p>
+<p>首先，日本的交通很贵，公共自行车又麻烦又不便宜；其次，要带上飞机和火车，公路车和山地车的拆装就算是快拆，也基本告别“方便”了；此外，日本的基础建设其实已经很老旧了，加上人口老龄化，经常骑一大段路，连个活人都见不着一个，更别提店和车店了，修修补补基本只能靠自己。最重要的是，日本的骑行体验其实很不错，是任何其他的出行方式所完全不能比拟的。我爷爷以前就经常和我说：“了解一个城市最快的办法，就是用单车慢慢地把所有街道都骑一遍。”时至今日，我终于有了真切的体会。如果说北京的犄角旮旯还是偶尔能在互联网上刷到，那在日本乡间街道的“探险”，对我而言是焕然一新的。也许这就是“户外”的快乐：去探索完全未知的时空，而独一份的宝藏，只属于做好了充分准备的人。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202510CYCLE/202510CYCLE05.jpg" alt="琵琶湖美不胜收，它全不是刻板的日本，其间风土人情，唯吾与子之所共适"></p>
+<p>我相信，对于户外的冒险而言，是需要目标的。但目标永远不是目的。</p>
+<p>只有快乐，无论是登顶还是触线，无论是突破极限还是独揽绝景，才是值得一直坚持下去的理由。</p>
+<p>我好友给我的评价是：“意达就喜欢搞点很秀的东西。”或许当时它想表达的是我喜欢的东西太装，但这又有什么不好呢？至少，我确实一直包含着热情，不断地前进着。</p>
+<p>至少，我很快乐。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202510CYCLE/202510CYCLE06.jpg" alt="不论贫穷或者财富，不论显达或者无名，我付出了汗水，满足地吃饭，感到非常地快乐"></p>
+<hr>
+<h2 id="叁·在路上"><a href="#叁·在路上" class="headerlink" title="叁·在路上"></a>叁·在路上</h2><p>转眼间，北京已经到了要开暖气的时间。随着风越刮越大，出门变得越来越艰难，我想我或许是又到了该封车的时间了。但我已经爱上了骑行，也习惯了有氧——或许在冬天，我需要再找一些替代。等摸索到出心得，或许届时还会有新的记录。</p>
+<p>秋天，我给敬慕的 Prof. Gruebule Martin 写了份邮件，出人意料地，大牛回得很快。我分享了一些在骑行上的体会，大牛说下次如果来北京，我们可以再去一次长城线路——不过他的年纪越来越大，而我正是最好的年纪，希望届时我还留在北京。Prof. Gruebule Martin 在北京的时候，我还并未有过于深刻的感受。但直到他离开，直到陆陆续续听了更多报告、和更多大牛有了交流，我才意识到，Prof. Gruebule Martin 是真正的、我心中憧憬的偶像。他热爱他的工作，他不断在思考、不断在创造，永远前进、永远年轻，无论如何，他是快乐的，是充实的。无论作为科学家，还是运动员，他都一往无前。</p>
+<p>这太酷了。</p>
+<p>我想，我目前还停留在思考未来 1-2 年，几个月，乃至几周、几天的事。但人生是一场长跑，启程不论早晚，坚持几十年亦不算长。如果有机会，能让我把我从小到大的这个爱好，坚持十年，二十年，三十年……或许真的会不一样，真的会很酷。</p>
+<p>在北京的各种线路上，固然不缺年轻人，但我最佩服的，永远是大爷们——他们的装备可能很简陋，身体上已浮起了老年斑，但他们会用行动展示，何为老当益壮，何为人生经验。一个同行的大爷还和我说，去年他骨折之后，在床上休息了一年；不过，今年他已经刷爆潭柘寺线路了(大概也就超越了 99%的北京骑友吧)。我导师笑着和我说，大爷们才是最厉害的。似乎在科研和锻炼上，年纪大，也可以是一种优势。</p>
+<p>我想起在操场上，低年级的同学们总是在比较配速，而大爷们慢慢悠悠地，就跑了十几二十公里。</p>
+<p>在路上，我要学习的，还有很多。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202510CYCLE/202510CYCLE07.jpg" alt="今年在妙峰山被狠狠拉爆了，明年再去挑战！"></p>
+<hr>
+<h2 id="尾声"><a href="#尾声" class="headerlink" title="尾声"></a>尾声</h2><p>光看码表，今年也已经骑行了超过五千公里了。随着全球变暖，北京适合骑行的时间倒是越来越长。我也即将在北京跨越十度春秋，这里的山，这里的路，这里的风，无论我喜欢与否，都成为了脑海中根深蒂固的景色。</p>
+<p>十年，对于宇宙，也不过是弹指一挥间。不过以人生的尺度，足够我去学习和探索很多了。</p>
+<p>从南方到北方，从夏天到冬天，这世界这么大，我刚好顺路去看看。</p>
+<p>路还很长，继续吧！</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202510CYCLE/202510CYCLE08.jpg" alt="因为山就在那里"></p>
+]]></content>
+      <categories>
+        <category>旅行</category>
+      </categories>
+      <tags>
+        <tag>旅行</tag>
+        <tag>杂记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>山与海：生命之寄予</title>
+    <url>/2025/08/13/2025JPLIFE/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script src="/assets/js/DPlayer.min.js"> </script><blockquote>
+<p>寄蜉蝣于天地，渺沧海之一粟。</p>
+</blockquote>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/2025JP/2025JPLIFE/2025JPLIFE00.jpg" alt="人间纷纷扰扰，鹿只自顾吃草。"></p>
+<hr>
+<span id="more"></span>
+
+<h2 id="序·何故山海"><a href="#序·何故山海" class="headerlink" title="序·何故山海"></a>序·何故山海</h2><p>不记得在哪看过，好的景色是不需要理解的。人只要看到杭州西湖、桂林山水、九寨沟彩池，无论种族、男女、老少，都会油然而生美的体验与感动。这便是美的极致，自然与灵魂的共鸣。</p>
+<p>刘禹锡说“山不在深，有仙则名；水不在深，有龙则灵。”我想这山水中的“仙”和“龙”，便是这广渺自然中的灵气。如果一个风景能自然地与生命发生共鸣，那它便是生命力丰盈的；如果能自然地让人心驰神往、陶然物外，那便是精神力饱满的。“水何澹澹，山岛耸峙”的山海，理所应当是灵力丰盈的、是美的。我过去难以理解人们对于户外的向往，但当我真正登上山、望向海，我才知道这种体验是难以描述、绝难分享的。依靠钢铁森林内被规则和系统牢牢牵引住的轨迹，是无从幻想无垠天地间的体验的。</p>
+<p>作为火山岛国，日本本就不缺山海；老龄化的国家、老旧又不至于破败的基建、生命力旺盛但疏于管理的绿植，更丰满了野行的乐趣。城市那么小，绿地那么多，我一瞬间便理解了遇到的所有户外的人们脸上溢出的笑容——这在行色匆匆的日本城市中，是难以寻觅的。</p>
+<p>城市总是说它离不开我，因为我是这社会运行的螺丝钉；但天地、山海无言、无爱，我与虫豸、飞禽、走兽，于它亦无分别。但此时，我方知我是我，我亦是这茫茫走兽的一员。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/2025JP/2025JPLIFE/2025JPLIFE01.jpg" alt="我亦是过马鹿的一员"></p>
+<hr>
+<h2 id="壹·若草山"><a href="#壹·若草山" class="headerlink" title="壹·若草山"></a>壹·若草山</h2><p>奈良在中文互联网上已经太过有名了。从车站一路到奈良公园、春日大社、东大寺，密密麻麻地全都是中国人。因此关于若草山我也没有太高的期待，单纯以为是这一路山路的延续——完全错误。</p>
+<p>事实上，来若草山的人并不多，大部分成年人在山脚下早已累得气喘吁吁，开始休息了。山上不是活力充沛的孩子，就是花大价钱打车上来的小姐姐。可当我一步、一步向上走时，一幅幅问津者越来越少的绝美画卷，展开在我眼前。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/2025JP/2025JPLIFE/2025JPLIFE02.jpg" alt="最后还是登顶若草山三重目了，同行者几乎没有，下山已经三万步了"></p>
+<p>山道的绿是纯粹的绿，绿到能出油的绿；路边的红是纯粹的红，艳到能滴蜜的红。山上的鹿也温顺许多，一改山下殴打游客、爱理不理、胡搅蛮缠的习性，不但见人会主动鞠躬，吃完鹿饼，也不忘点头致意。甚至遇到路过的肥大乌鸦，还两不相争，鹿埋头吃饼、鸦低头啄屑，大家各吃各的，一派和平。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/2025JP/2025JPLIFE/2025JPLIFE03.jpg" alt="CP鹿：亲亲你的"></p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/2025JP/2025JPLIFE/2025JPLIFE04.jpg" alt="单身鹿：好腻歪的两公婆，酸死我了"></p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/2025JP/2025JPLIFE/2025JPLIFE05.jpg" alt="乌鸦不愧是日本的神鸟，全都肥头大翅的"></p>
+<p>山路有些坡度，但算不上陡峭。和国内大不同的是，山上几乎没有保留高大的树木，只有草地和灌木，奈良的乡间和城市在坡顶一览无余。东大寺和兴福寺娇如积塑，远处的列车裁如星点。日从西方落，云自谷间升。牵手坐在山间锈迹斑斑的井盖上，呼吸着带着青草芬芳的山岚，喝一口冰镇的可儿必思，时间的速度变得忽快忽慢。只有低垂的红日诉说着光阴的不可逆转，把一切所见所感都折叠成记忆。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/2025JP/2025JPLIFE/2025JPLIFE06.jpg" alt="我最爱拍的长焦井盖"></p>
+<p>山上的人们也都是面色红彤而喜人的。最可爱的是一个上海的小妹妹，她的爸爸妈妈已经在山下累瘫了，她就一个人跑上来玩。她轻轻松松地就跑了几个成年人望而兴叹的长台阶，然后和我的女友聊起了追星、学习、生活和梦想。看着她一个人向山下甩出帽子，再跑一大段路去拾起，我才惊觉我的童年已然是遥不可辨的程度了。但我依然有梦想，有可以在山路奔跑起来的气力，有等待着我的人。</p>
+<p>最后的残阳抹在身上，心口暖暖的。</p>
+<p>不必说撒由那拉。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/2025JP/2025JPLIFE/2025JPLIFE07.jpg" alt="上海来的小妹妹"></p>
+<hr>
+<h2 id="贰·新宫"><a href="#贰·新宫" class="headerlink" title="贰·新宫"></a>贰·新宫</h2><p>掌握了语言，熟悉了路线，我不再期待所谓的“景点”。旅行的快乐不再是重复他人的体验，而是找到自己的故事。</p>
+<p>出发去新宫，只是因为我买了可以让外国人免费乘车的 JR PASS，希望能够在旅行的前期就“回本”。而新宫恰巧是最远的目的地。坐到新宫时，前后几节车厢，只剩下了我一个人。窗外下着大雨，特急列车还在田埂边滞留了半个小时，才缓缓地拖到终点。车窗上氤氲着雾气，街道上空空荡荡的。我之前还计划过在这条天平洋畔的公路上骑车，纵然路况不错，景色却又多少有些寂寞了。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/2025JP/2025JPLIFE/2025JPLIFE08.jpg" alt="新宫是“黑潮”线的终点，从大阪出发，最快也要三个多小时"></p>
+<p>我对新宫最心动的两个标签，一个是它据称是徐福的“登岛点”，有复修的徐福公园和纪念碑；二是它是日本的圣地，是熊野神社总本社的所在，也是朝圣路的起点或终点。天上飘着梅雨季节的细雨，打湿了双脚，却不至于炎热。我去便利店换了双拖鞋，寻找内心的清凉。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/2025JP/2025JPLIFE/2025JPLIFE09.jpg" alt="铁路边固定山体的装置，非常像使徒来袭"></p>
+<p>子不语鬼神，亦慎终追远，后生小子也心向往之。虽然不算深笃，但我也确实相信，徐福给日本带来了初期的教化与启蒙。徐福公园内的捐赠纪念、日常维护，主要都是由日本人进行的。参观公园的日子正值休息日，公园、广场和站前餐厅都寥寥无人，只有老祖宗大得突兀的牌坊为我遮风挡雨。香炉前用中日英文写着“香是一个 20 日元”，但香炉在风雨中早已徒有冷灰了。只有铁路站前的“徐福寿司”在雨中依旧热闹，价格只有大城市内的一半，风味却是两倍以上。寿司职人专心在板前工作，但总能在恰到好处的时候，顺着余光递给我热茶和毛巾。临走之前，我不住纠结——究竟是外带一份鱼多饭少的寿司饭，还是七色的寿司全家福？老寿司仙人干脆把两个一起塞在我怀里，笑着说：不如都买了吧！</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/2025JP/2025JPLIFE/2025JPLIFE10.jpg" alt="徐福像和徐福牌坊"></p>
+<p>可能是因为海边，可能是因为乡下，新宫充满了自然的生命力，却又不至于蛮荒。路边的栏杆爬满了铁锈和青藤却不喇手；神社水池里的螃蟹爬得比蟑螂还快；隼鹰在树梢间盘旋；“小心野熊”的牌子旁是宽敞的长椅；干净无尘的窨井盖上用鲜艳的颜料，画着有些磨损的八咫乌。作为熊野神社供奉的神鸟，乌鸦在新宫随处可见，但既不乱叫，也不乱拉屎——莫非神鸟还真素质高一些？这就不得而知了。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/2025JP/2025JPLIFE/2025JPLIFE11.jpg" alt="新宫街景"></p>
+<p>可能因为我是中国人，日本人颇为敬重的熊野神社，在我看来倒是过于朴素——论规模自然不能和国内的庙宇相比，论气势也不及京都和东京的众多“后辈”。旧的古董似乎太破旧，新的鸟居又似乎太新，唯有安静的氛围，反而让人能够感受到神圣感。依我看来，京都和东京实在是太闹，鸟居和寺庙沦为纯粹的景点，与超然和避世全然无关了。反倒是需要徒步、隐居山海，却又抱残守拙的古刹，更能让我体会到内心的平静与共鸣。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/2025JP/2025JPLIFE/2025JPLIFE12.jpg" alt="世界遗产熊野速玉大社"></p>
+<p>旅行的意义，不需要别人来定义。我的回忆，始终是自己的足迹。新宫值得单程坐三个小时车吗？值得冒着梅雨徒步十余公里吗？按照常规的意见，一定是不值得的。但这不影响我喜欢，我喜欢——这就是全部的理由。我喜欢车窗里看到的无垠太平洋，我喜欢今已亭亭如盖的、却又平平无奇的蓬莱山，喜欢落在鸟居和水池里的鱼，喜欢擦肩而过的隼鹰。在北京的办公室中，我的一切都是有明确定义的“好”与“不好”的。但旅行是探索，为的是未曾体悟的共鸣与理解，为的是和遥远的彼方，产生一瞬的共振——就像陌生的山、遥远的海，虽然素未谋面，但当我们相见、感动的那一刻，一切便已值得。远行，只是为了下一次相聚。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/2025JP/2025JPLIFE/2025JPLIFE13.jpg" alt="隼鹰越过海滩的姿态，我在梦里也想象不出来；虽然如今见山是山、见水是水，但山外更有青山、水外更有碧水，我深信于斯而迈步不止"></p>
+<hr>
+<h2 id="尾声"><a href="#尾声" class="headerlink" title="尾声"></a>尾声</h2><p>距离我第一次前往日本，转眼间就是七年有余。这七年间，我学习了日语，读完日本史，追了不少番，但却失去了对日本最初的热情和兴趣。发达国家的滤镜碎了一地，“读空气”的气氛也让我喘不过气，我发现最后我喜欢的反而是平凡的山与海。就像我难以与同学们分享的、我对梅雨的感情一般，它固然很普通、甚至有些难受，但浸在里面的时候，我却能感受到自由——那种脱出了现代社会的异化、回归本能的自由。对地球而言，人类终究是短暂而渺小的生物。为自然的伟大而感动震撼，我想这是生而为人原始的敬畏、和朴素的神性。</p>
+<p>生老病死，终成朝暮浪花；生生灭灭，禅在宙海无涯。</p>
+]]></content>
+      <categories>
+        <category>旅行</category>
+      </categories>
+      <tags>
+        <tag>旅行</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>食在霓虹：红豆泥乌麦</title>
+    <url>/2025/07/21/2025JPFOOD/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script src="/assets/js/DPlayer.min.js"> </script><blockquote>
+<p>食不厌精，脍不厌细，但不能吃不饱。</p>
+</blockquote>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/2025JP/2025JPFOOD/2025JPFOOD00.jpg" alt="虽然很精致，但好像又没吃多少；中国人来日本也算是人均大胃王了"></p>
+<hr>
+<span id="more"></span>
+
+<h2 id="壹·食在霓虹"><a href="#壹·食在霓虹" class="headerlink" title="壹·食在霓虹"></a>壹·食在霓虹</h2><p>地大物博、百味争鲜，那还得是看中餐。比起韩餐“吃一天就想家了”的成就，日料这次坚持了两周，算得上是相当不错的成绩了。毕竟日本披山带海，又有关东、浓尾和石狩三大平原，不缺山珍海味，也不缺鸡黍瓜果，相比之下，也算是有深厚的物产和技法沉淀。只是因为“强大”的农协和“发达”的资本主义，价格多少有些昂贵，品质难免囿于“国产”。但这也正是日本的特色，不得不品尝。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/2025JP/2025JPFOOD/2025JPFOOD01.jpg" alt="日本逆天西瓜，25RMB一盒还不甜，无比想念新疆麒麟瓜，没有瓜夏天我可怎么活呀"></p>
+<p>作为江浙人，我倒不觉得日料偏甜，对其中的野菜、海鲜也颇为受用，还格外喜欢日式套餐花花绿绿的摆盘、花里胡哨的点心。只是，即便以江南人的标准，日本人多少也吃得有些太清淡了！以至于吃松屋套餐的时候，都要往碗里猛猛加调料；去超市买便当必拿的不是筷子，而是顺两包酱油回家。除了酱油不咸、辣酱不辣、芥末不冲、胡椒不香，甚至日本的饮料也不甜，以葡萄汁为例，甜度感觉完全不及盒马 NFC 夏黑葡萄汁的五分之一，也难怪日本人很难胖了。</p>
+<p>除了口味清淡，日本人还有惊人的小鸟胃——不清楚是否还有米价上涨的影响，大部分套餐和盒饭的饭量都只有“一两饭”或者更少。想吃“二两饭”？要么加钱吃豪华料理，要么就只能品鉴 2025 特色的小泉古古古古米了。作为对比,我在坚持运动的情况下，在北京，一般只需要每天 1-2 顿饭。可在日本如果不一天吃四顿，那就得饿成一道闪电。甚至吃日本人普遍觉得重口、量大的“浓厚猪骨拉面”，我都能直接把汤炫完，再来一盘份炒饭、一碗炸鸡。纵然是以量闻名二郎系拉面的“特大碗”，在北京也只是小碗还不到的水准。中国人来日本，真就人均大胃王挑战了。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/2025JP/2025JPFOOD/2025JPFOOD02.jpg" alt="我花两千日元买的特大碗重油二郎系拉面怎么就这点啊，开什么玩笑啊KORA！"></p>
+<p>最后一天，为了慰劳两周来颇难满足的胃，我们二人特地去琵琶湖边的近江八幡，品鉴了农协挂牌认证的正宗三大和牛——近江牛的烧烤放题（自助）。卡着开门的点进店，放题限时 90min，店铺人还不算多，工作人员如流水般来来回回，一刻不停地给我们上菜。我们全程不停锅、不停嘴，全部吃完，也才将将十分饱。回头一看，边上的几桌日本人加起来都没我们吃得多，还早早就撤了。结账的时候，我都不敢看老板的眼睛，生怕把他吃哭。 最后只能写个 google 好评，顺便鞠了几躬——希望老板没被吓坏；但对中国人，这确实也不算多呀！</p>
+<p>总之，日料的“精致”“健康”，还是颇令人喜欢的。好在旅游第一希望多尝，第二更能接受溢价，所以还是吃得颇为开心。但回到北京坐上饭桌的那一刻，我才真正释然: 要吃得高兴、畅怀，还得是中餐呀！这口味儿，恐怕是这辈子也戒不掉了。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/2025JP/2025JPFOOD/2025JPFOOD03.jpg" alt="和牛烧烤放题，入口即化，的确肥美"></p>
+<hr>
+<h2 id="贰·饮食记忆"><a href="#贰·饮食记忆" class="headerlink" title="贰·饮食记忆"></a>贰·饮食记忆</h2><p>从大一开始陆陆续续地尝试，到如今，各种类型的日料，我也算是吃了个遍。从几百日元的路边小店，到动辄上万的豪华料理，价格的巨变，却未必能提高快乐的界限。无论是板前精湛的技法、匠人精湛的刀工，还是枯山水般的摆盘，当时的震撼，终究会随着潮起潮落而烟消云散。停留在我脑海里的，全然不是消费刹那的多巴胺；回忆的涌现，更多是饮食中感动的瞬间。它可能端起海鲜丼后，望向窗外的湛蓝太平洋；可能是台场洒满碎金的终暮，在 JK 的踢水声中舔上一口薄荷冰淇淋；可能是在烟花凋尽的花火河川，抹尽罐装酒在舌尖上的最后一跳气泡……稍纵即逝的味觉体验已然褪去，却像是潮水后沙滩的褶皱一般，在记忆里沉淀出浪花的形状。</p>
+<p>当我意识到这一点后，我便不再执着于“特色”本身。就像日本的哈根达斯，它价格低廉、具有迷人的日式风味，作为游客的我当然是每天至少要尝试一个新口味；但它本身却又是高度标准化的，虽然确是“特色”，但于我、于人，却不曾有分别。我所能做的，无非是用哈根达斯、融合总本店鲜制的八色大福，配合软糯的口感，把抹茶、焦糖布丁等流心的风味再激发上一个档次。但这样的改造，并不局限于一地、一时、一人。它适合用来写一段朋友圈，却也就仅限于此；随着三天过去，大家便不再关心，我也一样。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/2025JP/2025JPFOOD/2025JPFOOD04.jpg" alt="大福配哈根达斯，吃过的都说好"></p>
+<p>所以，我想我真正难忘的，是难以复刻的、独属于我的心流。就像骑行一样，它最美好的地方便是最难以分享的。我的文字无法描述在琵琶湖畔拥上风、破开雨时的喜悦，但它就是我回国后依然心心念念的念想。我最思念的美食也不是什么高档餐厅，而是车站小巷边平平无奇的食堂。</p>
+<p>佳食堂坐落在大阪-奈良线的八尾站的商业街外。如果坐游客青睐的“大和快速路”列车的话，是不会停这样偏僻的小站的。看到 google 评论上清一色的“昭和风味好浓”“像是妈妈的味道”“回想起了小时候”的评论，我才好奇地专程慢悠悠晃到了八尾，钻了几个巷子才找到。到的时候已然是夜色混黑了，深幽的矮巷中只有几隔纸窗透着焦黄的灯，上面的三页风扇呜呜地颤响，吹出温和的咖喱味。松动的木拉门上挂着手写的当日“妈妈套餐”：以我的日语水平，是懂不了这么地道的内容的；而且菜单每天都会变更，也没法按图索骥。但转念一想，“妈妈”是不会骗我的，肯定是用最低的价格，让我吃饱还吃好——这么想着，门吱嘎吱咔地开了。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/2025JP/2025JPFOOD/2025JPFOOD05.jpg" alt="片假名的没见过的单词，看不懂啊，google翻译也不懂"></p>
+<p>店里面清一色都是带着工作疲惫的大叔或者阿姨，亦或是低头看报的大爷大妈。穿过收银台就是狭小的厨房，勉强容得下工作的三人——一个温和的老奶奶，还有一对相对年轻的男女。全屋的吧台和座位坐满了十个人左右，于是我只能恭恭敬敬地坐上了仅剩的榻榻米座。于是，在接下来的半小时里，我的腿几乎都是麻着的。但这一切都值得。</p>
+<p>在我还在欣赏四五十年前的麒麟（KIRIN）广告海报的时候，厨房就陆续飘出了扑鼻的香味。芬芳的香料气息，带着温热的锅气，在不打扰周围食客的程度下，足以唤起疲惫了一日的肠胃。约莫五分钟后，足足一整碗新米便盖在茄香的浓厚咖喱上，佐着四珍小菜上桌——鲜而不咸的自制腌菜、酱香浓郁的去皮茄子、鲜嫩多汁的蔬菜沙拉、还有流心四溢的爱心欧姆蛋。而这一整套的价格，却几乎是大阪正常的牛肉盖饭的一半。更不必论其营养均衡、肉蛋菜齐全，而且分量十足，足够日本人吃撑、中国人吃饱了。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/2025JP/2025JPFOOD/2025JPFOOD06.jpg" alt="太香了，妈妈套餐！妈妈做啥我吃啥~ 除了妈妈套餐，店里其它家庭料理——例如炸猪排套餐、亲子丼套餐，也无一不惊，无一不艳。横向比较，价格也低得可怕，这还是米价高涨、菜单已经调价之后呢！"></p>
+<p>意足之后，收拾碗筷，整理一天的照片，从早到晚的疲乏瞬间一扫而空。留下的，只有肚里的温暖和旅行的喜悦。</p>
+<p>结账，鞠躬，离席，拉上门的一瞬，我意识到，我也许不该说“撒由那拉”。如果有机会，我一定会再来的。</p>
+<p>我念想的不是它的菜品，因为“妈妈套餐”每天都会更换；也不是它厨艺，因为也许不久，年轻男女就会接过老太太的衣钵。但这种安静、祥和的气氛，却让我感受到了温度，有了一瞬归泊的体验。而这便是我在旅行中想找的，独属于我的体验。超越时间与空间，独一而无二。</p>
+<hr>
+<h2 id="尾声·何为美食"><a href="#尾声·何为美食" class="headerlink" title="尾声·何为美食"></a>尾声·何为美食</h2><p>人对美食的体验是非常复杂的。就以所有人都有过的感冒经验为例，一旦失去嗅觉，茶饭便不再喷香；又仿佛是大夏天的曝晒过后，一瞬间便足以失去全部的食欲。昨天惊艳的珍馐可能就变为今日寻常的果腹，彼之砒霜又何不可为吾之蜜糖。食物本身只是坐标系的原点，就像写这篇 BLOG 一样，最终的体验，大多都是食物以外的东西。</p>
+<p>整理全部的旅程，难忘的美食体验还有许多，诸如法隆寺五重塔前的冰沙，徐福公园前匠人独造的徐福寿司，大津公馆内一口奶香的近江花咲牛排……但再见五重塔时的感动、和寿司仙人的谈笑、历史建筑内的小资体验，都是我个人的体验。即便是同行者，也只能见我如见鱼，不知鱼之乐。这些美食的体验，建立在人的经历之上，从过去到未来，又独属于那一刻。宛如在我眼中一瞬划过的流星，留下一段闪亮闪亮的轨迹，但当我想去分享时，已是无从追觅了。</p>
+<p>我相信，对于相似的基因，美食的定义应该是相似的。但拨动灵魂的那根弦，却是天南海北，敏感而隐秘。关于消费的推文有很多，关于灵魂的记录却很少。我想我该写一二文字，记录一下渺然难辨的触动，在这个信息爆炸的时代，留下一些冷清的个人印记。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/2025JP/2025JPFOOD/2025JPFOOD07.jpg" alt="法隆寺五重塔前的冰沙，如夏日的花火，于烈日下盛放"></p>
+]]></content>
+      <categories>
+        <category>旅行</category>
+      </categories>
+      <tags>
+        <tag>旅行</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>骑车去日本：~皮皮虾我们走~</title>
+    <url>/2025/07/15/2025JP/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script src="/assets/js/DPlayer.min.js"> </script><blockquote>
+<p>惟江上之清风，与山间之明月，耳得之而为声，目遇之而成色，取之无禁，用之不竭。 是造物者之无尽藏也，而吾与子之所共适。</p>
+</blockquote>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/2025JP/2025CYCLE/2025CYCLE00.jpg" alt="皮皮虾（大行P8）, 我们走！"></p>
+<hr>
+<span id="more"></span>
+
+<h2 id="序·整点不一样"><a href="#序·整点不一样" class="headerlink" title="序·整点不一样"></a>序·整点不一样</h2><p>往返日本多次，我也有些厌倦了常规的“旅游”。随着近年的户外经历，愈发觉得寻常的打卡观光，已配不上心里的细糠。回想过往，最深刻的印象，反倒是仲夏夜的花火、太平洋的阳光。消费固然可以带来快乐，但无料的景色，又何尝不是异国他乡最朴素而真实的底色。如果能从中得到些许感动，那便足以唤起长久的回响。</p>
+<p>偶然间，我瞥到了骑车纵穿日本的帖子，从此这个念想便一发不可收拾。在日本骑行的优势无疑是巨大的，首先是如果不依赖自行车或者骑车，去日本大城市以外的地区是非常麻烦的，只能依赖昂贵、低频、低速的公共交通。其次，日本为骑行者做了非常好的准备，日本政府通过<a href="https://www.mlit.go.jp/road/bicycleuse/good-cycle-japan/national_cycle_route/index.html">“国家自行车道”</a>系统推广自行车旅游，这些路线在安全性、吸引力、骑行环境和接待环境方面都达到了特定标准，并提供英文信息。最后是一些特定的线路，比如琵琶湖环线、濑户内海线，不但风景绝美，而且骑行就是最好的体验方式，这在我去了之后更是有亲身的感受。而且这些旅游路线在国内都是鲜有人提及的，玩下来绝对是独一档的体验。</p>
+<p>既然也说了骑行有如此多的优点，为何还是国内鲜有人尝试呢？首先，自然是车的问题。无论是国内托运、日本买车或是租车，都是有一些麻烦的。针对这个问题，我使用了目前中文网上很少采取的方式——搞一辆大行 P8 折叠车！大行系列的折叠车因为轻巧方便、结实耐用、价格实惠，我早已经心水已久，而且想到以后还可能天南海北到处跑，所以直接在一个月前入手。只能说，大行不愧是折叠车退烧终极之选，各方面性能都堪比六边形战士，几乎找不到什么缺点，堪称骑行+摄影的最强单兵装备。而且大行在国内外铺货很广，如果遇到困难，大部分铁路工作人员，都可以帮助折叠、搬运，没有什么困难。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/2025JP/2025CYCLE/2025CYCLE01.jpg" alt="大行打包之后恰好就是一个大行李箱的空间，飞机高铁新干线火车地铁公交全部没问题，重量对男生来说也不重（日本铁路太颠了没拍好）"></p>
+<p>此外，因为骑行路线往往相对远离城市，可能会存在“人生地不熟”的忧虑，以及对道路车况的担心。作为老龄化国家，还“失去了三十年”，日本乡间的基础建设相比国内确实是算不上有多好。好在我走的都是相对成熟的路线，而且日本好歹也是发达国家，并未遇到太多的困难。需要适应的无非是要把靠右行的习惯变成在日本靠左行的习惯，但这一般一两天也就适应了。</p>
+<p>最后，就是对突发天气、体力不足、自行车故障等突发状况的担忧了。为了省些钱，我在淡季出发，适逢日本的梅雨季。可能因为日本临海的缘故，整体上未遇到多少雨水，而且相比夏天还凉快的多。除了没有花火看，下点小雨骑车，反而更加舒服，小风一吹基本上雨水一两分钟就干了，完全不是江南那种黏糊糊的感觉。至于故障，我在北京已经积累了充分的爆胎&#x2F;翻车经验，算不上什么！而且出国还更谨慎了一些，这次没遇到问题。最重要的还是充分锻炼身体，准备好宝矿力等盐水，剩下就没什么困难了。<br>总之这块作为序言已经太长了，出发吧！</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/2025JP/2025CYCLE/2025CYCLE02.jpg" alt="霓虹，我来了喵！（后面是像海一样的琵琶湖）"></p>
+<hr>
+<h2 id="壹·天人合一琵琶湖"><a href="#壹·天人合一琵琶湖" class="headerlink" title="壹·天人合一琵琶湖"></a>壹·天人合一琵琶湖</h2><blockquote>
+<p>忽闻水上琵琶声，主人忘归客不发。</p>
+</blockquote>
+<p>如果去日本只能去一个地方，那我只愿意去琵琶湖。</p>
+<p>于我而言，这是此生必骑的风景，这是绝美中的绝美。</p>
+<p>远处的山，近处的水；满眼的绿，夹道的花；捕鱼的鹭，偷稻的鸦，伴飞的鹰，爽骑的他。</p>
+<p>户外的感动是最难描述、最难分享的，因为覆面的风、点滴的雨、壮阔的波涛和天地寥落中的感动，是难以用语言和有限的画幅的相片来描述的。但琵琶湖是我真的骑了一段就想和我最好的好友分享的程度——它太美，太震撼了。仿佛是无涯的时光浓缩进了有限的道路，却又随着骑行展开一幅幅人与自然相处的画面。</p>
+<p>它是清新的。六月底是梅雨季，更是暑前的花季。空气中弥漫着雨后纯粹的青草香，带着金银花的芬芳、栀子花的甜腻。游荡在空气中的水汽轻盈而不沉闷，润泽着身体内外的每一个孔隙。相比江南蒸笼般的梅雨季，琵琶湖宛如一大片青色的云，·任由人游弋。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/2025JP/2025CYCLE/2025CYCLE03.jpg" alt="六月末七月初，正是湖畔无尽夏盛开的时节"></p>
+<p>它是移步易景的，193 公里的公路，每公里的景色都不同，每五公里都是全新的体验。我从南端开始，逆时针环行这个全日本最大的淡水湖，离开繁华的城市，穿过商业体，骑过郊区的公路，路过山洞，透过稻田，张望战国时代的遗迹，在沙岬看苍鹭红鹤纷飞，又与码头上的工人与渔夫擦肩而过。右侧的风景起起落落，左侧的琵琶湖岁月静好，在变与不变中，始终与天空保持着相同的颜色。</p>
+<p>它是寥寂的。除了鸟和偶尔路过的车，没有太多的行人。全程相遇的骑友才不到两只手，但全然没有东京内鲜明的距离感，都会热情地招呼——无论肤色，无论语言，无论国籍，大家都相待以会心一笑。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/2025JP/2025CYCLE/2025CYCLE04.jpg" alt="沿着湖骑行就能路过的古迹——长滨城"></p>
+<p>如果只是风景，那还不足以成为“必须来骑行”的理由。琵琶湖颇令人感动的是，即便游客并不算多，但以日本的标准，它的骑行道被保养的相当不错。每隔百米，路上就会有骑行提示。即便不看导航，也不用担心迷路。施工队也都会在施工前预备好替代的道路，还会靠边招呼我通行———这种人情味，在日本算得上相当珍贵了。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/2025JP/2025CYCLE/2025CYCLE05.jpg" alt="琵琶湖随处可见的骑行提示，完全不会担心走错"></p>
+<p>琵琶湖畔是松弛的。在广阔天地面前，思考是庸人自扰的烦恼。坐在 JR 车站里休息，房梁上十几窝小燕子又吵又闹，父母们带着虫子来来回回；露营的帐篷扎在长滨古城堡下，老哥穿着拖鞋，仰面朝天躺在防波堤上；头发花白的叔叔阿姨，从一户建的院子里拖出漆得白亮的快艇，拉进门口的沙滩；停车场里稀疏地插着长枪短炮，坐看沙洲浮云，鸬鹚起落。四周是大自然宽广的襁褓，我可以随时躺下，又可以随时出发。湖风，平等地拥抱每一个人。</p>
+<p>三天。200km。当我完成全程时，我想的不是身体的疲惫，不是一路的阴晴变换，而只有“下次我何时才能再来”。如果有机会，我希望能用公路车更完整地体验；也希望慢下踏频，仔细地玩味这数百年的岁月风景。</p>
+<p>我想，我应该还会再来的。</p>
+<p>沃野邻大湖，送水无尽藏。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/2025JP/2025CYCLE/2025CYCLE06.jpg" alt="在日本的一大方便——但凡是有点历史的地方，大多还用的是汉字"></p>
+<hr>
+<h2 id="贰·名声赫赫濑户海"><a href="#贰·名声赫赫濑户海" class="headerlink" title="贰·名声赫赫濑户海"></a>贰·名声赫赫濑户海</h2><blockquote>
+<p>海客谈瀛洲，烟涛微茫信难求。</p>
+</blockquote>
+<p>濑户内海-岛波海道是连接广岛县本州尾道市和四国和爱媛县今治市的桥梁路线，总长约 60 公里（自行车道约 70 公里）。该部分有六个大岛屿，由不同形状的桥梁连接起来，所以也被称为”桥梁博物馆”。濑户内海-岛波海道海道最大的特点是，它是日本唯一一个能够徒步或骑自行车穿过海峡的海峡。它也被 CNN 评选为”世界七大自行车道”，不仅被誉为世界上最好的自行车道之一，还有来自世界各地的骑行者。</p>
+<p>相较琵琶湖，濑户内海骑行道更为有名，一路上可以见到各种租用自行车的店铺、组团骑行的各色金毛外国人，也有蓝色标识的骑行指引。可惜的是，从琵琶湖归来后，濑户内海的景色和道路，相较之下还是逊色了不少。甚至连“内海”，也不如“淡水湖”琵琶湖视野开阔。不过可能是因为国际名声高，这里的日本人的英语口音要小得多，如果不是聊天的时候被老婆一个电话打来问“出去玩到什么时候才回家”，我都听不出和我交流的大叔居然是日本人。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/2025JP/2025CYCLE/2025CYCLE07.jpg" alt="工作日打烊出来玩的本地人"></p>
+<p>另一大出乎意料的是，就是卖点和实际体验的巨大反差。官网上重点推荐的“岛屿间的通行大桥”，除了数百米的爬升令人疲劳外，并没有什么值得称道的体验。反而是十分钟一班、本地人青睐的廉价渡轮，一路坐起来更有风味。传单和广告着力宣传的本地水果，对比中国又大又甜的品种，完全是徒有价格、毫无风味。反而是平平无奇的日本料理，例如烤青花鱼、柠檬布丁，像是两脚高达飞踢，瞬间把昏昏欲睡的我给踹醒。入口的一瞬间，烤青花鱼的新鲜、多汁和布丁的鲜嫩、馥郁，在脑神经反应过来之前，已经在舌尖炸开。google 评论清一色都是“在日本最惊艳的一顿早餐”“能排在这辈子前三的布丁”，对比 tabelog 上的无人问津，让我对日本人的喜好又多了一些不解。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/2025JP/2025CYCLE/2025CYCLE08.jpg" alt="渡轮十分钟一班，可以带自行车，而且似乎没有同步到google地图"></p>
+<p>风景上，濑户内海没有太吸引我的点。鸟居、神社等于我环游日本的经历里，也很难排得上号。值得咋味的，反而可能是一路上空空如也的道路、打烊的店铺、荒草丛生的公园、无人问津的百年遗迹。因为太过乡下、时处淡季、山海阻隔，岛上的环境宛如是末世的景色，也难怪日本有那么多“人类灭亡之后”的取景经验了。联想到大阪、东京越来越多的底层外国劳动力，乡下关停的荒僻学校，路边横亘的大正、昭和年间的石碑，老龄化国家的未来的确是令人忧心。难道要在“失去了三十年”之后，就直接面对“国家和社会都已然老去”的事实吗？</p>
+<p>总的来说，如果有 JR Pass,恰好又想去躺四国，还想骑自行车的话，濑户内海也许还是值得尝试的。但我个人建议还是降低一些期望。毕竟，旅行很重要的一部分还是人文，要是人都快没有了，又何来人文呢？</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/2025JP/2025CYCLE/2025CYCLE09.jpg" alt="公园内，海边，被绳索封闭起来的儿童设施——哦也许已经没有儿童了，岛上已经看不到学校了"></p>
+<hr>
+<h2 id="尾声·骑行在日本"><a href="#尾声·骑行在日本" class="headerlink" title="尾声·骑行在日本"></a>尾声·骑行在日本</h2><p>当然，在日本骑行也不可能只局限于这两处骑行道。不过整体来说，虽然日本骑行能减少很多交通成本，但就体验上说，逊色于国内不少。主要的差距还是基础建设的差距，尤其是在大城市中——东京、京都是几乎完全不适合骑车的。日本太狭小了，寸土寸金的城市的停车场都要收费（土地私有制和日本的社会氛围是不允许乱停的），而且城市的干路与毛细血管，也都缺乏针对自行车的设计。回国之后，我甚至觉得北京都眉清目秀了起来。</p>
+<p>不过日本作为发达国家的优势，体现在它的无障碍设施非常全面，而且日本的公共交通都是允许自行车搭乘的。日本人习惯默默带车坐到车头或者车尾，所以一路上经常可以遇到骑友。即便是腼腆的日本人，在户外运动前也会变得健谈起来。至于上车，只要准备好打包袋，一般不会有任何问题——所以日本的折叠车非常普遍，而且大部分自行车也都是小小的。大行在其中，简直像是一个巨物。而且因为潮湿、临海，日本人的很多车都长满了铁锈。如果要带车前往，最好还是要补一些防锈润滑油。</p>
+<p>最后，如果要问我推不推荐带车去日本，我的建议是推荐对自行车有一定爱好、且有一定长途经验之后再前往。在异国他乡克服重重困难、看别人未曾看过的风景，这种体验是独一无二、值得终身记忆的。它可能难以分享、难以共情，但吻在脸上的风、呼啸而过的海，这些宝贵的体验，足以刻骨铭心去珍藏。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/2025JP/2025CYCLE/2025CYCLE10.jpg" alt="和女友一起骑车很开心喵"></p>
+]]></content>
+      <categories>
+        <category>旅行</category>
+      </categories>
+      <tags>
+        <tag>旅行</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>东狩津门：单日爆骑天津行</title>
+    <url>/2025/05/23/202505TIANJ/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script src="/assets/js/DPlayer.min.js"> </script><blockquote>
+<p>高楼谁与上？长记秋晴望。往事已成空，还如一梦中。</p>
+</blockquote>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202505/202505TIANJ/202505TIANJ00.jpg" alt="别问骑多久，就问到没到吧"></p>
+<hr>
+<span id="more"></span>
+
+<h2 id="序"><a href="#序" class="headerlink" title="序"></a>序</h2><p>起初，没有人在意这一场挑战。</p>
+<p>这不过是一张天津的照片、一条 164km 的路线、一句“择日不如撞日”、一个这周就去的许诺；</p>
+<p>直到 7 点钟开始的 7 级大风、中午大太阳下三环路的四次爆胎，</p>
+<p>5 点还被困在北京城的我们，才意识到今日的成败已和能否吃上晚饭息息相关。</p>
+<p>没事，今晚，我们就去天津！</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202505/202505TIANJ/202505TIANJ01.jpg" alt="呱，为了八珍豆腐，海河牛奶，我还不可以就这样轻易地放弃口牙！"></p>
+<hr>
+<h2 id="壹·北京囧途"><a href="#壹·北京囧途" class="headerlink" title="壹·北京囧途"></a>壹·北京囧途</h2><p>因为是全新的路线，我们一开始选择了最保守的方案：跟着导航走，早去早落脚。</p>
+<p>但是，计划总是赶不上变化——比如让人彻夜难眠的 7 级以上妖风、风去之后人山人海的北京城、遍布的红绿灯和拥挤的周末电动车潮……走三环路真可谓是最糟糕的选择，除了一视同仁的量大管饱的灰尘和红绿灯，还有充满激情的电动车及机动车碰碰车项目，都是经典到能上“北京必玩榜”了。</p>
+<p>可这样就结束了吗？</p>
+<p>不可能！三环除了经典项目，还有凹凸不平的路面，让你随时爆胎！距离车店少则数百米，长则几公里，给你最好的综合锻炼呀！</p>
+<p>经过漫长的折磨，在即将出城的一瞬——随着一阵浮空，队尾的队员才意识到通过了铁轨。没来得及刹车的可怜的公路车，就这样在颠簸中瞬间清空了护甲，发出了响亮的哀鸣。在这前不着村后不着店的荒野，我们几双眼睛面面相觑。</p>
+<p>“我爷爷以前修过车。”</p>
+<p>“我小叔以前是补胎的。”</p>
+<p>“我刚刚跟补胎师傅学了几手。”</p>
+<p>于是，在周围大爷的围观下，我们凭借些微的记忆模仿老师傅们的动作，三个臭皮匠开始冒充诸葛亮重新换胎……祖辈的回忆仿佛在一瞬间汇聚到了脑海：岁月悠长，原来我竟是骑行龙王！拨片以流畅的角度瞬间分开轮毂，内胎被庖丁解牛般从外壳中腾跃而出，在空中甩了几圈后便被顷刻炼化，装回之时已隐隐闪出光泽，转动如风火轮般流畅。周围的朝阳区群众直呼：“就你们这水平，去西藏都不成问题呐！”</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202505/202505TIANJ/202505TIANJ02.jpg" alt="原力觉醒，顷刻炼化！再也不用花补胎的钱了~"></p>
+<p>出北京时，我们掐指一算，按照如此配速，到达天津恐怕得是明天了。</p>
+<p>虽然已经日渐昏黄，但这才正是美好骑行的开场！货拉拉的结算动画，怎能如此轻易播放？</p>
+<p>然后，我们就体会到了，原来北京的幸福，就是只要离开北京，就会感受到幸福。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202505/202505TIANJ/202505TIANJ03.jpg" alt="所以，最好的路线还是不走城市道路，而沿着清河-温榆河-运河绕路走绿道，正所谓慢就是快，远就是近，还能看沿途钓鱼佬们的“空军基地”"></p>
+<hr>
+<h2 id="贰·最好的-G103"><a href="#贰·最好的-G103" class="headerlink" title="贰·最好的 G103"></a>贰·最好的 G103</h2><p>谈到国道，我脑海中一般出现的都是成串的大车，漫天的烟尘，还有无尽的引擎轰鸣。而这些刻板印象在骑上 G103 的一刹，被彻底破碎了。</p>
+<p>零星的轿车，宽阔的路面，无尽的蓝天，微风吹过花坛。傍晚的阳光像婴儿的手一般温暖，从无尽的行道树中滴下来。</p>
+<p>无限的风景，没有红绿灯，没有上下坡，没有贴身的大车，没有寸止的骑行道，舒适的天气，无车的六车道。</p>
+<p>骑了十余年的车，我第一次见到如此完美的路况。</p>
+<p>请注意，它甚至还是一条国道，所以无需担心寂寞。几乎每公里都有加油站，可以驻足休憩。</p>
+<p>请注意，它甚至还是京杭大运河的终点，所以无需担心风景。田野和城镇往复变化，布谷鸟、麻雀和喜鹊在枝头嬉戏。</p>
+<p>导航传来清晰的提示：继续直行。继续这样骑上 100 公里，就能抵达天津。</p>
+<p>那我还有什么理由不放空一切，沉浸在这无尽的风中呢？</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202505/202505TIANJ/202505TIANJ04.jpg" alt="完美的道路，爽快的骑行"></p>
+<p>回过神来的时候，天色已然昏黄。</p>
+<p>我第一次体会到车队骑行竟能如此爽快。我们像大雁一样变化着前沿的破风，全程高速奔驰。穿越百公里，抵达天津，只用了和出城相同的时间。</p>
+<p>奔驰的感觉是自由的。沿途我们遇见了天津的骑友，天津人不愧都是 E 人，加上户外运动的加持，大家一见面就聊个不停。大姐姐给我们介绍天津夜骑需要注意的种种，还不忘埋汰一句：“城区红绿灯多，我最不要骑。”</p>
+<p>樊笼非所愿，始得返自然。</p>
+<p>G103 虽有终点，但这已足够美好、足够令人满足了。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202505/202505TIANJ/202505TIANJ05.jpg" alt="天津的大姐姐，每天都来G103爽骑2H，天津人民还是太幸福了"></p>
+<hr>
+<h2 id="尾声"><a href="#尾声" class="headerlink" title="尾声"></a>尾声</h2><p>骑车不能减肥，因为骑越多，吃越多。</p>
+<p>比如本来我是一天只吃两顿的——既然要骑车，那三顿、四顿就在所难免了。当然出了北京，那天津自然是显得什么都好吃、什么都便宜了。譬如 48 一整套、比北京还好吃的北京烤鸭，抑或是新鲜的海鲜、用精华部分做的酱烤圆白菜、还有海肠捞饭种种。最令人不习惯的还是天津菜量实在是太大了，一般人均一个菜就吃到快发撑，根本无福多消受。何况还有饭后的海河牛奶诱惑，着实太过罪恶！</p>
+<p>既然吃多了，那就继续多骑骑车吧，好在多吃多动，总之不亏！</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202505/202505TIANJ/202505TIANJ06.jpg" alt="昱徳来的酱爆圆白菜，属实是一绝"></p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202505/202505TIANJ/202505TIANJ07.jpg" alt="干煸鱿鱼须，吃完还想吃，好功夫！"></p>
+]]></content>
+      <categories>
+        <category>旅行</category>
+      </categories>
+      <tags>
+        <tag>旅行</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>最强大脑：接待兴大教授 Martin Gruebele</title>
+    <url>/2025/04/22/2025MARTIN/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script src="/assets/js/DPlayer.min.js"> </script><blockquote>
+<p>拿不到铁人三项冠军的运动员不是好院士！</p>
+</blockquote>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202505/2025MARTIN/2025MARTIN00.jpg" alt="教授白天骑100公里，爬完居庸关，晚上还有余力做两个小时学术报告"></p>
+<hr>
+<span id="more"></span>
+
+
+<h2 id="序"><a href="#序" class="headerlink" title="序"></a>序</h2><blockquote>
+<p>Gruebele教授于1964年出生于德国斯图加特（Stuttgart），之后曾在奥地利和西班牙生活，随后搬到了伯克利（Berkeley），在加州大学（University of California）获得了1984年的学士学位和1988年的博士学位。他在理查德·塞耶克利（Richard Saykally）教授的团队中，从事分子离子和簇的高分辨率光谱学研究。1989年，他在加州理工学院（Caltech）阿哈迈德·泽瓦伊尔（Ahmed Zewail）教授的实验室进行飞秒化学实验及理论研究，并在完成博士后工作后于1992年转至伊利诺伊大学（University of Illinois）。目前，他是詹姆斯·R·艾斯纳教授（James R. Eiszner Professor of Chemistry）及物理学、生物物理学和计算生物学教授，同时也是高级研究中心（Center for Advanced Studies）及卡尔-伊利诺伊医学院（Carle-Illinois College of Medicine）的教授。他是美国物理学会和生物物理学会的院士，曾获得包括萨克国际生物物理奖（Sacker International Prize in Biophysics）、美国化学会中西扬奖（ACS Nakanishi Prize）和威廉·贝塞尔奖（Wilhelm Bessel Award）在内的多个奖项。2008年，他当选为德国国家科学院（German National Academy of Sciences）院士，2010年成为美国艺术与科学院（American Academy of Arts and Sciences）院士，2013年当选美国国家科学院（National Academy of Sciences, USA）院士。1998年至2005年，他担任《物理化学杂志》（Journal of Physical Chemistry）的高级编辑，2013年至2017年担任《美国化学学会志》（JACS）的副编辑。他的研究领域包括蛋白质和RNA折叠、活细胞中的成像动态、分子中的激光光谱学和振动能量流、量子计算和量子控制的理论以及通过扫描隧道显微镜和玻璃态动力学检测的单分子吸收光谱学。相关研究已经发表于超过290篇论文和评论中。</p>
+</blockquote>
+<p>但这只是表象罢了！</p>
+<p>除了卓越的学术成就，截至2025年，Martin Gruebele教授已经完成了22场铁人三项赛、一场艰苦卓绝的恶水超级马拉松以及横跨美国马拉松，并在多个赛事中取得冠军。2022年，他和伊利诺伊的同事在瑞士完成了十项全能世界锦标赛——期间游泳24英里，骑行1120英里，跑步262英里。顺带一提，据他本人说，他之前完成的600公里骑行越野赛，是在一天以内完成的。</p>
+<p>所以，当导师找到我，说Martin想在北京骑去长城玩的时候，我想了想好像可能的陪玩只有我，但我能陪玩似乎又不太可能。好在我的导师已经帮我提前打过招呼了：</p>
+<blockquote>
+<p>……A day trip by bike to the Great Wall, accompanied by one of my students (be lenient on him, he is good at biking but not that good).</p>
+</blockquote>
+<blockquote>
+<p><em><strong>Martin: Your student should not have a problem: young and strong age, whereas I’m now in 60s!</strong></em> </p>
+</blockquote>
+<p>Whatever. So far so good！</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202505/2025MARTIN/2025MARTIN01.jpg" alt="虽然三百六十五里路，但总算是完成了全程"></p>
+<hr>
+<h2 id="壹·学术之旅"><a href="#壹·学术之旅" class="headerlink" title="壹·学术之旅"></a>壹·学术之旅</h2><p>不得不承认，招待大牛确实是一件很费心的事：Martin这次来一周多，要前往中国五个省参观和报告，然后还要和领导、学院的教授以及本科生、研究生面谈，他的行程几乎是塞得满满当当，时间精确到分钟——而他作为一个德裔，真的能够做到精确到分钟的完美节奏把控，对所有问题应答如流。</p>
+<p>不过最让人震撼的是，他能够始终保持清晰、快速的思维，中间不休息，早上坚持锻炼，白天不摄入咖啡因，夜晚只进行数小时的睡眠，还能够充满活力、给予我们几乎所有人全然不同的启发，可能这就是铁人三项冠军兼美国科学院院士的实力。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202505/2025MARTIN/2025MARTIN02.jpg" alt="Martin光是往椅子上一坐，就有了明星的气派，但平时又是非常亲切的长者"></p>
+<p>作为主要负责北京站接待的学生，光是编排行程、安排餐食和规划路线，就耗费了我数天的精力。光是接待他一天，在准备充分的情况下，也足够令我疲惫，他却始终能保持精神焕发，甚至回美国后还要去加州参加铁人三项比赛！</p>
+<p>另外令我感慨的一点，就是Martin在生活中展现的从容——不像其他大牛，他几乎没什么挑剔，这也是因为几乎所有的情况他都能从容应对。无论是半小时前才通知的学院采访视频录制环节，还是运动时我们给他借来的装备，亦或者是座谈会时千奇百怪的学生问题……他都能快速适应、调整，然后娓娓道来。我可以从其他人眼中感受到发自内心的尊敬感，或许这就是“超人”的魅力。</p>
+<p>让人最感受到亲切的，还是Martin和我们的闲谈。首先，全球几乎所有男人都一个样——Martin在晚餐喝了点酒，然后就对着我们痛斥Trump，然后调侃如今在美国已经快吃不起鸡蛋了；然后，面对我们学生感兴趣的话题，他又能讲他当初是如何沉迷电子游戏，后来认识到电子游戏是一种低难度高回报的娱乐方式，最终还是选择了更高难度、但回报更为与众不同的学术之路；面对老师们，他又能分享他家庭的琐碎，顺带聊一聊中国学生们回国后的发展……Martin说18年后再来中国，中国已经翻天覆地、焕然一新；对我而言，Martin又何尝不是让我大开眼界，让我生动地体会到了何为真正的“顶尖学者”。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202505/2025MARTIN/2025MARTIN03.jpg" alt="Martin可以让我感受到，他真正热爱他的学术、运动和生活，而不是为了生存——他已经超越了我们太多"></p>
+<p>临别Martin时，我真正感受到了一丝伤感——对我们而言，只是数天的萍水相逢罢了，今后山高海阔，也不知相见又是何年。但他的确是我尊敬抑或是向往的样子，活得闪耀，活得精彩。</p>
+<hr>
+<h2 id="贰·长城之行"><a href="#贰·长城之行" class="headerlink" title="贰·长城之行"></a>贰·长城之行</h2><p>因为Martin实在是太过专业了，所以我准备了很久如何带他骑行，甚至备了好几套方案（我把其中两套方案的英文版附在了最后，如果今后有人有需要的话）。最终他还是选择了更长的长城路线，毕竟对他来说这确实不是什么事，而且有着重要的纪念意义。</p>
+<p>十八年前，2007年，他同样骑行并登上了长城。当时陪同他的北京大学自行车协会学生，如今已经成了苏州大学的教授；当初他骑行的石子路和土路，已经完全变成了宽阔的柏油路；当初并行的骑着自行车的北京市民，如今已经多数换成了电动汽车；他也不再需要带水壶，因为沿路就是各种商业街和店铺，不必担心补给……大概只有长城和过去一模一样，他找到当初拍摄的隘口，拍照，一如既往。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202505/2025MARTIN/2025MARTIN04.jpg" alt="天空不像当初那么蓝，但他说美国三十年前也是如此，今后会重新好起来"></p>
+<p>不得不承认，Martin的体力还是比我预期得好太多了——在他声称“不必太快，保留体力”的情况下，我们以平路25km&#x2F;h，上坡20km&#x2F;h的速度前进，然而这已经是我很有挑战的速度了，果不其然，抵达居庸关时，我的身体已经开始疯狂暴汗和脱盐，Martin却还表示“水喝多了”，频频要去如厕。最后的山路，Martin一溜烟就登了顶，徒留我在后头艰难爬行。</p>
+<p>等到爬长城时，我直接被Martin拉出了一半路，全程几乎都是他在等我。即便如此，我们还是1.5小时爬完了居庸关；然而之前我和体力不错的同学们都爬了2小时，何况Martin自己1小时不到其实就能爬完! 同行的恰好有一个80后的顺丰小哥，虽然平时每日上下楼两万步以上，也是被拉爆，直呼respect。其余中国驴友也纷纷表示：还是老外天赋强啊！（我觉得应该还是后天训练导致的）</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202505/2025MARTIN/2025MARTIN05.jpg" alt="教授，等等我……"></p>
+<p>至于回去路上，最后的20km，我几乎只能蹭Martin的尾气才能回去了。Martin也不以为意，表示相比普通人，我已经厉害非常多了，还建议我也可以去报名参加一些简单的比赛。这种经历，恐怕这辈子也忘不了了……</p>
+<blockquote>
+<p>Gruebele教授与本组博士生江意达进行了一场特别的骑行活动，主题为“从新兴城市到古代奇观”。此行全程100公里，途经圆明园、颐和园、京密引水渠及马池口，最终抵达雄伟的居庸关长城。这次活动不仅锻炼了体能，也加深了学术交流与历史文化的认识。 </p>
+</blockquote>
+<hr>
+<h2 id="尾声"><a href="#尾声" class="headerlink" title="尾声"></a>尾声</h2><p>Martin是一个很有趣的人，如果不是因为时局如此，我肯定会希望能和他共事。作为一个学生每个月都只能平均和他交流1小时不到的大牛，能有这样的机会了解彼此，我想再没有更好的契机了。</p>
+<p>毕竟对于Martin，这也是十八年才有的机会。错过就是错过了，但把握住了，就是一辈子的回忆。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202505/2025MARTIN/2025MARTIN06.jpg" alt="我导给Martin赠礼"></p>
+<hr>
+<h2 id="附录：Cycling-in-Beijing"><a href="#附录：Cycling-in-Beijing" class="headerlink" title="附录：Cycling in Beijing"></a>附录：Cycling in Beijing</h2><h3 id="Highlight"><a href="#Highlight" class="headerlink" title="Highlight"></a>Highlight</h3><p>•	<em><strong>Weather</strong></em>: Weather in Beijing is usually good for cycling. 10-20 °C can be confortable for cycling, but still better for dressing in layers. Though air quality indices are usually fine, outdoor activity is not favorable if air pollution happens.</p>
+<p>•	<em><strong>Traffic</strong></em>:  Beijing is known for its heavy traffic, but not in this routine. Cycling is always safe here. All devices, including helmets, will be well-prepared. Please clear your mind and enjoy this journey.</p>
+<p>•	<em><strong>Navigation</strong></em>: Google Map and other applications (such as X) is not supported in China. A proxy VPN or alternative applications (such as Baidu Map) are neccessary for navigation or other service.</p>
+<p>•	<em><strong>Cashless Payments</strong></em>: WeChat Pay and Alipay are widely accepted. They are all-in-one apps so you can almost do anything with them in China. It’s handy to have one of these apps installed and make sure it works well before arrive.</p>
+<p>•	<em><strong>Miscellaneous Tips</strong></em>: Keep in mind to have passport with you for possible security checks in the central city. </p>
+<p>•	<em><strong>Equipments</strong></em>: We will prepare equipment in advance and recommand you to wear a helmet.</p>
+<h3 id="Route-1-From-emerging-cities-to-ancient-wonders"><a href="#Route-1-From-emerging-cities-to-ancient-wonders" class="headerlink" title="Route 1: From emerging cities to ancient wonders"></a>Route 1: From emerging cities to ancient wonders</h3><p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202505/2025MARTIN/2025MARTIN07.jpg" alt="Graph Abstract"><br><em><strong>Graph Abstract</strong></em>. The cycling route covers approximately 50km (100 km in total) and typically takes around 3 hours to complete. It also begins with the renowned ‘Three Mountains and Five Gardens’ route, continues along a scenic water canal, and passes through the suburbs of Beijing.</p>
+<h4 id="1-Peking-University"><a href="#1-Peking-University" class="headerlink" title="1 Peking University"></a>1 <a href="https://en.wikipedia.org/wiki/Peking_University">Peking University</a></h4><p>Established as the Imperial University of Peking in 1898 by a royal charter from the Guangxu Emperor, it is the second oldest university in China after Tianjin University (established in 1895). The university is part of the Double First-Class Construction and the C9 League. By 2017, Peking University’s staff included 76 academicians of the Chinese Academy of Sciences, 19 members of the Chinese Academy of Engineering and 25 members of the World Academy of Sciences.</p>
+<p>Peking University’s location is traditionally where many of Beijing’s most renowned gardens and palaces were built , whereas most of them are ruined by “Eight-Power Allied Forces” and World War II.  Peking University is also well-known for its commemorative signifiance for the establishment of People’s Republic of China.</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202505/2025MARTIN/2025MARTIN08.jpg" alt="Figure 1"></p>
+<p><em><strong>Figure 1</strong></em>. Peking University’s West Gate, one of the symbols of the university campus. It was built in 1926 and connected with old royal garden.</p>
+<h4 id="2-Old-Summer-Palace"><a href="#2-Old-Summer-Palace" class="headerlink" title="2 Old Summer Palace"></a>2 <a href="https://en.wikipedia.org/wiki/Old_Summer_Palace">Old Summer Palace</a></h4><p>The <em><strong>Old Summer Palace</strong></em>, also known as <em><strong>Yuanmingyuan</strong></em>, originally called the Imperial Gardens, and sometimes called the Winter Palace, was a complex of palaces and gardens in present-day Beijing. Constructed throughout the 18th and early 19th centuries, the Old Summer Palace was the main imperial residence of Qianlong Emperor of the Qing dynasty and his successors, and where they handled state affairs; the Forbidden City was used for formal ceremonies. The Garden was reputed as the “Garden of Gardens” in its heyday was “arguably the greatest concentration of historic treasures in the world, dating and representing a full 5,000 years of an ancient civilization”, according to Robert McGee, chaplain to the British forces.</p>
+<p>Nowadays,  the Imperial Gardens at the Old Summer Palace are made up of three gardens. And it is free for students from Peking University to have their sports classes in it. </p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202505/2025MARTIN/2025MARTIN09.jpg" alt="Figure 2"></p>
+<p><em><strong>Figure 2</strong></em>. Ruins after wars in the Old Summer Palace. During the Second Opium War, French and British troops captured the palace on 6 October 1860, looting and destroying the imperial collections over the next few days. The palace was so large – covering more than 3.5 square kilometres (860 acres) – that it took 4,000 men three days to destroy it. Many exquisite artworks – sculptures, porcelain, jade, silk robes, elaborate textiles, gold objects and more – were looted and, according to UNESCO, are now located in 47 museums around the world. </p>
+<h4 id="3-Summer-Palace"><a href="#3-Summer-Palace" class="headerlink" title="3 Summer Palace"></a>3 <a href="https://en.wikipedia.org/wiki/Summer_Palace">Summer Palace</a></h4><p>The <em><strong>Summer Palace</strong></em>  is a vast ensemble of lakes, gardens and palaces in Beijing. It was an imperial garden during the Qing dynasty. Inside includes Longevity Hill Kunming Lake and Seventeen Hole Bridge. It covers an expanse of 2.9 square kilometres (1.1 sq mi), three-quarters of which is water.</p>
+<p>The Summer Palace, which is inspired by the gardens of South China, contains over 3,000 Chinese ancient buildings that house a collection of over 40,000 valuable historical relics from various dynasties.</p>
+<p>In December 1998, UNESCO included the Summer Palace on its World Heritage List. It declared the Summer Palace “a masterpiece of Chinese landscape garden design. The natural landscape of hills and open water is combined with artificial features such as pavilions, halls, palaces, temples and bridges to form a harmonious ensemble of outstanding aesthetic value”.</p>
+<p>Notably in Chinese history, it is also the Central Route terminus of the South-North Water Transfer Project having traversed 1,267 km (787 mi) from Danjiangkou Reservoir, Hubei, making it Beijing’s main water supply.</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202505/2025MARTIN/2025MARTIN10.jpg" alt="Figure 3"></p>
+<p><em><strong>Figure 3</strong></em>. Qunming Lake in the Summer Palace. However, the Qunming Lake itself is a poor imitation of the famous <a href="https://en.wikipedia.org/wiki/West_Lake">West Lake</a>. As I spent all my first 18 years in Hangzhou, it is unacceptable to acknowledge its beauty.</p>
+<h4 id="4-The-Jing-Mi-Diversion-Canal"><a href="#4-The-Jing-Mi-Diversion-Canal" class="headerlink" title="4 The Jing-Mi Diversion Canal"></a>4 <a href="https://en.wikipedia.org/wiki/Summer_Palace">The Jing-Mi Diversion Canal</a></h4><p>The Jing-Mi Diversion Canal (JMDC) is a large-scale water diversion project that diverts water from the Miyun Reservoir to the Beijing metropolitan area. It started its year-round water diversion in 1989, with a total length of about 103 km. It plays an important role in solving the problem of the mismatch between the water supply of the South to North Water Diversion Project and the water consumption in Beijing.</p>
+<p>From the middle station, Qunming Lake, the Jing-Mi Diversion Canal spreads into the central city. It provides a wide space for local people to carry out various activities.</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202505/2025MARTIN/2025MARTIN11.jpg" alt="Figure 4"></p>
+<p><em><strong>Figure 4</strong></em>.  The main water sports that locals engage in include hydrofoil, kayaking, swimming and fishing.</p>
+<h4 id="5-Machi-Kou"><a href="#5-Machi-Kou" class="headerlink" title="5 Machi Kou"></a>5 Machi Kou</h4><p>Machi Kou in Changping District, Beijing, traces its origins to the Yuan Dynasty. Initially a military and grain depot. During the late Yuan and early Ming periods, migrants from Shandong and Shanxi settled the area, forming a village. Today, Machi Kou is an urbanized community, retaining its historical name. The village preserves its heritage through a historical exhibit featuring donated artifacts and items from various dynasties. Historically, it was a vital transportation hub, evidenced by ancient roads and relics. Modern villages thrive with sustainable agriculture, cultural industries, and eco-tourism, enhancing its livability and prosperity.</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202505/2025MARTIN/2025MARTIN12.jpg" alt="Figure 5"></p>
+<h4 id="6-Juyong-Pass"><a href="#6-Juyong-Pass" class="headerlink" title="6 Juyong Pass"></a>6 <a href="https://en.wikipedia.org/wiki/Juyong_Pass">Juyong Pass</a></h4><p><em><strong>Juyong Pass</strong></em> (Chinese: 居庸关; pinyin: Jūyōng guān) is a mountain pass located in the Changping District of Beijing Municipality, over 50 kilometers (31 mi) from central Beijing. The Great Wall of China passes through, and the Cloud Platform was built here in the year 1342.</p>
+<p>The present pass route was built in the Ming dynasty and received much renovation later. It was a very important strategic place connecting the inner land and the area near the northern border of China. It was also used to defend the ancient city of Beijing.</p>
+<p>When climbing Juyongguan, please keep the following precautions in mind:</p>
+<ol>
+<li>The steps are steep, so exercise caution and ensure your safety while climbing.</li>
+<li>There are few shops along the Great Wall. Completing the entire route can take 2-4 hours (but not neccessay to finish, and it’s free to stop halfway), so it’s advisable to carry enough snacks and assess our physical limits.</li>
+<li>Wear comfortable and sturdy footwear to support your feet during the climb.</li>
+</ol>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202505/2025MARTIN/2025MARTIN13.jpg" alt="Figure 6"></p>
+<p><em><strong>The total routine, including climbing the Great Wall, takes 6-10 hours, so we need to start early and cannot have a big meal on the way.</strong></em></p>
+<hr>
+<h3 id="Route-2-From-Ancient-Palace-to-Modern-Downtown"><a href="#Route-2-From-Ancient-Palace-to-Modern-Downtown" class="headerlink" title="Route 2:  From Ancient Palace to Modern Downtown"></a>Route 2:  From Ancient Palace to Modern Downtown</h3><p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202505/2025MARTIN/2025MARTIN14.jpg" alt="Graph Abstract 2"></p>
+<p><em><strong>Graph Abstract</strong></em>. The cycling route covers approximately 40km in total and typically takes around 3-5 hours to complete. It begins with the renowned ‘Three Mountains and Five Gardens’ route, continues along a scenic water canal into the historic old city, and concludes with a ride through the vibrant modern downtown.</p>
+<h4 id="1-4-The-same-routine-mentioned-before"><a href="#1-4-The-same-routine-mentioned-before" class="headerlink" title="1-4 The same routine mentioned before"></a>1-4 The same routine mentioned before</h4><h4 id="5-The-Central-Radio-amp-TV-Tower"><a href="#5-The-Central-Radio-amp-TV-Tower" class="headerlink" title="5 The Central Radio &amp; TV Tower"></a>5 <a href="https://en.wikipedia.org/wiki/Central_Radio_%26_TV_Tower">The Central Radio &amp; TV Tower</a></h4><p><em><strong>The Central Radio &amp; TV Tower</strong></em> is a 405-metre-tall (1,329 ft) telecommunications- and observation tower in Beijing, China. It was the tallest structure in the city until 2018. It is the ninth-tallest tower in the world, and has its observation deck at 238 m (781 ft). The tower provides panoramic views over the city from its revolving restaurant and observation deck. It is a member of the World Federation of Great Towers.</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202505/2025MARTIN/2025MARTIN15.jpg" alt="Figure 5"></p>
+<p><em><strong>Figure 5</strong></em>.  The Central Radio &amp; TV Tower was shot from Yuyuantan Park. </p>
+<h4 id="6-Tiananmen"><a href="#6-Tiananmen" class="headerlink" title="6 Tiananmen"></a>6 <a href="https://en.wikipedia.org/wiki/Tiananmen">Tiananmen</a></h4><p><em><strong>The Tiananmen</strong></em>, also <em><strong>the Gate of Heaven-Sent Peace</strong></em>, is the entrance gate to the Forbidden City palace complex and Imperial City in the center of Beijing. It is widely used as a national symbol.</p>
+<p>First built during the Ming dynasty in 1420, Tiananmen was the entrance to the Emperor’s residence, of which all visitors to the palace walked through. In 1949, Mao Zedong proclaimed the People’s Republic of China from the balcony, of which now features a large portrait of him. Tiananmen is located to the north of Tiananmen Square, and is separated from the plaza by Chang’an Avenue.</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202505/2025MARTIN/2025MARTIN16.jpg" alt="Figure 6"></p>
+<p><em><strong>Figure 6</strong></em>. Tiananmen in 2020. The western and eastern walls have giant placards; the left one reads “Long Live the People’s Republic of China”, while the right one reads “Long Live the Great Solidarity of the World’s Peoples”. Reservations are required to visit Tiananmen Square, but not to the pass.</p>
+<h4 id="7-Dongdan"><a href="#7-Dongdan" class="headerlink" title="7 Dongdan"></a>7 <a href="https://en.wikipedia.org/wiki/Dongdan,_Beijing">Dongdan</a></h4><p>Dongdan, literally “Eastern Single” or “Eastern Single Sign Gate” is the name of a crossing on Beijing’s Chang’an Avenue and surrounding neighborhood. The name is derived from the single paifang or Chinese sign gate that once marked the intersection. In the checkerboard layout of Beijing, the Dongdan intersection in Dongcheng District to the east of the city centre, is balanced by Xidan or the “Western Single” in Xicheng District to the west of city centre. </p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202505/2025MARTIN/2025MARTIN17.jpg" alt="Figure 7"></p>
+<p><em><strong>Figure 7</strong></em>. Dongdan Crossing (2004). Though Dongdan and Xidan were traditionally market centers, due to the development of the country and the city, nowadays, it is more like a monument to Reform and Opening Up. (It has been far surpassed by the new commercial center)</p>
+<h4 id="8-Yonghe-Temple"><a href="#8-Yonghe-Temple" class="headerlink" title="8 Yonghe Temple"></a>8 <a href="https://en.wikipedia.org/wiki/Yonghe_Temple">Yonghe Temple</a></h4><p>The <em><strong>Yonghe Temple</strong></em>, also known as the Yonghe Lamasery, or popularly as the Lama Temple, is a temple and monastery of the Gelug school of Tibetan Buddhism located on 12 Yonghegong Street, Dongcheng District, Beijing, China. The building and artwork of the temple is a combination of Han Chinese and Tibetan styles. This building is one of the largest Tibetan Buddhist monasteries in China proper. The current abbot is Lama Hu Xuefeng. Yonghe Temple was the highest Buddhist temple in the country during the middle and late Qing dynasty.</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202505/2025MARTIN/2025MARTIN18.jpg" alt="Figure 8"></p>
+<p><em><strong>Figure 8</strong></em>. The Yonghe Temple. It is always crowded because of its reputation. </p>
+<h4 id="9-Drum-Tower-and-Bell-Tower-of-Beijing"><a href="#9-Drum-Tower-and-Bell-Tower-of-Beijing" class="headerlink" title="9 Drum Tower and Bell Tower of Beijing"></a>9 <a href="https://en.wikipedia.org/wiki/Drum_Tower_and_Bell_Tower_of_Beijing">Drum Tower and Bell Tower of Beijing</a></h4><p>The Drum Tower of Beijing, or Gulou, and The Bell Tower of Beijing, or Zhonglou,  both are built for musical reasons. It was later used to announce the time and is now a tourist attraction. Together, the Bell Tower and Drum Tower have panoramic views over central Beijing. Before the modern era, both towers dominated the Beijing skyline. They are in <a href="https://en.wikipedia.org/wiki/Beijing_Central_Axis">Beijing Central Axis</a>, a stretch of road in Beijing, extends 7.8 kilometers from the Drum and Bell Towers in the north to the Yongdingmen Gate in the south, which composes a building ensemble exhibiting the ideal order of the Chinese capital.</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202505/2025MARTIN/2025MARTIN19.jpg" alt="Figure 9"></p>
+<p><em><strong>Figure 9</strong></em>. The Drum Tower, as seen from the Bell Tower at its rear. Drum Tower and Bell Tower of Beijing in <a href="https://en.wikipedia.org/wiki/Beijing_Central_Axis">Beijing Central Axis</a>s were designated as a World Heritage Site by UNESCO in 2024.</p>
+<h4 id="10-Zhongguancun"><a href="#10-Zhongguancun" class="headerlink" title="10 Zhongguancun"></a>10 <a href="https://en.wikipedia.org/wiki/Zhongguancun">Zhongguancun</a></h4><p><em><strong>Zhongguancun</strong></em> is a major technology hub in the Haidian District, Beijing. Many world-renowned technology companies built their Chinese headquarters and research centers in Zhongguancun Technology Park, such as Google, Intel, AMD, Oracle Corporation, IBM, Sony, and Microsoft. Nowadays, the most popular star here is the headquarters of Tiktok.</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202505/2025MARTIN/2025MARTIN20.jpg" alt="Figure 10"></p>
+<p><em><strong>Figure 10</strong></em>. Headquarters of Tiktok. </p>
+<h4 id="Dinner-Plan"><a href="#Dinner-Plan" class="headerlink" title="Dinner Plan"></a>Dinner Plan</h4><p>I recommend to have a dinner in 7:Dongdan. Nanjing Great Hotel, a traditional government guest house, is open to local people when there is no important missions. It provides buffet in a reasonably price, and you can enjoy the diversity of Chinese cuisine here. </p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202505/2025MARTIN/2025MARTIN21.jpg" alt="Figure 11"></p>
+<p><em><strong>Figure 11</strong></em>. Dishes in Nanjing Great Hotel. It includes Chinese food, western food, Japanese food and traditional stacks. </p>
+]]></content>
+      <categories>
+        <category>杂记</category>
+      </categories>
+      <tags>
+        <tag>旅行</tag>
+        <tag>学术</tag>
+        <tag>杂记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>何以为家：漂泊时代的乡愁</title>
+    <url>/2025/02/25/202502HZ/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script src="/assets/js/DPlayer.min.js"> </script><blockquote>
+<p>是非成败转头空。青山依旧在，几度夕阳红。</p>
+</blockquote>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202502HZ/202502HZ00.JPEG" alt="一年内办了小学、初中、高中的同学会，听大家逐步走向不同的阶段的人生，琼筵飞花，羽觞醉月，梦醒后却只有愁"></p>
+<span id="more"></span>
+
+
+<hr>
+<h2 id="序·总漂泊"><a href="#序·总漂泊" class="headerlink" title="序·总漂泊"></a>序·总漂泊</h2><p>在北京的第八年，凌冽的风，干冷的唇，模糊的眼。</p>
+<p>同学会上，说一定要回家的同学，终究还是在外地闯荡；说一定要活得充实的同学，脸上还是抹不去的郁郁；说要去努力结婚的同学，至今还是母胎单身。</p>
+<p>只有生了一场大病的同学，最后下定决心找了个湖畔的出版社编辑的工作，朝九晚五地开始了生活。</p>
+<p>转眼间我们都将三十岁。讲到以前读书的事，总觉得陌生，遗憾，又带着一些短暂。</p>
+<p>长大了之后就是一年又一年，跨过一个又一个槛。要是绊倒了，也只能踉跄着继续向前。</p>
+<p>以前好像什么都还有机会，转眼间，就变成了机会只有一次。</p>
+<p>犯不起错误，不一定回家，又过了一年。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202502HZ/202502HZ01.JPEG" alt="门前大桥下，游过一群鸭，我已经数过了，就是八只。水很冷，别去了。"></p>
+<hr>
+<h2 id="壹·几度春秋"><a href="#壹·几度春秋" class="headerlink" title="壹·几度春秋"></a>壹·几度春秋</h2><p>能来同学会的同学都是混的过得去的。混得不错的一般会参与组织，还行的也都会来，剩下要么出国，要么就杳无音讯，或是各种推脱了。三十年河东，三十年河西，人情冷暖，有时却连面上也维持不住。</p>
+<p>不过，多少还是得有人镇得住场子。当初带班还是第一次教学的班主任，已经成了集团分区总校长；被大家揶揄的隔壁班班主任和数学老师，也成了集团校友会主任。席间高谈阔论的格局，已然是我们接不上的大话题，我们只好拿副牌出来陪老师玩上两把，这才免了尴尬。</p>
+<p>一般这种活动，大家都乐意让我来牵头，仿佛我还是那个班里第一时间喊大家出去玩的调皮孩子。但我分明不是混得最好的，也不是赚得最多的，更不是长得最帅的，甚至能力上也不是最优秀的。只是因为多了一点精神，大家就多少念想我一些，看来一代版本一代神，只有精神小伙永不过时。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202502HZ/202502HZ02.JPEG" alt="这次同学会专门定了江景的包间，大家吃吃笑笑闹闹，倒也没人真的在意窗边的风景"></p>
+<p>虽然是杭州的同学会，来得也大多都是本地工作的同学，但聊起其他同学的去向，便是出国的多半不会再回来，去其他大城市的也就扎根了。只有我们几个去北京的，坚持想回来，也许是北京实在太糟糕了，也许是觉得多出的工资并不值得——至少在我心中，如果每周都能去西湖畔走走，光这一点就值十多万的年薪了，何况杭州还有一系列人才补助，而我们在北京什么也不是。</p>
+<p>而且北京也不够新。过年的时候，连上上辈的亲戚朋友都在讨论宇树科技和deepseek，任何人都能感受到家乡在各方面翻天覆地的变化。我可以清晰地感受到水更蓝了，连几米的河都能清澈见底了；天更清了，没有了雾霾，过年也能看到漫天繁星了。如果说一线城市的教育和医疗更好的话，那我觉得在没有诗意的地方讨论诗意，在没有健康的地方讨论健康，终究是一种无根之水。</p>
+<p>那么，如果北京很糟糕，为什么又要去这么久的北京呢？要是北京很好，又何必回来呢？</p>
+<p>我只能笑笑，再多喝一杯罢了。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202502HZ/202502HZ03.JPEG" alt="孤飞的白鹭，冬天之后，你又要去哪？"></p>
+<hr>
+<h2 id="贰·标毅漫步"><a href="#贰·标毅漫步" class="headerlink" title="贰·标毅漫步"></a>贰·标毅漫步</h2><p>杭州的登山徒步氛围是出了名的好，好几年前就有所耳闻，今年总算是有幸去爬了一趟。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202502HZ/202502HZ04.jpg" alt="沿途的驴友"></p>
+<p>标毅线算是所有徒步路线里面最有名的。路上遇到了上海、安徽来的驴友，因为全程路程长、爬升多，基本得要一整天，所以大家都是早上9点开爬，正常速度就是到落日黄昏结束。一路上大家踉踉跄跄、措手狼狈，互相帮扶之下，倒也是自然就混了个熟络。上海的驴友边爬边和我们说上海其实没没什么地方好玩的，还是杭州好。我苦笑道北京也没什么好爬的，看不到什么风景。</p>
+<p>标毅线走的是西湖群山，沿途自然是少不了风景。除了龙井的茶田、西湖和钱塘江的碧水，连梅家坞的竹林都让我觉得别有一番姿色——在北京，我能吃上罐头笋就已经够高兴的了，别说看这种无垠的竹林了。标毅线全程25公里，我们走了五万多步，爬升多达1.5千米，要不是这一路的风景，我决计是坚持不下来的。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202502HZ/202502HZ05.jpg" alt="是不是只许村民自己挖，不许别人偷笋啊？"></p>
+<p>作为第一次徒步，我既没有带装备，也没有换鞋袜，甚至还背了一台单反——把驴友们看得目瞪口呆，直呼“看出来你是来休闲的了”。一路下来，最大的体会就是登山杖犹如多一条腿，是缺少不可的；其次是需要一双合适的徒步鞋和袜，这样走土路才不至于打滑，越爬越费劲。至于单反，总之拍了照就不亏，带的很好，下次别带了。</p>
+<p>“没苦硬吃”，这评价是很中肯的。</p>
+<p>但我倒觉得有这样的苦能选择吃，可是比天天被逼着吃苦太好多了。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202502HZ/202502HZ06.jpg" alt="登顶点的照片"></p>
+<hr>
+<h2 id="尾声·无可奈何"><a href="#尾声·无可奈何" class="headerlink" title="尾声·无可奈何"></a>尾声·无可奈何</h2><p>假期倏忽而过，回北京，迎面便是-11°C的凛冽朔风。我戴起帽子，过了三天，感冒了，也适应了。</p>
+<p>能怎么办呢？电动车推着我去上班，饭盆推着我去吃饭，键盘推着我去打字。我看着还是几天前的照片，却已然感受不到阳光的温度。</p>
+<p>欲说还休，欲说还休，却道天凉好个秋。</p>
+<p><img src="https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202502HZ/202502HZ07.jpg" alt="希望你也快快乐乐的呀，汪！"></p>
+<hr>
+]]></content>
+      <categories>
+        <category>杂记</category>
+      </categories>
+      <tags>
+        <tag>旅行</tag>
+        <tag>杂记</tag>
+      </tags>
   </entry>
   <entry>
     <title>2024年终总结</title>
